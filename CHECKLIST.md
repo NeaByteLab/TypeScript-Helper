@@ -37,11 +37,11 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1013 | A rest parameter or binding pattern may not have a trailing comma. | ✅ | [docs/1013/README.md](docs/1013/README.md) |
 | 1014 | A rest parameter must be last in a parameter list. | ✅ | [docs/1014/README.md](docs/1014/README.md) |
 | 1015 | Parameter cannot have question mark and initializer. | ✅ | [docs/1015/README.md](docs/1015/README.md) |
-| 1016 | A required parameter cannot follow an optional parameter. | ⏳ | [docs/1016/README.md](docs/1016/README.md) |
-| 1017 | An index signature cannot have a rest parameter. | ⏳ | [docs/1017/README.md](docs/1017/README.md) |
+| 1016 | A required parameter cannot follow an optional parameter. | ✅ | [docs/1016/README.md](docs/1016/README.md) |
+| 1017 | An index signature cannot have a rest parameter. | ✅ | [docs/1017/README.md](docs/1017/README.md) |
 | 1018 | An index signature parameter cannot have an accessibility modifier. | ⏳ | [docs/1018/README.md](docs/1018/README.md) |
-| 1019 | An index signature parameter cannot have a question mark. | ⏳ | [docs/1019/README.md](docs/1019/README.md) |
-| 1020 | An index signature parameter cannot have an initializer. | ⏳ | [docs/1020/README.md](docs/1020/README.md) |
+| 1019 | An index signature parameter cannot have a question mark. | ✅ | [docs/1019/README.md](docs/1019/README.md) |
+| 1020 | An index signature parameter cannot have an initializer. | ✅ | [docs/1020/README.md](docs/1020/README.md) |
 | 1021 | An index signature must have a type annotation. | ⏳ | [docs/1021/README.md](docs/1021/README.md) |
 | 1022 | An index signature parameter must have a type annotation. | ⏳ | [docs/1022/README.md](docs/1022/README.md) |
 | 1024 | 'readonly' modifier can only appear on a property declaration or index signature. | ⏳ | [docs/1024/README.md](docs/1024/README.md) |

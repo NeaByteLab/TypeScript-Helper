@@ -1,14 +1,24 @@
 {
   "code": 1019,
   "message": "An index signature parameter cannot have a question mark.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\[([a-zA-Z_$][a-zA-Z0-9_$]*)\\?\\s*:\\s*\\w+\\]/",
+  "regexReplace": "[$1: string]",
+  "suggestion": "Remove question mark from index signature parameter. Index signature parameters cannot be optional.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "interface MyInterface {\n  [key?: string]: any\n}",
+      "fixed": "interface MyInterface {\n  [key: string]: any\n}",
+      "description": "Index signature parameters cannot be optional, remove the question mark"
+    },
+    {
+      "base": "interface DataInterface {\n  [prop?: string]: unknown\n}",
+      "fixed": "interface DataInterface {\n  [prop: string]: unknown\n}",
+      "description": "Remove optional modifier from index signature parameter"
+    },
+    {
+      "base": "interface ConfigInterface {\n  [name?: number]: boolean\n}",
+      "fixed": "interface ConfigInterface {\n  [name: string]: boolean\n}",
+      "description": "Index signature parameters must be required, not optional"
     }
   ]
 }

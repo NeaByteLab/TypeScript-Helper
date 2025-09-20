@@ -1,0 +1,70 @@
+# 1020 - An index signature parameter cannot have an initializer.
+
+## 🔍 Regex Patterns
+```regex
+regexFind: /\[([a-zA-Z_$][a-zA-Z0-9_$]*)\s*:\s*\w+\s*=\s*[^\]]+\]/
+regexReplace: [$1: string]
+```
+
+## 💡 Suggestion
+```text
+Remove initializer from index signature parameter. Index signature parameters cannot have default values.
+```
+
+## 📝 Examples
+
+### Example 1: Basic initializer in index signature
+```diff
+- interface MyInterface {
+-   [key: string = 'default']: any
+- }
++ interface MyInterface {
++   [key: string]: any
++ }
+```
+
+**Explanation:** Index signature parameters cannot have default values, remove the initializer
+
+### Example 2: Different variable name and value
+```diff
+- interface DataInterface {
+-   [prop: string = 'value']: unknown
+- }
++ interface DataInterface {
++   [prop: string]: unknown
++ }
+```
+
+**Explanation:** Remove default value from index signature parameter
+
+### Example 3: Different type and value
+```diff
+- interface ConfigInterface {
+-   [name: string = 123]: boolean
+- }
++ interface ConfigInterface {
++   [name: string]: boolean
++ }
+```
+
+**Explanation:** Index signature parameters cannot have initializers
+
+## 🖼️ Visual Output
+### Command
+```bash
+npx tsc ./docs/1020/index.ts --noEmit
+```
+
+### Result
+```bash
+docs/1020/index.ts:2:4 - error TS1020: An index signature parameter cannot have an initializer.
+
+2   [key: string = 'default']: any
+     ~~~~~~~~~~~~~~~~~~~~~~~
+```
+
+**OR** (depending on TypeScript configuration):
+
+```bash
+docs/1020/index.ts(2,4): error TS1020: An index signature parameter cannot have an initializer.
+```

@@ -1,14 +1,29 @@
 {
   "code": 1016,
   "message": "A required parameter cannot follow an optional parameter.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/([a-zA-Z_$][a-zA-Z0-9_$]*\\?\\s*:[^,)]+),\\s*([a-zA-Z_$][a-zA-Z0-9_$]*\\s*:[^,)]+)/",
+  "regexReplace": "$2, $1",
+  "suggestion": "Move optional parameters after required parameters. Required parameters must come before optional ones.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function createUser(firstName: string, lastName?: string, age: number) {\n  return { firstName, lastName, age }\n}",
+      "fixed": "function createUser(firstName: string, age: number, lastName?: string) {\n  return { firstName, lastName, age }\n}",
+      "description": "Required parameters must come before optional parameters"
+    },
+    {
+      "base": "function processData(data?: string, required: boolean) {\n  return { data, required }\n}",
+      "fixed": "function processData(required: boolean, data?: string) {\n  return { data, required }\n}",
+      "description": "Move optional parameter after required parameter"
+    },
+    {
+      "base": "function test(x?: string | number, y: boolean) {\n  return { x, y }\n}",
+      "fixed": "function test(y: boolean, x?: string | number) {\n  return { x, y }\n}",
+      "description": "Required parameters with complex types must come before optional ones"
+    },
+    {
+      "base": "function complex(a?: string, b?: number, c: boolean) {\n  return { a, b, c }\n}",
+      "fixed": "function complex(c: boolean, a?: string, b?: number) {\n  return { a, b, c }\n}",
+      "description": "All required parameters must come before optional ones"
     }
   ]
 }
