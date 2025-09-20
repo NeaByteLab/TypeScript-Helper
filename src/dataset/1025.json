@@ -1,14 +1,24 @@
 {
   "code": 1025,
   "message": "An index signature cannot have a trailing comma.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\[([a-zA-Z_$][a-zA-Z0-9_$]*\\s*:\\s*[^,]+),\\]/",
+  "regexReplace": "[$1]",
+  "suggestion": "Remove trailing comma from index signature. Index signatures cannot have trailing commas.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "interface MyInterface {\n  [key: string,]: any\n}",
+      "fixed": "interface MyInterface {\n  [key: string]: any\n}",
+      "description": "Remove trailing comma from index signature"
+    },
+    {
+      "base": "interface DataInterface {\n  [prop: string,]: unknown\n}",
+      "fixed": "interface DataInterface {\n  [prop: string]: unknown\n}",
+      "description": "Index signatures cannot have trailing commas"
+    },
+    {
+      "base": "interface ConfigInterface {\n  [name: string,]: boolean\n}",
+      "fixed": "interface ConfigInterface {\n  [name: string]: boolean\n}",
+      "description": "Remove trailing comma from index signature parameter"
     }
   ]
 }

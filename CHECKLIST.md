@@ -42,10 +42,10 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1018 | An index signature parameter cannot have an accessibility modifier. | ⏳ | [docs/1018/README.md](docs/1018/README.md) |
 | 1019 | An index signature parameter cannot have a question mark. | ✅ | [docs/1019/README.md](docs/1019/README.md) |
 | 1020 | An index signature parameter cannot have an initializer. | ✅ | [docs/1020/README.md](docs/1020/README.md) |
-| 1021 | An index signature must have a type annotation. | ⏳ | [docs/1021/README.md](docs/1021/README.md) |
+| 1021 | An index signature must have a type annotation. | ✅ | [docs/1021/README.md](docs/1021/README.md) |
 | 1022 | An index signature parameter must have a type annotation. | ⏳ | [docs/1022/README.md](docs/1022/README.md) |
-| 1024 | 'readonly' modifier can only appear on a property declaration or index signature. | ⏳ | [docs/1024/README.md](docs/1024/README.md) |
-| 1025 | An index signature cannot have a trailing comma. | ⏳ | [docs/1025/README.md](docs/1025/README.md) |
+| 1024 | 'readonly' modifier can only appear on a property declaration or index signature. | ✅ | [docs/1024/README.md](docs/1024/README.md) |
+| 1025 | An index signature cannot have a trailing comma. | ✅ | [docs/1025/README.md](docs/1025/README.md) |
 | 1028 | Accessibility modifier already seen. | ⏳ | [docs/1028/README.md](docs/1028/README.md) |
 | 1029 | '{0}' modifier must precede '{1}' modifier. | ⏳ | [docs/1029/README.md](docs/1029/README.md) |
 | 1030 | '{0}' modifier already seen. | ⏳ | [docs/1030/README.md](docs/1030/README.md) |

@@ -1,14 +1,24 @@
 {
   "code": 1024,
   "message": "'readonly' modifier can only appear on a property declaration or index signature.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/readonly\\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*\\(/",
+  "regexReplace": "$1(",
+  "suggestion": "Remove 'readonly' modifier from method declaration. The 'readonly' modifier can only be used on properties and index signatures.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  readonly method() {\n    return 'test'\n  }\n}",
+      "fixed": "class MyClass {\n  method() {\n    return 'test'\n  }\n}",
+      "description": "Remove readonly modifier from method declaration"
+    },
+    {
+      "base": "class DataClass {\n  readonly process() {\n    return 'data'\n  }\n}",
+      "fixed": "class DataClass {\n  process() {\n    return 'data'\n  }\n}",
+      "description": "Readonly modifier cannot be used on methods"
+    },
+    {
+      "base": "class ConfigClass {\n  readonly calculate() {\n    return 42\n  }\n}",
+      "fixed": "class ConfigClass {\n  calculate() {\n    return 42\n  }\n}",
+      "description": "Remove readonly modifier from method, use on properties instead"
     }
   ]
 }
