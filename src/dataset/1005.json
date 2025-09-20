@@ -1,14 +1,19 @@
 {
   "code": 1005,
   "message": "'{0}' expected.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/([a-zA-Z_$][a-zA-Z0-9_$]*)\\s+(number|string|boolean|any|object|Array|Function)/",
+  "regexReplace": "$1: $2",
+  "suggestion": "Add missing punctuation mark. Common fixes: comma between object properties, colon in type annotations, closing parenthesis in functions, or semicolon after statements.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "const obj = {\n  name: \"John\"\n  age: 30\n}",
+      "fixed": "const obj = {\n  name: \"John\",\n  age: 30\n}",
+      "description": "Missing comma between object properties"
+    },
+    {
+      "base": "let count number = 5",
+      "fixed": "let count: number = 5",
+      "description": "Missing colon between variable name and type annotation"
     }
   ]
 }
