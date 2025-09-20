@@ -8,6 +8,7 @@
     "rootDir": "src",
     "baseUrl": ".",
     "paths": {
+      "@core/*": ["src/core/*"],
       "@dataset/*": ["src/dataset/*"],
       "@interfaces/*": ["src/interfaces/*"],
       "@scripts/*": ["src/scripts/*"]

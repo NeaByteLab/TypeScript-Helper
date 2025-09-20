@@ -1,0 +1,58 @@
+# 1002 - Unterminated string literal.
+
+## 🔍 Regex Pattern
+```regex
+/([\"'])([^\"';]*)(;?)$/
+```
+
+## 💡 Suggestion
+```text
+Add a closing quote to terminate the string literal
+```
+
+## 📝 Examples
+
+### Example 1: Missing closing double quote
+```diff
+- const message = "Hello world;
++ const message = "Hello world";
+```
+
+**Explanation:** Missing closing quote at the end of the string
+
+### Example 2: Missing closing single quote
+```diff
+- const path = 'C:\\Users\\John;
++ const path = 'C:\\Users\\John';
+```
+
+**Explanation:** Missing closing single quote in the string
+
+## 🖼️ Visual Output
+### Command
+```bash
+npx tsc ./docs/1002/index.ts --noEmit
+```
+
+### Result
+```bash
+docs/1002/index.ts:1:30 - error TS1002: Unterminated string literal.
+
+1 const message = "Hello world;
+
+
+docs/1002/index.ts:2:31 - error TS1002: Unterminated string literal.
+
+2 const path = 'C:\\Users\\John;
+
+
+
+Found 2 errors in the same file, starting at: docs/1002/index.ts:1
+```
+
+**OR** (depending on TypeScript configuration):
+
+```bash
+docs/1002/index.ts(1,30): error TS1002: Unterminated string literal.
+docs/1002/index.ts(2,31): error TS1002: Unterminated string literal.
+``` 

@@ -1,13 +1,22 @@
 import type { ErrorMeta } from '@interfaces/index'
 
 /**
- * Main entry point for the TypeScript Helper application.
- * @description Contains application metadata and configuration information.
+ * Application metadata and version information
+ * @description Contains version number and last modification date for the TypeScript Helper library
  */
 export const metaData: ErrorMeta = {
   version: '5.9.2',
   lastModified: '2025-09-20'
 }
 
-// Notes: This will become the entry point for the application.
-// All modules will be exported here.
+/**
+ * Re-export core functionality
+ * @description Exports the TypeScriptHelper class and all core utilities for error parsing and data loading
+ */
+export * from '@core/index'
+
+/**
+ * Re-export all type definitions
+ * @description Exports all TypeScript interfaces and type definitions used throughout the library
+ */
+export * from '@interfaces/index'

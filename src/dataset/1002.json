@@ -1,13 +1,18 @@
 {
   "code": 1002,
   "message": "Unterminated string literal.",
-  "regex": "/N/A/g",
-  "suggestion": "N/A",
+  "regex": "/([\"'])([^\"';]*)(;?)$/",
+  "suggestion": "Add a closing quote to terminate the string literal",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "const message = \"Hello world;",
+      "fixed": "const message = \"Hello world\";",
+      "description": "Missing closing quote at the end of the string"
+    },
+    {
+      "base": "const path = 'C:\\Users\\John;",
+      "fixed": "const path = 'C:\\Users\\John';",
+      "description": "Missing closing single quote in the string"
     }
   ]
 }
