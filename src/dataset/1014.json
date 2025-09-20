@@ -1,14 +1,49 @@
 {
   "code": 1014,
   "message": "A rest parameter must be last in a parameter list.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(\\.\\.\\.[^,]+),\\s*([^,)]+)/",
+  "regexReplace": "$2, $1",
+  "suggestion": "Move the rest parameter (...) to the end of the parameter list",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function greet(firstName: string, ...names: string[], lastName: string) {",
+      "fixed": "function greet(firstName: string, lastName: string, ...names: string[]) {",
+      "description": "Rest parameters must be the last parameter in the function signature"
+    },
+    {
+      "base": "const greetArrow = (firstName: string, ...names: string[], lastName: string) => {",
+      "fixed": "const greetArrow = (firstName: string, lastName: string, ...names: string[]) => {",
+      "description": "Arrow function rest parameters must be the last parameter"
+    },
+    {
+      "base": "class Greeter {\n  greet(firstName: string, ...names: string[], lastName: string) {\n    return `Hello ${firstName} ${names.join(' ')} ${lastName}`\n  }\n}",
+      "fixed": "class Greeter {\n  greet(firstName: string, lastName: string, ...names: string[]) {\n    return `Hello ${firstName} ${names.join(' ')} ${lastName}`\n  }\n}",
+      "description": "Method rest parameters must be the last parameter"
+    },
+    {
+      "base": "function processData(data: string, ...items: string[], optional?: boolean) {",
+      "fixed": "function processData(data: string, optional?: boolean, ...items: string[]) {",
+      "description": "Move rest parameter after all other parameters including optional ones"
+    },
+    {
+      "base": "function calculateSum(...numbers: number[], multiplier: number = 1) {",
+      "fixed": "function calculateSum(multiplier: number = 1, ...numbers: number[]) {",
+      "description": "Rest parameters must come after all other parameters including those with default values"
+    },
+    {
+      "base": "interface Processor {\n  process(input: string, ...args: string[], output: string): string\n}",
+      "fixed": "interface Processor {\n  process(input: string, output: string, ...args: string[]): string\n}",
+      "description": "Interface method rest parameters must be the last parameter"
+    },
+    {
+      "base": "type Handler = (event: string, ...data: any[], callback: Function) => void",
+      "fixed": "type Handler = (event: string, callback: Function, ...data: any[]) => void",
+      "description": "Type definition rest parameters must be the last parameter"
+    },
+    {
+      "base": "function genericFunction<T>(first: T, ...rest: T[], last: T): T[] {",
+      "fixed": "function genericFunction<T>(first: T, last: T, ...rest: T[]): T[] {",
+      "description": "Generic function rest parameters must be the last parameter"
     }
   ]
 }

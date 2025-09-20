@@ -1,14 +1,14 @@
 {
   "code": 1010,
   "message": "'*/' expected.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\/\\*([^*]|\\*(?!\\/))*$/",
+  "regexReplace": "$& */",
+  "suggestion": "Add closing comment delimiter '*/' to terminate the block comment",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "/* console.log('This is commented out')",
+      "fixed": "/* console.log('This is commented out') */",
+      "description": "Block comments must be properly closed with '*/'"
     }
   ]
 }

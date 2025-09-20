@@ -1,14 +1,49 @@
 {
   "code": 1013,
   "message": "A rest parameter or binding pattern may not have a trailing comma.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(\\.\\.\\.[a-zA-Z_$][a-zA-Z0-9_$]*),/",
+  "regexReplace": "$1",
+  "suggestion": "Remove trailing comma after rest parameter or binding pattern",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function greet(...names,) {",
+      "fixed": "function greet(...names) {",
+      "description": "Rest parameters cannot have trailing commas"
+    },
+    {
+      "base": "const greetArrow = (...names,) => {",
+      "fixed": "const greetArrow = (...names) => {",
+      "description": "Arrow function rest parameters cannot have trailing commas"
+    },
+    {
+      "base": "class Greeter {\n  greet(...names,) {\n    return `Hello ${names.join(', ')}`\n  }\n}",
+      "fixed": "class Greeter {\n  greet(...names) {\n    return `Hello ${names.join(', ')}`\n  }\n}",
+      "description": "Method rest parameters cannot have trailing commas"
+    },
+    {
+      "base": "const [first, ...rest,] = [1, 2, 3, 4, 5]",
+      "fixed": "const [first, ...rest] = [1, 2, 3, 4, 5]",
+      "description": "Array destructuring rest patterns cannot have trailing commas"
+    },
+    {
+      "base": "const { name: userName, ...others, } = { name: 'John', age: 30, city: 'NYC' }",
+      "fixed": "const { name: userName, ...others } = { name: 'John', age: 30, city: 'NYC' }",
+      "description": "Object destructuring rest patterns cannot have trailing commas"
+    },
+    {
+      "base": "function processUser({ name, ...rest, }: { name: string, age: number, city: string }) {",
+      "fixed": "function processUser({ name, ...rest }: { name: string, age: number, city: string }) {",
+      "description": "Function parameter destructuring rest patterns cannot have trailing commas"
+    },
+    {
+      "base": "function getFirstAndRest([first, ...rest,]: number[]) {",
+      "fixed": "function getFirstAndRest([first, ...rest]: number[]) {",
+      "description": "Array parameter destructuring rest patterns cannot have trailing commas"
+    },
+    {
+      "base": "function processNested({ user: { name, ...userRest, }, ...configRest, }: any) {",
+      "fixed": "function processNested({ user: { name, ...userRest }, ...configRest }: any) {",
+      "description": "Nested destructuring rest patterns cannot have trailing commas"
     }
   ]
 }

@@ -1,14 +1,49 @@
 {
   "code": 1011,
   "message": "An element access expression should take an argument.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(\\w+(?:\\([^)]*\\))?)\\[\\]/",
+  "regexReplace": "$1[index]",
+  "suggestion": "Add an index or property name inside the square brackets for element access",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "const value = arr[]",
+      "fixed": "const value = arr[0]",
+      "description": "Array access requires an index inside the brackets"
+    },
+    {
+      "base": "const prop = obj[]",
+      "fixed": "const prop = obj['name']",
+      "description": "Object property access requires a property name inside the brackets"
+    },
+    {
+      "base": "const char = str[]",
+      "fixed": "const char = str[0]",
+      "description": "String character access requires an index inside the brackets"
+    },
+    {
+      "base": "const result = getArray()[]",
+      "fixed": "const result = getArray()[0]",
+      "description": "Function call result access requires an index inside the brackets"
+    },
+    {
+      "base": "let item = numbers[]",
+      "fixed": "let item = numbers[0]",
+      "description": "Variable array access requires an index inside the brackets"
+    },
+    {
+      "base": "const sum = (arr[0] + arr[1] + arr[])",
+      "fixed": "const sum = (arr[0] + arr[1] + arr[2])",
+      "description": "Expression array access requires an index inside the brackets"
+    },
+    {
+      "base": "function processItem(item: any) {\n  return item[]\n}",
+      "fixed": "function processItem(item: any) {\n  return item[0]\n}",
+      "description": "Function parameter access requires an index inside the brackets"
+    },
+    {
+      "base": "function getFirstItem(arr: number[]) {\n  return arr[]\n}",
+      "fixed": "function getFirstItem(arr: number[]) {\n  return arr[0]\n}",
+      "description": "Return statement array access requires an index inside the brackets"
     }
   ]
 }
