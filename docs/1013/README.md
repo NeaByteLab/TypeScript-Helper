@@ -144,9 +144,6 @@ docs/1013/index.ts:35:69 - error TS1013: A rest parameter or binding pattern may
 
 35 function processNested({ user: { name, ...userRest, }, ...configRest, }: any) {
                                                                        ~
-
-
-Found 9 errors in the same file, starting at: docs/1013/index.ts:2
 ```
 
 **OR** (depending on TypeScript configuration):

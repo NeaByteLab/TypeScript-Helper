@@ -44,8 +44,6 @@ docs/1003/index.ts:1:10 - error TS1003: Identifier expected.
 docs/1003/index.ts:2:6 - error TS1003: Identifier expected.
 
 2 enum = { A, B };
-
-Found 2 errors in 1 file.
 ```
 
 **OR** (depending on TypeScript configuration):

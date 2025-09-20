@@ -143,9 +143,6 @@ docs/1014/index.ts:37:39 - error TS1014: A rest parameter must be last in a para
 
 37 function genericFunction<T>(first: T, ...rest: T[], last: T): T[] {
                                          ~~~
-
-
-Found 8 errors in the same file, starting at: docs/1014/index.ts:2
 ```
 
 **OR** (depending on TypeScript configuration):

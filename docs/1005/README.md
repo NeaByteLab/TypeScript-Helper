@@ -52,9 +52,6 @@ docs/1005/index.ts:6:11 - error TS1005: ',' expected.
 
 6 let count number = 5
             ~~~~~~
-
-
-Found 2 errors in the same file, starting at: docs/1005/index.ts:3
 ```
 
 **OR** (depending on TypeScript configuration):

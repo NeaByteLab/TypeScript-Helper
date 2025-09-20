@@ -98,9 +98,6 @@ docs/1015/index.ts:24:23 - error TS1015: Parameter cannot have question mark and
 
 24 function withCallback(callback?: (value: string) => void = (v) => console.log(v)) {
                          ~~~~~~~~
-
-
-Found 5 errors in the same file, starting at: docs/1015/index.ts:2
 ```
 
 **OR** (depending on TypeScript configuration):

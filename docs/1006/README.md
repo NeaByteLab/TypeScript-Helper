@@ -40,9 +40,6 @@ docs/1006/index.ts:1:22 - error TS1006: A file cannot have a reference to itself
 
 1 /// <reference path="./index.ts" />
                        ~~~~~~~~~~
-
-
-Found 1 error in docs/1006/index.ts:1
 ```
 
 **OR** (depending on TypeScript configuration):

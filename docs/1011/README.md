@@ -131,10 +131,6 @@ docs/1011/index.ts:28:15 - error TS1011: An element access expression should tak
 docs/1011/index.ts:33:14 - error TS1011: An element access expression should take an argument.
 
 33   return arr[]
-                
-
-
-Found 8 errors in the same file, starting at: docs/1011/index.ts:3
 ```
 
 **OR** (depending on TypeScript configuration):

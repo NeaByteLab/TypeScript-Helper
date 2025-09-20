@@ -45,10 +45,6 @@ docs/1002/index.ts:1:30 - error TS1002: Unterminated string literal.
 docs/1002/index.ts:2:31 - error TS1002: Unterminated string literal.
 
 2 const path = 'C:\\Users\\John;
-
-
-
-Found 2 errors in the same file, starting at: docs/1002/index.ts:1
 ```
 
 **OR** (depending on TypeScript configuration):
