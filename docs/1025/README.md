@@ -52,7 +52,7 @@ Remove trailing comma from index signature. Index signatures cannot have trailin
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1025/index.ts --noEmit
+npx tsc ./docs/1025/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1025/index.ts:2:15 - error TS1025: An index signature cannot have a trailin
                 ~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1025/index.ts(2,15): error TS1025: An index signature cannot have a trailing comma.

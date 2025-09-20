@@ -95,7 +95,7 @@ Remove trailing comma after rest parameter or binding pattern
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1013/index.ts --noEmit
+npx tsc ./docs/1013/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -146,7 +146,7 @@ docs/1013/index.ts:35:69 - error TS1013: A rest parameter or binding pattern may
                                                                        ~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1013/index.ts(2,24): error TS1013: A rest parameter or binding pattern may not have a trailing comma.

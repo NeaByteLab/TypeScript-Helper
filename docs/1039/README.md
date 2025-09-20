@@ -52,7 +52,7 @@ Remove initializer from ambient context. Ambient contexts (declare module, decla
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1039/index.ts --noEmit
+npx tsc ./docs/1039/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1039/index.ts:2:25 - error TS1039: Initializers are not allowed in ambient 
                         ~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1039/index.ts(2,25): error TS1039: Initializers are not allowed in ambient contexts.

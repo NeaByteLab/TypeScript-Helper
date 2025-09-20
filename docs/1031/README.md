@@ -64,7 +64,7 @@ Remove invalid modifier from class method. Export and import modifiers cannot be
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1031/index.ts --noEmit
+npx tsc ./docs/1031/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -75,7 +75,7 @@ docs/1031/index.ts:2:3 - error TS1031: 'export' modifier cannot appear on class 
   ~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1031/index.ts(2,3): error TS1031: 'export' modifier cannot appear on class elements of this kind.

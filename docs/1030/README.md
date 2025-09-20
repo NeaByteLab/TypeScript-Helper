@@ -60,7 +60,7 @@ Remove duplicate modifier. Each class member can only have one instance of the s
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1030/index.ts --noEmit
+npx tsc ./docs/1030/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -71,7 +71,7 @@ docs/1030/index.ts:2:12 - error TS1030: 'readonly' modifier already seen.
             ~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1030/index.ts(2,12): error TS1030: 'readonly' modifier already seen.

@@ -58,13 +58,13 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1037 | A 'declare' modifier cannot be used in an already ambient context. | ⏳ | [docs/1037/README.md](docs/1037/README.md) |
 | 1038 | A 'declare' modifier cannot be used in an already ambient context. | ✅ | [docs/1038/README.md](docs/1038/README.md) |
 | 1039 | Initializers are not allowed in ambient contexts. | ✅ | [docs/1039/README.md](docs/1039/README.md) |
-| 1040 | '{0}' modifier cannot be used in an ambient context. | ⏳ | [docs/1040/README.md](docs/1040/README.md) |
-| 1042 | '{0}' modifier cannot be used here. | ⏳ | [docs/1042/README.md](docs/1042/README.md) |
-| 1044 | '{0}' modifier cannot appear on a module or namespace element. | ⏳ | [docs/1044/README.md](docs/1044/README.md) |
-| 1046 | Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier. | ⏳ | [docs/1046/README.md](docs/1046/README.md) |
-| 1047 | A rest parameter cannot be optional. | ⏳ | [docs/1047/README.md](docs/1047/README.md) |
-| 1048 | A rest parameter cannot have an initializer. | ⏳ | [docs/1048/README.md](docs/1048/README.md) |
-| 1049 | A 'set' accessor must have exactly one parameter. | ⏳ | [docs/1049/README.md](docs/1049/README.md) |
+| 1040 | '{0}' modifier cannot be used in an ambient context. | ✅ | [docs/1040/README.md](docs/1040/README.md) |
+| 1042 | '{0}' modifier cannot be used here. | ✅ | [docs/1042/README.md](docs/1042/README.md) |
+| 1044 | '{0}' modifier cannot appear on a module or namespace element. | ✅ | [docs/1044/README.md](docs/1044/README.md) |
+| 1046 | Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier. | ✅ | [docs/1046/README.md](docs/1046/README.md) |
+| 1047 | A rest parameter cannot be optional. | ✅ | [docs/1047/README.md](docs/1047/README.md) |
+| 1048 | A rest parameter cannot have an initializer. | ✅ | [docs/1048/README.md](docs/1048/README.md) |
+| 1049 | A 'set' accessor must have exactly one parameter. | ✅ | [docs/1049/README.md](docs/1049/README.md) |
 | 1051 | A 'set' accessor cannot have an optional parameter. | ⏳ | [docs/1051/README.md](docs/1051/README.md) |
 | 1052 | A 'set' accessor parameter cannot have an initializer. | ⏳ | [docs/1052/README.md](docs/1052/README.md) |
 | 1053 | A 'set' accessor cannot have rest parameter. | ⏳ | [docs/1053/README.md](docs/1053/README.md) |

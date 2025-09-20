@@ -1,14 +1,24 @@
 {
   "code": 1049,
   "message": "A 'set' accessor must have exactly one parameter.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/set\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*\\(\\s*\\)/",
+  "regexReplace": "set $1(value: any)",
+  "suggestion": "Add exactly one parameter to set accessor. Set accessors must have exactly one parameter to receive the value being assigned.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class TestClass {\n  set value() {\n    this._value = 'test'\n  }\n}",
+      "fixed": "class TestClass {\n  set value(newValue: string) {\n    this._value = newValue\n  }\n}",
+      "description": "Add parameter to set accessor"
+    },
+    {
+      "base": "class DataClass {\n  set config() {\n    this._config = {}\n  }\n}",
+      "fixed": "class DataClass {\n  set config(newConfig: object) {\n    this._config = newConfig\n  }\n}",
+      "description": "Add parameter to set accessor with proper type"
+    },
+    {
+      "base": "class MyClass {\n  private _count: number = 0\n  set count() {\n    this._count = 0\n  }\n}",
+      "fixed": "class MyClass {\n  private _count: number = 0\n  set count(newCount: number) {\n    this._count = newCount\n  }\n}",
+      "description": "Add parameter to set accessor and use it in assignment"
     }
   ]
 }

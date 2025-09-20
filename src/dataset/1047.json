@@ -1,14 +1,24 @@
 {
   "code": 1047,
   "message": "A rest parameter cannot be optional.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\.\\.\\.([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\?/",
+  "regexReplace": "...$1",
+  "suggestion": "Remove question mark from rest parameter. Rest parameters cannot be optional - they are always optional by nature since they collect remaining arguments.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function testOptionalRest(...args?: string[]) {\n  return args\n}",
+      "fixed": "function testOptionalRest(...args: string[]) {\n  return args\n}",
+      "description": "Remove optional marker from rest parameter"
+    },
+    {
+      "base": "const process = (...items?: number[]) => items",
+      "fixed": "const process = (...items: number[]) => items",
+      "description": "Remove optional marker from rest parameter in arrow function"
+    },
+    {
+      "base": "function helper(...params?: any[]) {\n  console.log(params)\n}",
+      "fixed": "function helper(...params: any[]) {\n  console.log(params)\n}",
+      "description": "Remove optional marker from rest parameter in function declaration"
     }
   ]
 }

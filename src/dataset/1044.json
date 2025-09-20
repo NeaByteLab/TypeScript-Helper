@@ -1,14 +1,24 @@
 {
   "code": 1044,
   "message": "'{0}' modifier cannot appear on a module or namespace element.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(public|private|protected|static|async|readonly)\\s+(const|let|var|function|class|interface|type)/",
+  "regexReplace": "$2",
+  "suggestion": "Remove accessibility modifier from module or namespace element. Modules and namespaces cannot have accessibility modifiers like public, private, or protected.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "module TestModule {\n  public const value = 42\n}",
+      "fixed": "module TestModule {\n  const value = 42\n}",
+      "description": "Remove public modifier from module element"
+    },
+    {
+      "base": "namespace MyNamespace {\n  private function helper() {}\n}",
+      "fixed": "namespace MyNamespace {\n  function helper() {}\n}",
+      "description": "Remove private modifier from namespace element"
+    },
+    {
+      "base": "module Utils {\n  static const config = {}\n}",
+      "fixed": "module Utils {\n  const config = {}\n}",
+      "description": "Remove static modifier from module element"
     }
   ]
 }

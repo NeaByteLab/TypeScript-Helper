@@ -52,7 +52,7 @@ Remove initializer from index signature parameter. Index signature parameters ca
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1020/index.ts --noEmit
+npx tsc ./docs/1020/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1020/index.ts:2:4 - error TS1020: An index signature parameter cannot have 
      ~~~~~~~~~~~~~~~~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1020/index.ts(2,4): error TS1020: An index signature parameter cannot have an initializer.

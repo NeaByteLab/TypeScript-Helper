@@ -1,14 +1,24 @@
 {
   "code": 1042,
   "message": "'{0}' modifier cannot be used here.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/async\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*=/",
+  "regexReplace": "$1 =",
+  "suggestion": "Remove async modifier from property declaration. The async modifier can only be used on function declarations and methods, not on class properties or variables.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class TestClass {\n  async property = 'value'\n}",
+      "fixed": "class TestClass {\n  property = 'value'\n}",
+      "description": "Remove async modifier from class property declaration"
+    },
+    {
+      "base": "class DataClass {\n  async config = {}\n}",
+      "fixed": "class DataClass {\n  config = {}\n}",
+      "description": "Remove async modifier from class property, use async method instead"
+    },
+    {
+      "base": "const async value = 'test'",
+      "fixed": "const value = 'test'",
+      "description": "Remove async modifier from variable declaration"
     }
   ]
 }

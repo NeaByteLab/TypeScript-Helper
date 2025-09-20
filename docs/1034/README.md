@@ -38,11 +38,11 @@ Add parentheses or member access after super. The super keyword must be followed
 -   }
 - }
 + class Child extends Parent {
--   method() {
--     super.method()
--     return 'test'
--   }
-- }
++   method() {
++     super.method()
++     return 'test'
++   }
++ }
 ```
 
 **Explanation:** Add member access to call parent method
@@ -55,10 +55,10 @@ Add parentheses or member access after super. The super keyword must be followed
 -   }
 - }
 + class Child extends Parent {
--   getValue() {
--     return super.getValue()
--   }
-- }
++   getValue() {
++     return super.getValue()
++   }
++ }
 ```
 
 **Explanation:** Add method call to access parent method
@@ -66,18 +66,18 @@ Add parentheses or member access after super. The super keyword must be followed
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1034/index.ts --noEmit
+npx tsc ./docs/1034/index.ts --noEmit --pretty
 ```
 
 ### Result
 ```bash
 docs/1034/index.ts:4:3 - error TS1034: 'super' must be followed by an argument list or member access.
 
-4   super
-  ~~~~~
+4   }
+   ~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1034/index.ts(4,3): error TS1034: 'super' must be followed by an argument list or member access.

@@ -1,14 +1,19 @@
 {
   "code": 1040,
   "message": "'{0}' modifier cannot be used in an ambient context.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/async\\s+function\\s+([a-zA-Z_$][a-zA-Z0-9_$-]*)/",
+  "regexReplace": "function $1",
+  "suggestion": "Remove async modifier from ambient context. Ambient contexts (declare module, declare namespace) can only contain type declarations, not executable code with modifiers like async.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "declare module \"test\" {\n  async function helper(): Promise<void>\n}",
+      "fixed": "declare module \"test\" {\n  function helper(): Promise<void>\n}",
+      "description": "Remove async modifier from function declaration in ambient module"
+    },
+    {
+      "base": "declare namespace MyNamespace {\n  async function process(): Promise<string>\n}",
+      "fixed": "declare namespace MyNamespace {\n  function process(): Promise<string>\n}",
+      "description": "Remove async modifier from function declaration in ambient namespace"
     }
   ]
 }

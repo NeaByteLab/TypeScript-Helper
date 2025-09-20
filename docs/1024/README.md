@@ -64,7 +64,7 @@ Remove 'readonly' modifier from method declaration. The 'readonly' modifier can 
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1024/index.ts --noEmit
+npx tsc ./docs/1024/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -75,7 +75,7 @@ docs/1024/index.ts:2:3 - error TS1024: 'readonly' modifier can only appear on a 
     ~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1024/index.ts(2,3): error TS1024: 'readonly' modifier can only appear on a property declaration or index signature.

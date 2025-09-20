@@ -1,14 +1,29 @@
 {
   "code": 1046,
   "message": "Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(const|let|var|function|class|interface|type|enum)\\s+/",
+  "regexReplace": "declare $1 ",
+  "suggestion": "Add declare or export modifier to top-level declaration. In .d.ts files, all top-level declarations must be prefixed with either 'declare' or 'export'.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "const globalValue = 42",
+      "fixed": "declare const globalValue: number",
+      "description": "Add declare modifier and proper type annotation"
+    },
+    {
+      "base": "function globalFunction() {}",
+      "fixed": "declare function globalFunction(): void",
+      "description": "Add declare modifier and return type annotation"
+    },
+    {
+      "base": "interface MyInterface {}",
+      "fixed": "export interface MyInterface {}",
+      "description": "Add export modifier to interface declaration"
+    },
+    {
+      "base": "class MyClass {}",
+      "fixed": "declare class MyClass {}",
+      "description": "Add declare modifier to class declaration"
     }
   ]
 }

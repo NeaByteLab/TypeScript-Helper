@@ -52,7 +52,7 @@ Remove rest parameter from index signature. Index signatures can only have a sin
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1017/index.ts --noEmit
+npx tsc ./docs/1017/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1017/index.ts:2:4 - error TS1017: An index signature cannot have a rest par
     ~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1017/index.ts(2,4): error TS1017: An index signature cannot have a rest parameter.

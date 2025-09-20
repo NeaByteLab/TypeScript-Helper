@@ -32,7 +32,7 @@ Remove self-reference. Files cannot reference themselves.
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1006/index.ts --noEmit
+npx tsc ./docs/1006/index.ts --noEmit --pretty
 ```
 
 ```bash
@@ -42,7 +42,7 @@ docs/1006/index.ts:1:22 - error TS1006: A file cannot have a reference to itself
                        ~~~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ### Result
 ```bash

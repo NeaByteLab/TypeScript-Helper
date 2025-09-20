@@ -60,7 +60,7 @@ Reorder modifiers correctly. Accessibility modifiers (public, private, protected
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1029/index.ts --noEmit
+npx tsc ./docs/1029/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -71,7 +71,7 @@ docs/1029/index.ts:2:10 - error TS1029: 'public' modifier must precede 'static' 
           ~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1029/index.ts(2,10): error TS1029: 'public' modifier must precede 'static' modifier.

@@ -99,7 +99,7 @@ Move the rest parameter (...) to the end of the parameter list
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1014/index.ts --noEmit
+npx tsc ./docs/1014/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -145,7 +145,7 @@ docs/1014/index.ts:37:39 - error TS1014: A rest parameter must be last in a para
                                          ~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1014/index.ts(2,35): error TS1014: A rest parameter must be last in a parameter list.

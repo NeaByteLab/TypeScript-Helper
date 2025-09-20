@@ -60,7 +60,7 @@ Remove duplicate accessibility modifier. Each class member can only have one acc
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1028/index.ts --noEmit
+npx tsc ./docs/1028/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -71,7 +71,7 @@ docs/1028/index.ts:2:10 - error TS1028: Accessibility modifier already seen.
           ~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1028/index.ts(2,10): error TS1028: Accessibility modifier already seen.

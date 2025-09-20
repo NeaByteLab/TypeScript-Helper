@@ -1,14 +1,24 @@
 {
   "code": 1048,
   "message": "A rest parameter cannot have an initializer.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\.\\.\\.([a-zA-Z_$][a-zA-Z0-9_$.-]*):\\s*(\\w+)\\[\\]\\s*=\\s*\\[.*\\]/",
+  "regexReplace": "...$1: $2[]",
+  "suggestion": "Remove initializer from rest parameter. Rest parameters cannot have default values or initializers - they collect remaining arguments and are always optional.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function testRestInitializer(...args: string[] = ['default']) {\n  return args\n}",
+      "fixed": "function testRestInitializer(...args: string[]) {\n  return args\n}",
+      "description": "Remove initializer from rest parameter"
+    },
+    {
+      "base": "const process = (...items: number[] = [1, 2, 3]) => items",
+      "fixed": "const process = (...items: number[]) => items",
+      "description": "Remove initializer from rest parameter in arrow function"
+    },
+    {
+      "base": "function helper(...params: any[] = []) {\n  console.log(params)\n}",
+      "fixed": "function helper(...params: any[]) {\n  console.log(params)\n}",
+      "description": "Remove empty array initializer from rest parameter"
     }
   ]
 }

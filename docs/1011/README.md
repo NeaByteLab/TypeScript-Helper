@@ -88,7 +88,7 @@ Add an index or property name inside the square brackets for element access
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1011/index.ts --noEmit
+npx tsc ./docs/1011/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -133,7 +133,7 @@ docs/1011/index.ts:33:14 - error TS1011: An element access expression should tak
 33   return arr[]
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1011/index.ts(3,19): error TS1011: An element access expression should take an argument.

@@ -32,7 +32,7 @@ Add a closing quote to terminate the string literal
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1002/index.ts --noEmit
+npx tsc ./docs/1002/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -47,7 +47,7 @@ docs/1002/index.ts:2:31 - error TS1002: Unterminated string literal.
 2 const path = 'C:\\Users\\John;
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1002/index.ts(1,30): error TS1002: Unterminated string literal.

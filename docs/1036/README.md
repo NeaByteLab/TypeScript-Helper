@@ -59,7 +59,7 @@ Remove executable statements from ambient context. Ambient contexts (declare mod
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1036/index.ts --noEmit
+npx tsc ./docs/1036/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -70,7 +70,7 @@ docs/1036/index.ts:3:3 - error TS1036: Statements are not allowed in ambient con
   ~~~~~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1036/index.ts(3,3): error TS1036: Statements are not allowed in ambient contexts.

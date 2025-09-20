@@ -52,7 +52,7 @@ Add a type annotation to the index signature. Index signatures must specify the 
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1021/index.ts --noEmit
+npx tsc ./docs/1021/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1021/index.ts:2:3 - error TS1021: An index signature must have a type annot
     ~~~~~~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1021/index.ts(2,3): error TS1021: An index signature must have a type annotation.

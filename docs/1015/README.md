@@ -69,7 +69,7 @@ Remove the question mark from optional parameters that have default values, or r
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1015/index.ts --noEmit
+npx tsc ./docs/1015/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -100,7 +100,7 @@ docs/1015/index.ts:24:23 - error TS1015: Parameter cannot have question mark and
                          ~~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1015/index.ts(2,16): error TS1015: Parameter cannot have question mark and initializer.

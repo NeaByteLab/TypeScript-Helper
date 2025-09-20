@@ -32,7 +32,7 @@ Add a valid identifier name after the keyword
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1003/index.ts --noEmit
+npx tsc ./docs/1003/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -46,7 +46,7 @@ docs/1003/index.ts:2:6 - error TS1003: Identifier expected.
 2 enum = { A, B };
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1003/index.ts(1,10): error TS1003: Identifier expected.

@@ -52,7 +52,7 @@ Remove question mark from index signature parameter. Index signature parameters 
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1019/index.ts --noEmit
+npx tsc ./docs/1019/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -63,7 +63,7 @@ docs/1019/index.ts:2:7 - error TS1019: An index signature parameter cannot have 
        ~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1019/index.ts(2,7): error TS1019: An index signature parameter cannot have a question mark.

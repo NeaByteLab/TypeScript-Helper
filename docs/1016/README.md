@@ -56,7 +56,7 @@ Move optional parameters after required parameters. Required parameters must com
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1016/index.ts --noEmit
+npx tsc ./docs/1016/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -67,7 +67,7 @@ docs/1016/index.ts:1:59 - error TS1016: A required parameter cannot follow an op
                                                           ~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1016/index.ts(1,59): error TS1016: A required parameter cannot follow an optional parameter.

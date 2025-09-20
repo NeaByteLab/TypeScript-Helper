@@ -56,7 +56,7 @@ Remove declare modifier from ambient context. The declare keyword is redundant i
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1038/index.ts --noEmit
+npx tsc ./docs/1038/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -67,7 +67,7 @@ docs/1038/index.ts:2:3 - error TS1038: A 'declare' modifier cannot be used in an
   ~~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1038/index.ts(2,3): error TS1038: A 'declare' modifier cannot be used in an already ambient context.

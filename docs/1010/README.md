@@ -24,10 +24,18 @@ Add closing comment delimiter '*/' to terminate the block comment
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1010/index.ts --noEmit
+npx tsc ./docs/1010/index.ts --noEmit --pretty
 ```
 
 ### Result
+```bash
+docs/1010/index.ts:1:40 - error TS1010: '*/' expected.
+
+1 /* console.log('This is commented out')
+```
+
+**OR** (without `--pretty` flag):
+
 ```bash
 docs/1010/index.ts(1,40): error TS1010: '*/' expected.
 ```

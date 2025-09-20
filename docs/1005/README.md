@@ -38,7 +38,7 @@ Add missing punctuation mark. Common fixes: comma between object properties, col
 ## 🖼️ Visual Output
 ### Command
 ```bash
-npx tsc ./docs/1005/index.ts --noEmit
+npx tsc ./docs/1005/index.ts --noEmit --pretty
 ```
 
 ### Result
@@ -54,7 +54,7 @@ docs/1005/index.ts:6:11 - error TS1005: ',' expected.
             ~~~~~~
 ```
 
-**OR** (depending on TypeScript configuration):
+**OR** (without `--pretty` flag):
 
 ```bash
 docs/1005/index.ts(3,3): error TS1005: ',' expected.
