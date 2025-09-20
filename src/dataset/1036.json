@@ -1,14 +1,24 @@
 {
   "code": 1036,
   "message": "Statements are not allowed in ambient contexts.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\s+(console\\.log|console\\.error|console\\.warn|debugger|return|throw|if|for|while|switch)\\s*[^;]*;?/",
+  "regexReplace": "",
+  "suggestion": "Remove executable statements from ambient context. Ambient contexts (declare module, declare namespace) can only contain type declarations, not executable code.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "declare module \"my-module\" {\n  const value = 42\n  console.log(value)\n}",
+      "fixed": "declare module \"my-module\" {\n  const value: number\n}",
+      "description": "Remove console.log statement and add type annotation instead of initializer"
+    },
+    {
+      "base": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n  debugger\n}",
+      "fixed": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n}",
+      "description": "Remove debugger statement from ambient namespace"
+    },
+    {
+      "base": "declare module \"utils\" {\n  export function helper(): void\n  if (true) { return }\n}",
+      "fixed": "declare module \"utils\" {\n  export function helper(): void\n}",
+      "description": "Remove if statement from ambient module context"
     }
   ]
 }

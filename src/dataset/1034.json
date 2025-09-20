@@ -1,14 +1,24 @@
 {
   "code": 1034,
   "message": "'super' must be followed by an argument list or member access.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\bsuper\\b(?!\\s*[.(])/",
+  "regexReplace": "super()",
+  "suggestion": "Add parentheses or member access after super. The super keyword must be followed by either a function call super() or member access super.property.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class Child extends Parent {\n  constructor() {\n    super\n  }\n}",
+      "fixed": "class Child extends Parent {\n  constructor() {\n    super()\n  }\n}",
+      "description": "Add parentheses to call parent constructor"
+    },
+    {
+      "base": "class Child extends Parent {\n  method() {\n    super\n    return 'test'\n  }\n}",
+      "fixed": "class Child extends Parent {\n  method() {\n    super.method()\n    return 'test'\n  }\n}",
+      "description": "Add member access to call parent method"
+    },
+    {
+      "base": "class Child extends Parent {\n  getValue() {\n    return super\n  }\n}",
+      "fixed": "class Child extends Parent {\n  getValue() {\n    return super.getValue()\n  }\n}",
+      "description": "Add method call to access parent method"
     }
   ]
 }

@@ -1,14 +1,24 @@
 {
   "code": 1029,
   "message": "'{0}' modifier must precede '{1}' modifier.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(static)\\s+(public|private|protected)\\s+/",
+  "regexReplace": "$2 $1 ",
+  "suggestion": "Reorder modifiers correctly. Accessibility modifiers (public, private, protected) must come before static modifier.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  static public method() {\n    return 'test'\n  }\n}",
+      "fixed": "class MyClass {\n  public static method() {\n    return 'test'\n  }\n}",
+      "description": "Move public modifier before static modifier"
+    },
+    {
+      "base": "class DataClass {\n  static private property = 'data'\n}",
+      "fixed": "class DataClass {\n  private static property = 'data'\n}",
+      "description": "Move private modifier before static modifier"
+    },
+    {
+      "base": "class ConfigClass {\n  static protected calculate() {\n    return 42\n  }\n}",
+      "fixed": "class ConfigClass {\n  protected static calculate() {\n    return 42\n  }\n}",
+      "description": "Move protected modifier before static modifier"
     }
   ]
 }

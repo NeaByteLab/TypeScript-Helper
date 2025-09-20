@@ -46,15 +46,18 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1022 | An index signature parameter must have a type annotation. | ⏳ | [docs/1022/README.md](docs/1022/README.md) |
 | 1024 | 'readonly' modifier can only appear on a property declaration or index signature. | ✅ | [docs/1024/README.md](docs/1024/README.md) |
 | 1025 | An index signature cannot have a trailing comma. | ✅ | [docs/1025/README.md](docs/1025/README.md) |
-| 1028 | Accessibility modifier already seen. | ⏳ | [docs/1028/README.md](docs/1028/README.md) |
-| 1029 | '{0}' modifier must precede '{1}' modifier. | ⏳ | [docs/1029/README.md](docs/1029/README.md) |
-| 1030 | '{0}' modifier already seen. | ⏳ | [docs/1030/README.md](docs/1030/README.md) |
-| 1031 | '{0}' modifier cannot appear on class elements of this kind. | ⏳ | [docs/1031/README.md](docs/1031/README.md) |
-| 1034 | 'super' must be followed by an argument list or member access. | ⏳ | [docs/1034/README.md](docs/1034/README.md) |
-| 1035 | Only ambient modules can use quoted names. | ⏳ | [docs/1035/README.md](docs/1035/README.md) |
-| 1036 | Statements are not allowed in ambient contexts. | ⏳ | [docs/1036/README.md](docs/1036/README.md) |
-| 1038 | A 'declare' modifier cannot be used in an already ambient context. | ⏳ | [docs/1038/README.md](docs/1038/README.md) |
-| 1039 | Initializers are not allowed in ambient contexts. | ⏳ | [docs/1039/README.md](docs/1039/README.md) |
+| 1028 | Accessibility modifier already seen. | ✅ | [docs/1028/README.md](docs/1028/README.md) |
+| 1029 | '{0}' modifier must precede '{1}' modifier. | ✅ | [docs/1029/README.md](docs/1029/README.md) |
+| 1030 | '{0}' modifier already seen. | ✅ | [docs/1030/README.md](docs/1030/README.md) |
+| 1031 | '{0}' modifier cannot appear on class elements of this kind. | ✅ | [docs/1031/README.md](docs/1031/README.md) |
+| 1032 | An index signature parameter must have a type annotation. | ⏳ | [docs/1032/README.md](docs/1032/README.md) |
+| 1033 | '{0}' modifier cannot appear on class elements of this kind. | ⏳ | [docs/1033/README.md](docs/1033/README.md) |
+| 1034 | 'super' must be followed by an argument list or member access. | ✅ | [docs/1034/README.md](docs/1034/README.md) |
+| 1035 | Only ambient modules can use quoted names. | ✅ | [docs/1035/README.md](docs/1035/README.md) |
+| 1036 | Statements are not allowed in ambient contexts. | ✅ | [docs/1036/README.md](docs/1036/README.md) |
+| 1037 | A 'declare' modifier cannot be used in an already ambient context. | ⏳ | [docs/1037/README.md](docs/1037/README.md) |
+| 1038 | A 'declare' modifier cannot be used in an already ambient context. | ✅ | [docs/1038/README.md](docs/1038/README.md) |
+| 1039 | Initializers are not allowed in ambient contexts. | ✅ | [docs/1039/README.md](docs/1039/README.md) |
 | 1040 | '{0}' modifier cannot be used in an ambient context. | ⏳ | [docs/1040/README.md](docs/1040/README.md) |
 | 1042 | '{0}' modifier cannot be used here. | ⏳ | [docs/1042/README.md](docs/1042/README.md) |
 | 1044 | '{0}' modifier cannot appear on a module or namespace element. | ⏳ | [docs/1044/README.md](docs/1044/README.md) |

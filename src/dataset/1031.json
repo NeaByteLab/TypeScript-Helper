@@ -1,14 +1,24 @@
 {
   "code": 1031,
   "message": "'{0}' modifier cannot appear on class elements of this kind.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(export|import)\\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*\\(",
+  "regexReplace": "$2(",
+  "suggestion": "Remove invalid modifier from class method. Export and import modifiers cannot be used on class methods - they are only for module-level declarations.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  export method() {\n    return 'test'\n  }\n}",
+      "fixed": "class MyClass {\n  method() {\n    return 'test'\n  }\n}",
+      "description": "Remove export modifier from class method declaration"
+    },
+    {
+      "base": "class DataClass {\n  import process() {\n    return 'data'\n  }\n}",
+      "fixed": "class DataClass {\n  process() {\n    return 'data'\n  }\n}",
+      "description": "Remove import modifier from class method declaration"
+    },
+    {
+      "base": "class ConfigClass {\n  export calculate() {\n    return 42\n  }\n}",
+      "fixed": "class ConfigClass {\n  calculate() {\n    return 42\n  }\n}",
+      "description": "Remove export modifier from class method, use on class declaration instead"
     }
   ]
 }

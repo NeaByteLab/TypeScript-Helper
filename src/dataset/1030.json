@@ -1,14 +1,24 @@
 {
   "code": 1030,
   "message": "'{0}' modifier already seen.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(readonly|static|async)\\s+(readonly|static|async)\\s+/",
+  "regexReplace": "$1 ",
+  "suggestion": "Remove duplicate modifier. Each class member can only have one instance of the same modifier (readonly, static, async).",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  readonly readonly property = 'test'\n}",
+      "fixed": "class MyClass {\n  readonly property = 'test'\n}",
+      "description": "Remove duplicate readonly modifier from property declaration"
+    },
+    {
+      "base": "class DataClass {\n  static static method() {\n    return 'data'\n  }\n}",
+      "fixed": "class DataClass {\n  static method() {\n    return 'data'\n  }\n}",
+      "description": "Remove duplicate static modifier from method declaration"
+    },
+    {
+      "base": "class ConfigClass {\n  async async calculate() {\n    return 42\n  }\n}",
+      "fixed": "class ConfigClass {\n  async calculate() {\n    return 42\n  }\n}",
+      "description": "Remove duplicate async modifier from method declaration"
     }
   ]
 }

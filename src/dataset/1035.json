@@ -1,14 +1,24 @@
 {
   "code": 1035,
   "message": "Only ambient modules can use quoted names.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/module\\s+\"([^\"]+)\"/",
+  "regexReplace": "declare module \"$1\"",
+  "suggestion": "Add declare keyword to make it an ambient module. Only ambient modules (declare module) can use quoted names for module declarations.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "module \"my-module\" {\n  export const value = 42\n}",
+      "fixed": "declare module \"my-module\" {\n  export const value = 42\n}",
+      "description": "Add declare keyword to make it an ambient module"
+    },
+    {
+      "base": "module \"@types/node\" {\n  export interface Process {\n    env: any\n  }\n}",
+      "fixed": "declare module \"@types/node\" {\n  export interface Process {\n    env: any\n  }\n}",
+      "description": "Convert to ambient module declaration with declare keyword"
+    },
+    {
+      "base": "module \"custom-package\" {\n  export function helper(): void\n}",
+      "fixed": "declare module \"custom-package\" {\n  export function helper(): void\n}",
+      "description": "Make module declaration ambient by adding declare keyword"
     }
   ]
 }

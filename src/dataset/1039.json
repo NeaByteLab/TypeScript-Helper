@@ -1,14 +1,24 @@
 {
   "code": 1039,
   "message": "Initializers are not allowed in ambient contexts.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\s*=\\s*[^;]+/",
+  "regexReplace": "",
+  "suggestion": "Remove initializer from ambient context. Ambient contexts (declare module, declare namespace) can only contain type declarations, not initializers or executable code.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "declare module \"my-module\" {\n  const value: number = 42\n}",
+      "fixed": "declare module \"my-module\" {\n  const value: number\n}",
+      "description": "Remove initializer from const declaration in ambient module"
+    },
+    {
+      "base": "declare namespace MyNamespace {\n  const config: string = 'default'\n}",
+      "fixed": "declare namespace MyNamespace {\n  const config: string\n}",
+      "description": "Remove initializer from const declaration in ambient namespace"
+    },
+    {
+      "base": "declare module \"utils\" {\n  export const helper: () => void = () => {}\n}",
+      "fixed": "declare module \"utils\" {\n  export const helper: () => void\n}",
+      "description": "Remove function initializer from const declaration in ambient module"
     }
   ]
 }

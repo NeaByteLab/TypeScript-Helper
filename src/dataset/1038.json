@@ -1,14 +1,24 @@
 {
   "code": 1038,
   "message": "A 'declare' modifier cannot be used in an already ambient context.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/\\s+declare\\s+/",
+  "regexReplace": " ",
+  "suggestion": "Remove declare modifier from ambient context. The declare keyword is redundant inside already ambient contexts like declare module or declare namespace.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "declare module \"my-module\" {\n  declare const value = 42\n}",
+      "fixed": "declare module \"my-module\" {\n  const value: number\n}",
+      "description": "Remove declare modifier and add type annotation instead of initializer"
+    },
+    {
+      "base": "declare namespace MyNamespace {\n  declare interface Config {\n    name: string\n  }\n}",
+      "fixed": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n}",
+      "description": "Remove declare modifier from interface in ambient namespace"
+    },
+    {
+      "base": "declare module \"utils\" {\n  declare export function helper(): void\n}",
+      "fixed": "declare module \"utils\" {\n  export function helper(): void\n}",
+      "description": "Remove declare modifier from function in ambient module"
     }
   ]
 }
