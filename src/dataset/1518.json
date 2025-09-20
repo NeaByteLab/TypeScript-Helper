@@ -1,7 +1,8 @@
 {
   "code": 1518,
   "message": "Anything that would possibly match more than a single character is invalid inside a negated character class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

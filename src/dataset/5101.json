@@ -1,7 +1,8 @@
 {
   "code": 5101,
   "message": "Option '{0}' is deprecated and will stop functioning in TypeScript {1}. Specify compilerOption '\"ignoreDeprecations\": \"{2}\"' to silence this error.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

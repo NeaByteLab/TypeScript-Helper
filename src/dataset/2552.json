@@ -1,7 +1,8 @@
 {
   "code": 2552,
   "message": "Cannot find name '{0}'. Did you mean '{1}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

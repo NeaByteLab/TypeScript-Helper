@@ -1,7 +1,8 @@
 {
   "code": 1271,
   "message": "Decorator function return type is '{0}' but is expected to be 'void' or 'any'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

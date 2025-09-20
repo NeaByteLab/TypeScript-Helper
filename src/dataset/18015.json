@@ -1,7 +1,8 @@
 {
   "code": 18015,
   "message": "Property '{0}' in type '{1}' refers to a different member that cannot be accessed from within type '{2}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

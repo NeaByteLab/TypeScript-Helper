@@ -1,7 +1,8 @@
 {
   "code": 2447,
   "message": "The '{0}' operator is not allowed for boolean types. Consider using '{1}' instead.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

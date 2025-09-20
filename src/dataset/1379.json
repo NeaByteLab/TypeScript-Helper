@@ -1,7 +1,8 @@
 {
   "code": 1379,
   "message": "An import alias cannot reference a declaration that was exported using 'export type'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

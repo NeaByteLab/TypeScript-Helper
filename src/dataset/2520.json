@@ -1,7 +1,8 @@
 {
   "code": 2520,
   "message": "Duplicate identifier '{0}'. Compiler uses declaration '{1}' to support async functions.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

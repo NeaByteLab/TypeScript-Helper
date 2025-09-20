@@ -1,7 +1,8 @@
 {
   "code": 2635,
   "message": "Type '{0}' has no signatures for which the type argument list is applicable.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

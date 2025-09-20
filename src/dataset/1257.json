@@ -1,7 +1,8 @@
 {
   "code": 1257,
   "message": "A required element cannot follow an optional element.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

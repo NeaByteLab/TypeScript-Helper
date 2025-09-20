@@ -1,7 +1,8 @@
 {
   "code": 2378,
   "message": "A 'get' accessor must return a value.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

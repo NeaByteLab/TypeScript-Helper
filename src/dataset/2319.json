@@ -1,7 +1,8 @@
 {
   "code": 2319,
   "message": "Named property '{0}' of types '{1}' and '{2}' are not identical.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2721,
   "message": "Cannot invoke an object which is possibly 'null'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

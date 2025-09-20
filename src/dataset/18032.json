@@ -1,7 +1,8 @@
 {
   "code": 18032,
   "message": "The intersection '{0}' was reduced to 'never' because property '{1}' exists in multiple constituents and is private in some.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

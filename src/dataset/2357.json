@@ -1,7 +1,8 @@
 {
   "code": 2357,
   "message": "The operand of an increment or decrement operator must be a variable or a property access.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

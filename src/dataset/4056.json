@@ -1,7 +1,8 @@
 {
   "code": 4056,
   "message": "Return type of method from exported interface has or is using name '{0}' from private module '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

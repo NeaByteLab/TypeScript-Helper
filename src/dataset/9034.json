@@ -1,7 +1,8 @@
 {
   "code": 9034,
   "message": "Add a return type to the method",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 7012,
   "message": "This overload implicitly returns the type '{0}' because it lacks a return type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

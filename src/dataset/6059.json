@@ -1,7 +1,8 @@
 {
   "code": 6059,
   "message": "File '{0}' is not under 'rootDir' '{1}'. 'rootDir' is expected to contain all source files.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

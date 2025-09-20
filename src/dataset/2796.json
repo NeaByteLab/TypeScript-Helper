@@ -1,7 +1,8 @@
 {
   "code": 2796,
   "message": "It is likely that you are missing a comma to separate these two template expressions. They form a tagged template expression which cannot be invoked.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

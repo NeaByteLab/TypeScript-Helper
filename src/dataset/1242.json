@@ -1,7 +1,8 @@
 {
   "code": 1242,
   "message": "'abstract' modifier can only appear on a class, method, or property declaration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

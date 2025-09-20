@@ -1,7 +1,8 @@
 {
   "code": 2869,
   "message": "Right operand of ?? is unreachable because the left operand is never nullish.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

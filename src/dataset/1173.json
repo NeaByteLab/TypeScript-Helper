@@ -1,7 +1,8 @@
 {
   "code": 1173,
   "message": "'extends' clause must precede 'implements' clause.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

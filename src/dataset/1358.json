@@ -1,7 +1,8 @@
 {
   "code": 1358,
   "message": "Tagged template expressions are not permitted in an optional chain.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

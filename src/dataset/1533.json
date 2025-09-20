@@ -1,7 +1,8 @@
 {
   "code": 1533,
   "message": "This backreference refers to a group that does not exist. There are only {0} capturing groups in this regular expression.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

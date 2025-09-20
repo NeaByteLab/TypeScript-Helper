@@ -1,7 +1,8 @@
 {
   "code": 1120,
   "message": "An export assignment cannot have modifiers.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

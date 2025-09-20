@@ -1,7 +1,8 @@
 {
   "code": 1388,
   "message": "Constructor type notation must be parenthesized when used in an intersection type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

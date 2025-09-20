@@ -1,7 +1,8 @@
 {
   "code": 1044,
   "message": "'{0}' modifier cannot appear on a module or namespace element.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,13 +1,19 @@
 {
   "code": 1003,
   "message": "Identifier expected.",
-  "regex": "/N/A/g",
-  "suggestion": "N/A",
+  "regexFind": "/\\d+\\s+((function|enum|class|interface|type))\\s*=\\s*(.*)/",
+  "regexReplace": "$1 myFunction = $3",
+  "suggestion": "Add a valid identifier name after the keyword",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function = () => {};",
+      "fixed": "function myFunction = () => {};",
+      "description": "Missing function name after function keyword"
+    },
+    {
+      "base": "enum = { A, B };",
+      "fixed": "enum MyEnum = { A, B };",
+      "description": "Missing enum name after enum keyword"
     }
   ]
 }

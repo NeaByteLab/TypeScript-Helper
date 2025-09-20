@@ -1,7 +1,8 @@
 {
   "code": 1104,
   "message": "A 'continue' statement can only be used within an enclosing iteration statement.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

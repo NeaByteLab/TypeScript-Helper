@@ -1,7 +1,8 @@
 {
   "code": 2392,
   "message": "Multiple constructor implementations are not allowed.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

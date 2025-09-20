@@ -1,7 +1,8 @@
 {
   "code": 8036,
   "message": "You cannot rename elements that are defined in another 'node_modules' folder.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

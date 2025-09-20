@@ -1,7 +1,8 @@
 {
   "code": 5067,
   "message": "Invalid value for 'jsxFactory'. '{0}' is not a valid identifier or qualified-name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2301,
   "message": "Initializer of instance member variable '{0}' cannot reference identifier '{1}' declared in the constructor.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

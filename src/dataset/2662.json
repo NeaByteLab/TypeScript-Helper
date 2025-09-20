@@ -1,7 +1,8 @@
 {
   "code": 2662,
   "message": "Cannot find name '{0}'. Did you mean the static member '{1}.{0}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

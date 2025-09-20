@@ -1,7 +1,8 @@
 {
   "code": 18042,
   "message": "'{0}' is a type and cannot be imported in JavaScript files. Use '{1}' in a JSDoc type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

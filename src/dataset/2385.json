@@ -1,7 +1,8 @@
 {
   "code": 2385,
   "message": "Overload signatures must all be public, private or protected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

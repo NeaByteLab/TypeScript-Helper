@@ -1,7 +1,8 @@
 {
   "code": 2506,
   "message": "'{0}' is referenced directly or indirectly in its own base expression.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

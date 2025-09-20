@@ -1,7 +1,8 @@
 {
   "code": 1528,
   "message": "Any Unicode property that would possibly match more than a single character is only available when the Unicode Sets (v) flag is set.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

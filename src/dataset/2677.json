@@ -1,7 +1,8 @@
 {
   "code": 2677,
   "message": "A type predicate's type must be assignable to its parameter's type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

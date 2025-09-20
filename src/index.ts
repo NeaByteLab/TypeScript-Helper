@@ -14,6 +14,7 @@ export const metaData: ErrorMeta = {
  * @description Exports the TypeScriptHelper class and all core utilities for error parsing and data loading
  */
 export * from '@core/index'
+export { default as TypeScriptHelper } from '@core/index'
 
 /**
  * Re-export all type definitions

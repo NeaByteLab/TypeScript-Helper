@@ -1,7 +1,8 @@
 {
   "code": 2332,
   "message": "'this' cannot be referenced in current location.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 7010,
   "message": "'{0}', which lacks return-type annotation, implicitly has an '{1}' return type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

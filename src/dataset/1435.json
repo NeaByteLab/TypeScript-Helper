@@ -1,7 +1,8 @@
 {
   "code": 1435,
   "message": "Unknown keyword or identifier. Did you mean '{0}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2744,
   "message": "Type parameter defaults can only reference previously declared type parameters.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

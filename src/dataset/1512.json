@@ -1,7 +1,8 @@
 {
   "code": 1512,
   "message": "'\\c' must be followed by an ASCII letter.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1276,
   "message": "An 'accessor' property cannot be declared optional.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

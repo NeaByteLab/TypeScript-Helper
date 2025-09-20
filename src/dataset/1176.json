@@ -1,7 +1,8 @@
 {
   "code": 1176,
   "message": "Interface declaration cannot have 'implements' clause.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2205,
   "message": "Construct signatures with no arguments have incompatible return types '{0}' and '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

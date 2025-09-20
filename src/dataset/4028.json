@@ -1,7 +1,8 @@
 {
   "code": 4028,
   "message": "Public static property '{0}' of exported class has or is using private name '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

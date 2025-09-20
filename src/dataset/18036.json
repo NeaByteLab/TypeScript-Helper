@@ -1,7 +1,8 @@
 {
   "code": 18036,
   "message": "Class decorators can't be used with static private identifier. Consider removing the experimental decorator.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

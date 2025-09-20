@@ -1,7 +1,8 @@
 {
   "code": 2384,
   "message": "Overload signatures must all be ambient or non-ambient.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

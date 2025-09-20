@@ -1,7 +1,8 @@
 {
   "code": 2560,
   "message": "Value of type '{0}' has no properties in common with type '{1}'. Did you mean to call it?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

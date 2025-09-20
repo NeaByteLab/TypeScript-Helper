@@ -1,7 +1,8 @@
 {
   "code": 2547,
   "message": "The type returned by the '{0}()' method of an async iterator must be a promise for a type with a 'value' property.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

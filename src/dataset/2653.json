@@ -1,7 +1,8 @@
 {
   "code": 2653,
   "message": "Non-abstract class expression does not implement inherited abstract member '{0}' from class '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

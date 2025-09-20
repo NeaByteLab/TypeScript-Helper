@@ -1,7 +1,8 @@
 {
   "code": 1354,
   "message": "'readonly' type modifier is only permitted on array and tuple literal types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2637,
   "message": "Variance annotations are only supported in type aliases for object, function, constructor, and mapped types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

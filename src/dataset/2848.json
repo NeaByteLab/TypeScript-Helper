@@ -1,7 +1,8 @@
 {
   "code": 2848,
   "message": "The right-hand side of an 'instanceof' expression must not be an instantiation expression.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 4112,
   "message": "This member cannot have an 'override' modifier because its containing class '{0}' does not extend another class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

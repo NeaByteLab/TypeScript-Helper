@@ -1,7 +1,8 @@
 {
   "code": 5095,
   "message": "Option '{0}' can only be used when 'module' is set to 'preserve', 'commonjs', or 'es2015' or later.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

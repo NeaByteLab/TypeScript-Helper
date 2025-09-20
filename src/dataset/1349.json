@@ -1,7 +1,8 @@
 {
   "code": 1349,
   "message": "'use strict' directive used here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

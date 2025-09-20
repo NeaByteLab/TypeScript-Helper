@@ -1,7 +1,8 @@
 {
   "code": 2497,
   "message": "This module can only be referenced with ECMAScript imports/exports by turning on the '{0}' flag and referencing its default export.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

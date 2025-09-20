@@ -1,7 +1,8 @@
 {
   "code": 2452,
   "message": "An enum member cannot have a numeric name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

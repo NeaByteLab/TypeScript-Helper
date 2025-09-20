@@ -1,7 +1,8 @@
 {
   "code": 7039,
   "message": "Mapped object type implicitly has an 'any' template type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

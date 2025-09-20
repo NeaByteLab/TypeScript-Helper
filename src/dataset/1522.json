@@ -1,7 +1,8 @@
 {
   "code": 1522,
   "message": "A character class must not contain a reserved double punctuator. Did you mean to escape it with backslash?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

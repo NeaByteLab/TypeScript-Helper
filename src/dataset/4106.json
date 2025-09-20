@@ -1,7 +1,8 @@
 {
   "code": 4106,
   "message": "Parameter '{0}' of accessor has or is using private name '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

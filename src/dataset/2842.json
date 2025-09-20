@@ -1,7 +1,8 @@
 {
   "code": 2842,
   "message": "'{0}' is an unused renaming of '{1}'. Did you intend to use it as a type annotation?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2354,
   "message": "This syntax requires an imported helper but module '{0}' cannot be found.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

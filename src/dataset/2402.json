@@ -1,7 +1,8 @@
 {
   "code": 2402,
   "message": "Expression resolves to '_super' that compiler uses to capture base class reference.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

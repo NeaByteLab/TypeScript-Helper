@@ -1,7 +1,8 @@
 {
   "code": 5009,
   "message": "Cannot find the common subdirectory path for the input files.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

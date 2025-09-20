@@ -1,7 +1,8 @@
 {
   "code": 1224,
   "message": "Signature '{0}' must be a type predicate.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

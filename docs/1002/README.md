@@ -1,8 +1,9 @@
 # 1002 - Unterminated string literal.
 
-## 🔍 Regex Pattern
+## 🔍 Regex Patterns
 ```regex
-/([\"'])([^\"';]*)(;?)$/
+regexFind: /([\"'])([^\"';]*)(;?)$/
+regexReplace: $1$2$1$3
 ```
 
 ## 💡 Suggestion

@@ -1,7 +1,8 @@
 {
   "code": 1235,
   "message": "A namespace declaration is only allowed at the top level of a namespace or module.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

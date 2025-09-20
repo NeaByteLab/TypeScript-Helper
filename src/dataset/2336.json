@@ -1,7 +1,8 @@
 {
   "code": 2336,
   "message": "'super' cannot be referenced in constructor arguments.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

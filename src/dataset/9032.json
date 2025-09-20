@@ -1,7 +1,8 @@
 {
   "code": 9032,
   "message": "Add a return type to the get accessor declaration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

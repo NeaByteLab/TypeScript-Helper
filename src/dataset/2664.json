@@ -1,7 +1,8 @@
 {
   "code": 2664,
   "message": "Invalid module name in augmentation, module '{0}' cannot be found.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

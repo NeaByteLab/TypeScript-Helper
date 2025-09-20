@@ -1,7 +1,8 @@
 {
   "code": 1353,
   "message": "A bigint literal must be an integer.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

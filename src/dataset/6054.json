@@ -1,7 +1,8 @@
 {
   "code": 6054,
   "message": "File '{0}' has an unsupported extension. The only supported extensions are {1}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

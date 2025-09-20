@@ -1,7 +1,8 @@
 {
   "code": 1253,
   "message": "Abstract properties can only appear within an abstract class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

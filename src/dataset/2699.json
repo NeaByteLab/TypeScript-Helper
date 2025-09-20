@@ -1,7 +1,8 @@
 {
   "code": 2699,
   "message": "Static property '{0}' conflicts with built-in property 'Function.{0}' of constructor function '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1061,
   "message": "Enum member must have initializer.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1510,
   "message": "'\\k' must be followed by a capturing group name enclosed in angle brackets.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

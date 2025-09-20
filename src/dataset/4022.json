@@ -1,7 +1,8 @@
 {
   "code": 4022,
   "message": "'extends' clause of exported interface '{0}' has or is using private name '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

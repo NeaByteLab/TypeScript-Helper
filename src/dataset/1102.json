@@ -1,7 +1,8 @@
 {
   "code": 1102,
   "message": "'delete' cannot be called on an identifier in strict mode.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

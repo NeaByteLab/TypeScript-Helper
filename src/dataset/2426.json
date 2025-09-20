@@ -1,7 +1,8 @@
 {
   "code": 2426,
   "message": "Class '{0}' defines instance member accessor '{1}', but extended class '{2}' defines it as instance member function.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

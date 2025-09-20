@@ -1,7 +1,8 @@
 {
   "code": 1248,
   "message": "A class member cannot have the '{0}' keyword.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

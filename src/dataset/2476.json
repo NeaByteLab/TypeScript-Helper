@@ -1,7 +1,8 @@
 {
   "code": 2476,
   "message": "A const enum member can only be accessed using a string literal.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

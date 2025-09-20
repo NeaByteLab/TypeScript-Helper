@@ -1,7 +1,8 @@
 {
   "code": 2660,
   "message": "'super' can only be referenced in members of derived classes or object literal expressions.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

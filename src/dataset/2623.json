@@ -1,7 +1,8 @@
 {
   "code": 2623,
   "message": "Source provides no match for required element at position {0} in target.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

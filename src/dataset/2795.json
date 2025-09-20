@@ -1,7 +1,8 @@
 {
   "code": 2795,
   "message": "The 'intrinsic' keyword can only be used to declare compiler provided intrinsic types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

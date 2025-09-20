@@ -1,7 +1,8 @@
 {
   "code": 2302,
   "message": "Static members cannot reference class type parameters.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

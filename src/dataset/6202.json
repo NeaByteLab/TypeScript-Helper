@@ -1,7 +1,8 @@
 {
   "code": 6202,
   "message": "Project references may not form a circular graph. Cycle detected: {0}",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

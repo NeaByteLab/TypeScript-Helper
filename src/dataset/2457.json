@@ -1,7 +1,8 @@
 {
   "code": 2457,
   "message": "Type alias name cannot be '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

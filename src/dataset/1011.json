@@ -1,7 +1,8 @@
 {
   "code": 1011,
   "message": "An element access expression should take an argument.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

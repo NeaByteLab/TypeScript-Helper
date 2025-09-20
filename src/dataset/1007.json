@@ -1,7 +1,8 @@
 {
   "code": 1007,
   "message": "The parser expected to find a '{1}' to match the '{0}' token here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

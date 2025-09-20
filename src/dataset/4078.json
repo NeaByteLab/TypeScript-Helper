@@ -1,7 +1,8 @@
 {
   "code": 4078,
   "message": "Parameter '{0}' of exported function has or is using private name '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

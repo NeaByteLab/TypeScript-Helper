@@ -1,7 +1,8 @@
 {
   "code": 8038,
   "message": "Decorators may not appear after 'export' or 'export default' if they also appear before 'export'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

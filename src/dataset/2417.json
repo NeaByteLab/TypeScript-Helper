@@ -1,7 +1,8 @@
 {
   "code": 2417,
   "message": "Class static side '{0}' incorrectly extends base class static side '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2519,
   "message": "An async iterator must have a 'next()' method.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

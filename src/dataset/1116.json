@@ -1,7 +1,8 @@
 {
   "code": 1116,
   "message": "A 'break' statement can only jump to a label of an enclosing statement.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

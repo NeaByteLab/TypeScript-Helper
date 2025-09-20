@@ -1,7 +1,8 @@
 {
   "code": 2311,
   "message": "Cannot find name '{0}'. Did you mean to write this in an async function?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2448,
   "message": "Block-scoped variable '{0}' used before its declaration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

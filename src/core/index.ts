@@ -67,8 +67,8 @@ class TypeScriptHelper {
       const codeMatch: RegExpExecArray | null = /\n(\d+\s+.*)/.exec(errorStr)
       const codeProblematic: string = codeMatch ? (codeMatch[1] as string).trim() : ''
       if (codeProblematic) {
-        const codeRegex: RegExp = new RegExp(errorData.regex.replace(/(^\/)|(\/$)/g, ''))
-        const codeCorrected: string = codeProblematic.replace(codeRegex, '$1$2$1$3')
+        const codeRegex: RegExp = new RegExp(errorData.regexFind.replace(/(^\/)|(\/$)/g, ''))
+        const codeCorrected: string = codeProblematic.replace(codeRegex, errorData.regexReplace)
         return {
           ...errorData,
           suggestion: `${errorData.suggestion}\n\n${codeCorrected}`

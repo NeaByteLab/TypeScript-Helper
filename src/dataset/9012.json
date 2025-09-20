@@ -1,7 +1,8 @@
 {
   "code": 9012,
   "message": "Property must have an explicit type annotation with --isolatedDeclarations.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

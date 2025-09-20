@@ -1,7 +1,8 @@
 {
   "code": 2765,
   "message": "Cannot iterate value because the 'next' method of its iterator expects type '{1}', but array destructuring will always send '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

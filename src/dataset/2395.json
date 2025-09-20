@@ -1,7 +1,8 @@
 {
   "code": 2395,
   "message": "Individual declarations in merged declaration '{0}' must be all exported or all local.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

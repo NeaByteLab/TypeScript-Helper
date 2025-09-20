@@ -1,7 +1,8 @@
 {
   "code": 2700,
   "message": "Rest types may only be created from object types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

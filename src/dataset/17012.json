@@ -1,7 +1,8 @@
 {
   "code": 17012,
   "message": "'{0}' is not a valid meta-property for keyword '{1}'. Did you mean '{2}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

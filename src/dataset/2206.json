@@ -1,7 +1,8 @@
 {
   "code": 2206,
   "message": "The 'type' modifier cannot be used on a named import when 'import type' is used on its import statement.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

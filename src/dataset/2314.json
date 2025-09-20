@@ -1,7 +1,8 @@
 {
   "code": 2314,
   "message": "Generic type '{0}' requires {1} type argument(s).",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

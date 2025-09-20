@@ -1,7 +1,8 @@
 {
   "code": 1381,
   "message": "Unexpected token. Did you mean `{'}'}` or `&rbrace;`?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

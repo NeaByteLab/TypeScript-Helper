@@ -1,7 +1,8 @@
 {
   "code": 2791,
   "message": "Exponentiation cannot be performed on 'bigint' values unless the 'target' option is set to 'es2016' or later.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

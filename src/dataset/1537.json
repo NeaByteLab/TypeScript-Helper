@@ -1,7 +1,8 @@
 {
   "code": 1537,
   "message": "Decimal escape sequences and backreferences are not allowed in a character class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

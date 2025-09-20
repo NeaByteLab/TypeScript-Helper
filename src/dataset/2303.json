@@ -1,7 +1,8 @@
 {
   "code": 2303,
   "message": "Circular definition of import alias '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1517,
   "message": "Range out of order in character class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

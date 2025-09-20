@@ -1,7 +1,8 @@
 {
   "code": 2441,
   "message": "Duplicate identifier '{0}'. Compiler reserves name '{1}' in top level scope of a module.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

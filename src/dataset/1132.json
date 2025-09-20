@@ -1,7 +1,8 @@
 {
   "code": 1132,
   "message": "Enum member expected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2596,
   "message": "'{0}' can only be imported by turning on the 'esModuleInterop' flag and using a default import.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

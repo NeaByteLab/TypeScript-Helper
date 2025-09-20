@@ -1,7 +1,8 @@
 {
   "code": 2363,
   "message": "The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

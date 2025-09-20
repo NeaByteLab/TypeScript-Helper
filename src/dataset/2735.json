@@ -1,7 +1,8 @@
 {
   "code": 2735,
   "message": "Did you mean for '{0}' to be constrained to type 'new (...args: any[]) => {1}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

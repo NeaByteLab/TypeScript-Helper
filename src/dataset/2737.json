@@ -1,7 +1,8 @@
 {
   "code": 2737,
   "message": "BigInt literals are not available when targeting lower than ES2020.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

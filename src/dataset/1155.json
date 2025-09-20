@@ -1,7 +1,8 @@
 {
   "code": 1155,
   "message": "'{0}' declarations must be initialized.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

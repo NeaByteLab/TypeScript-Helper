@@ -1,7 +1,8 @@
 {
   "code": 6266,
   "message": "Option '{0}' can only be specified on command line.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

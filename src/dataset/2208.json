@@ -1,7 +1,8 @@
 {
   "code": 2208,
   "message": "This type parameter might need an `extends {0}` constraint.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

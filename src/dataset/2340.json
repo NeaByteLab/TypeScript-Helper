@@ -1,7 +1,8 @@
 {
   "code": 2340,
   "message": "Only public and protected methods of the base class are accessible via the 'super' keyword.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

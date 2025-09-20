@@ -1,7 +1,8 @@
 {
   "code": 8039,
   "message": "A JSDoc '@template' tag may not follow a '@typedef', '@callback', or '@overload' tag",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

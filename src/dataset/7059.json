@@ -1,7 +1,8 @@
 {
   "code": 7059,
   "message": "This syntax is reserved in files with the .mts or .cts extension. Use an `as` expression instead.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

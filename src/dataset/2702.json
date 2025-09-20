@@ -1,7 +1,8 @@
 {
   "code": 2702,
   "message": "'{0}' only refers to a type, but is being used as a namespace here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

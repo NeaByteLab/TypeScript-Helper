@@ -1,7 +1,8 @@
 {
   "code": 1261,
   "message": "Already included file name '{0}' differs from file name '{1}' only in casing.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 4084,
   "message": "Exported type alias '{0}' has or is using private name '{1}' from module {2}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

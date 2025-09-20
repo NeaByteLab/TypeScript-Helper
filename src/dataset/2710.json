@@ -1,7 +1,8 @@
 {
   "code": 2710,
   "message": "'{0}' are specified twice. The attribute named '{0}' will be overwritten.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

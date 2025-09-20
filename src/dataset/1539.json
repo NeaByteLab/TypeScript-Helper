@@ -1,7 +1,8 @@
 {
   "code": 1539,
   "message": "A 'bigint' literal cannot be used as a property name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

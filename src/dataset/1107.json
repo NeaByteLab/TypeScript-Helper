@@ -1,7 +1,8 @@
 {
   "code": 1107,
   "message": "Jump target cannot cross function boundary.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

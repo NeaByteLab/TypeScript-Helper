@@ -1,7 +1,8 @@
 {
   "code": 2399,
   "message": "Duplicate identifier '_this'. Compiler uses variable declaration '_this' to capture 'this' reference.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

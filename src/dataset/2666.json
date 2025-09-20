@@ -1,7 +1,8 @@
 {
   "code": 2666,
   "message": "Exports and export assignments are not permitted in module augmentations.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

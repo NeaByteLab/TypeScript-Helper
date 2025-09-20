@@ -1,7 +1,8 @@
 {
   "code": 4095,
   "message": "Public static method '{0}' of exported class has or is using name '{1}' from external module {2} but cannot be named.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

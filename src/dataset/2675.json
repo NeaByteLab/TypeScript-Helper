@@ -1,7 +1,8 @@
 {
   "code": 2675,
   "message": "Cannot extend a class '{0}'. Class constructor is marked as private.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

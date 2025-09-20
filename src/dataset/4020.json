@@ -1,7 +1,8 @@
 {
   "code": 4020,
   "message": "'extends' clause of exported class '{0}' has or is using private name '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

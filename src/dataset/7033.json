@@ -1,7 +1,8 @@
 {
   "code": 7033,
   "message": "Property '{0}' implicitly has type 'any', because its get accessor lacks a return type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

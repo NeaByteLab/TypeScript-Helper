@@ -1,7 +1,8 @@
 {
   "code": 1014,
   "message": "A rest parameter must be last in a parameter list.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

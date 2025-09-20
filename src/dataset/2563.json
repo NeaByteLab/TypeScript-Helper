@@ -1,7 +1,8 @@
 {
   "code": 2563,
   "message": "The containing function or module body is too large for control flow analysis.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

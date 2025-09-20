@@ -1,7 +1,8 @@
 {
   "code": 7025,
   "message": "Generator implicitly has yield type '{0}'. Consider supplying a return type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1328,
   "message": "Property value can only be string literal, numeric literal, 'true', 'false', 'null', object literal or array literal.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

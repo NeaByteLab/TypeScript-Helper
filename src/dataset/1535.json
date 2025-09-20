@@ -1,7 +1,8 @@
 {
   "code": 1535,
   "message": "This character cannot be escaped in a regular expression.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

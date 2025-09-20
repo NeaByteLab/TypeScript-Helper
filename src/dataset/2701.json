@@ -1,7 +1,8 @@
 {
   "code": 2701,
   "message": "The target of an object rest assignment must be a variable or a property access.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

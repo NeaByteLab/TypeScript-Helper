@@ -1,7 +1,8 @@
 {
   "code": 5063,
   "message": "Substitutions for pattern '{0}' should be an array.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

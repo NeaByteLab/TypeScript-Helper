@@ -1,7 +1,8 @@
 {
   "code": 2752,
   "message": "The first export default is here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1175,
   "message": "'implements' clause already seen.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

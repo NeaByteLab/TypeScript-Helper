@@ -1,7 +1,8 @@
 {
   "code": 6064,
   "message": "Option '{0}' can only be specified in 'tsconfig.json' file or set to 'null' on command line.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

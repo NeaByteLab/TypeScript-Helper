@@ -1,7 +1,8 @@
 {
   "code": 2610,
   "message": "'{0}' is defined as an accessor in class '{1}', but is overridden here in '{2}' as an instance property.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

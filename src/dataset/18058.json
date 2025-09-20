@@ -1,7 +1,8 @@
 {
   "code": 18058,
   "message": "Default imports are not allowed in a deferred import.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

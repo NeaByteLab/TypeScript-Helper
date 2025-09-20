@@ -1,7 +1,8 @@
 {
   "code": 2436,
   "message": "Ambient module declaration cannot specify relative module name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

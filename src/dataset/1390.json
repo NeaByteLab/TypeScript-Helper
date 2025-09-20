@@ -1,7 +1,8 @@
 {
   "code": 1390,
   "message": "'{0}' is not allowed as a parameter name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

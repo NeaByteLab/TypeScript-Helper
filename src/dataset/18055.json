@@ -1,7 +1,8 @@
 {
   "code": 18055,
   "message": "'{0}' has a string type, but must have syntactically recognizable string syntax when 'isolatedModules' is enabled.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

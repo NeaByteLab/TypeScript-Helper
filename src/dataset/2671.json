@@ -1,7 +1,8 @@
 {
   "code": 2671,
   "message": "Cannot augment module '{0}' because it resolves to a non-module entity.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

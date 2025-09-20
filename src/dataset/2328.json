@@ -1,7 +1,8 @@
 {
   "code": 2328,
   "message": "Types of parameters '{0}' and '{1}' are incompatible.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

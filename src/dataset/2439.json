@@ -1,7 +1,8 @@
 {
   "code": 2439,
   "message": "Import or export declaration in an ambient module declaration cannot reference module through relative module name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

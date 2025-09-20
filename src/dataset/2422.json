@@ -1,7 +1,8 @@
 {
   "code": 2422,
   "message": "A class can only implement an object type or intersection of object types with statically known members.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

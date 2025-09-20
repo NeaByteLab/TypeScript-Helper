@@ -1,7 +1,8 @@
 {
   "code": 2490,
   "message": "The type returned by the '{0}()' method of an iterator must have a 'value' property.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

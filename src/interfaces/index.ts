@@ -19,7 +19,9 @@ export interface ErrorData {
   /** The error message identifier */
   message: string
   /** The regular expression pattern for error detection */
-  regex: string
+  regexFind: string
+  /** The regular expression pattern for error replacement */
+  regexReplace: string
   /** The suggested fix or solution for the error */
   suggestion: string
   /** Array of example cases showing base and fixed code with descriptions */
@@ -39,7 +41,9 @@ export interface ErrorData {
  */
 export interface ErrorResult {
   /** The regular expression pattern for error detection */
-  regex?: string
+  regexFind?: string
+  /** The regular expression pattern for error replacement */
+  regexReplace?: string
   /** The suggested fix or solution for the error */
   suggestion?: string
   /** The example cases showing base and fixed code with descriptions */

@@ -1,7 +1,8 @@
 {
   "code": 1386,
   "message": "Constructor type notation must be parenthesized when used in a union type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

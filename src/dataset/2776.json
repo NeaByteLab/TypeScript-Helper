@@ -1,7 +1,8 @@
 {
   "code": 2776,
   "message": "Assertions require the call target to be an identifier or qualified name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

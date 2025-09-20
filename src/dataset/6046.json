@@ -1,7 +1,8 @@
 {
   "code": 6046,
   "message": "Argument for '{0}' option must be: {1}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

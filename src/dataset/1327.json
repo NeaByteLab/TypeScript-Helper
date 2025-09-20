@@ -1,7 +1,8 @@
 {
   "code": 1327,
   "message": "String literal with double quotes expected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

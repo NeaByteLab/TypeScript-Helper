@@ -1,7 +1,8 @@
 {
   "code": 7061,
   "message": "A mapped type may not declare properties or methods.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

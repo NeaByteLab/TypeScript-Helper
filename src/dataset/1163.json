@@ -1,7 +1,8 @@
 {
   "code": 1163,
   "message": "A 'yield' expression is only allowed in a generator body.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

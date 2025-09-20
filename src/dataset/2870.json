@@ -1,7 +1,8 @@
 {
   "code": 2870,
   "message": "This binary expression is never nullish. Are you missing parentheses?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

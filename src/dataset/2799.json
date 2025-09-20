@@ -1,7 +1,8 @@
 {
   "code": 2799,
   "message": "Type produces a tuple type that is too large to represent.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 18060,
   "message": "Deferred imports are only supported when the '--module' flag is set to 'esnext' or 'preserve'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

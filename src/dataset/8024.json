@@ -1,7 +1,8 @@
 {
   "code": 8024,
   "message": "JSDoc '@param' tag has name '{0}', but there is no parameter with that name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 6231,
   "message": "Could not resolve the path '{0}' with the extensions: {1}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

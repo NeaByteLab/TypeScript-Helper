@@ -1,7 +1,8 @@
 {
   "code": 6234,
   "message": "This expression is not callable because it is a 'get' accessor. Did you mean to use it without '()'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

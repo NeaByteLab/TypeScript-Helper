@@ -1,7 +1,8 @@
 {
   "code": 2389,
   "message": "Function implementation name must be '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

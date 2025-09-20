@@ -1,7 +1,8 @@
 {
   "code": 2504,
   "message": "Type '{0}' must have a '[Symbol.asyncIterator]()' method that returns an async iterator.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

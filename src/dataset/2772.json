@@ -1,7 +1,8 @@
 {
   "code": 2772,
   "message": "Overload {0} of {1}, '{2}', gave the following error.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 4128,
   "message": "This member cannot have a JSDoc comment with an '@override' tag because its name is dynamic.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

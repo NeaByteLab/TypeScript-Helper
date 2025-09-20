@@ -1,7 +1,8 @@
 {
   "code": 2794,
   "message": "Expected {0} arguments, but got {1}. Did you forget to include 'void' in your type argument to 'Promise'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

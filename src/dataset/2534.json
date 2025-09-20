@@ -1,7 +1,8 @@
 {
   "code": 2534,
   "message": "A function returning 'never' cannot have a reachable end point.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

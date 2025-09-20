@@ -1,7 +1,8 @@
 {
   "code": 4053,
   "message": "Return type of public method from exported class has or is using name '{0}' from external module {1} but cannot be named.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

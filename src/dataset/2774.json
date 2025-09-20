@@ -1,7 +1,8 @@
 {
   "code": 2774,
   "message": "This condition will always return true since this function is always defined. Did you mean to call it instead?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1326,
   "message": "This use of 'import' is invalid. 'import()' calls can be written, but they must have parentheses and cannot have type arguments.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1164,
   "message": "Computed property names are not allowed in enums.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

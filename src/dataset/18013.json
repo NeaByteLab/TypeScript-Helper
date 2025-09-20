@@ -1,7 +1,8 @@
 {
   "code": 18013,
   "message": "Property '{0}' is not accessible outside class '{1}' because it has a private identifier.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2391,
   "message": "Function implementation is missing or not immediately following the declaration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

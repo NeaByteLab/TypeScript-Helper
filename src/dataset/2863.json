@@ -1,7 +1,8 @@
 {
   "code": 2863,
   "message": "A class cannot extend a primitive type like '{0}'. Classes can only extend constructable values.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

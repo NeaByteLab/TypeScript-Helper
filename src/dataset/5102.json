@@ -1,7 +1,8 @@
 {
   "code": 5102,
   "message": "Option '{0}' has been removed. Please remove it from your configuration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

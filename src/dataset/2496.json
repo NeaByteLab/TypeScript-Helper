@@ -1,7 +1,8 @@
 {
   "code": 2496,
   "message": "The 'arguments' object cannot be referenced in an arrow function in ES5. Consider using a standard function expression.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

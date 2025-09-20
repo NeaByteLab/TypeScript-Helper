@@ -1,7 +1,8 @@
 {
   "code": 2207,
   "message": "The 'type' modifier cannot be used on a named export when 'export type' is used on its export statement.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 17019,
   "message": "'{0}' at the end of a type is not valid TypeScript syntax. Did you mean to write '{1}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

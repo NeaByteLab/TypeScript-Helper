@@ -1,7 +1,8 @@
 {
   "code": 8031,
   "message": "You cannot rename a module via a global import.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

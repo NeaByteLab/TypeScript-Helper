@@ -20,8 +20,11 @@ export async function validateData(data: ErrorData[]): Promise<Record<number, Er
       if (!result[item.code]) {
         result[item.code] = {}
       }
-      if (isRegexEmpty(fileData.regex.toString())) {
-        result[item.code]!.regex = callback
+      if (isRegexEmpty(fileData.regexFind.toString())) {
+        result[item.code]!.regexFind = callback
+      }
+      if (isRegexEmpty(fileData.regexReplace.toString())) {
+        result[item.code]!.regexReplace = callback
       }
       if (isSuggestionEmpty(fileData.suggestion)) {
         result[item.code]!.suggestion = callback

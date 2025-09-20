@@ -1,7 +1,8 @@
 {
   "code": 7060,
   "message": "This syntax is reserved in files with the .mts or .cts extension. Add a trailing comma or explicit constraint.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

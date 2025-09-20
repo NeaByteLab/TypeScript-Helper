@@ -1,7 +1,8 @@
 {
   "code": 1538,
   "message": "Unicode escape sequences are only available when the Unicode (u) flag or the Unicode Sets (v) flag is set.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

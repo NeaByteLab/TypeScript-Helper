@@ -1,7 +1,8 @@
 {
   "code": 4118,
   "message": "The type of this node cannot be serialized because its property '{0}' cannot be serialized.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

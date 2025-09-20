@@ -1,7 +1,8 @@
 {
   "code": 2405,
   "message": "The left-hand side of a 'for...in' statement must be of type 'string' or 'any'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

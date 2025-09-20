@@ -1,7 +1,8 @@
 {
   "code": 2338,
   "message": "'super' property access is permitted only in a constructor, member function, or member accessor of a derived class.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

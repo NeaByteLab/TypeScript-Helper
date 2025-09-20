@@ -1,7 +1,8 @@
 {
   "code": 1193,
   "message": "An export declaration cannot have modifiers.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

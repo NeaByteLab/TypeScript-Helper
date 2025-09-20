@@ -1,7 +1,8 @@
 {
   "code": 18056,
   "message": "Enum member following a non-literal numeric member must have an initializer when 'isolatedModules' is enabled.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

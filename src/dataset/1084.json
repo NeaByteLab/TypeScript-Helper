@@ -1,7 +1,8 @@
 {
   "code": 1084,
   "message": "Invalid 'reference' directive syntax.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

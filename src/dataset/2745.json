@@ -1,7 +1,8 @@
 {
   "code": 2745,
   "message": "This JSX tag's '{0}' prop expects type '{1}' which requires multiple children, but only a single child was provided.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

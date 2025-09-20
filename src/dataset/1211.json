@@ -1,7 +1,8 @@
 {
   "code": 1211,
   "message": "A class declaration without the 'default' modifier must have a name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

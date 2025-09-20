@@ -1,7 +1,8 @@
 {
   "code": 2709,
   "message": "Cannot use namespace '{0}' as a type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

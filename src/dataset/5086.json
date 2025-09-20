@@ -1,7 +1,8 @@
 {
   "code": 5086,
   "message": "A labeled tuple element is declared as optional with a question mark after the name and before the colon, rather than after the type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

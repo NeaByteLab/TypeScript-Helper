@@ -1,7 +1,8 @@
 {
   "code": 2724,
   "message": "'{0}' has no exported member named '{1}'. Did you mean '{2}'?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

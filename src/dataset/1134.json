@@ -1,7 +1,8 @@
 {
   "code": 1134,
   "message": "Variable declaration expected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 9036,
   "message": "Move the expression in default export to a variable and add a type annotation to it.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

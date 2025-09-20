@@ -1,7 +1,8 @@
 {
   "code": 2527,
   "message": "The inferred type of '{0}' references an inaccessible '{1}' type. A type annotation is necessary.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 1181,
   "message": "Array element destructuring pattern expected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

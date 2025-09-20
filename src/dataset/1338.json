@@ -1,7 +1,8 @@
 {
   "code": 1338,
   "message": "'infer' declarations are only permitted in the 'extends' clause of a conditional type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

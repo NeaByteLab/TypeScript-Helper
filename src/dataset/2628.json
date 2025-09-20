@@ -1,7 +1,8 @@
 {
   "code": 2628,
   "message": "Cannot assign to '{0}' because it is an enum.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2651,
   "message": "A member initializer in a enum declaration cannot reference members declared after it, including members defined in other enums.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2526,
   "message": "A 'this' type is available only in a non-static member of a class or interface.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

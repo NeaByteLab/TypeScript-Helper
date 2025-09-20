@@ -1,7 +1,8 @@
 {
   "code": 7017,
   "message": "Element implicitly has an 'any' type because type '{0}' has no index signature.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

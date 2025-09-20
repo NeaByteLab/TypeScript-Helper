@@ -1,7 +1,8 @@
 {
   "code": 2857,
   "message": "Import attributes cannot be used with type-only imports or exports.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -44,7 +44,8 @@ export async function getErrorData(): Promise<ErrorData[]> {
         const error: ErrorData = {
           code: details.code,
           message: message,
-          regex: '/N\/A/g',
+          regexFind: '/N\/A/g',
+          regexReplace: 'N/A',
           suggestion: 'N/A',
           example: [
             {

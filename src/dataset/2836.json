@@ -1,7 +1,8 @@
 {
   "code": 2836,
   "message": "Import assertions are not allowed on statements that compile to CommonJS 'require' calls.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2704,
   "message": "The operand of a 'delete' operator cannot be a read-only property.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

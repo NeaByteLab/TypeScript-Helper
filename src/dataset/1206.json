@@ -1,7 +1,8 @@
 {
   "code": 1206,
   "message": "Decorators are not valid here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 7032,
   "message": "Property '{0}' implicitly has type 'any', because its set accessor lacks a parameter type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

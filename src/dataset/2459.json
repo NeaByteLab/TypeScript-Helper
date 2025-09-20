@@ -1,7 +1,8 @@
 {
   "code": 2459,
   "message": "Module '{0}' declares '{1}' locally, but it is not exported.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

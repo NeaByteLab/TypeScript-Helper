@@ -1,7 +1,8 @@
 {
   "code": 2879,
   "message": "Using JSX fragments requires fragment factory '{0}' to be in scope, but it could not be found.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

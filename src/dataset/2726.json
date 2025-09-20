@@ -1,7 +1,8 @@
 {
   "code": 2726,
   "message": "Cannot find lib definition for '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

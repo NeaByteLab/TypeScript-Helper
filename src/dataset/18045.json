@@ -1,7 +1,8 @@
 {
   "code": 18045,
   "message": "Properties with the 'accessor' modifier are only available when targeting ECMAScript 2015 and higher.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2614,
   "message": "Module '{0}' has no exported member '{1}'. Did you mean to use 'import {1} from {0}' instead?",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

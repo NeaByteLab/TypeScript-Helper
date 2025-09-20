@@ -1,7 +1,8 @@
 {
   "code": 9007,
   "message": "Function must have an explicit return type annotation with --isolatedDeclarations.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

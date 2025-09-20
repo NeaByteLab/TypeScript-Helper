@@ -1,7 +1,8 @@
 {
   "code": 2683,
   "message": "'this' implicitly has type 'any' because it does not have a type annotation.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 7019,
   "message": "Rest parameter '{0}' implicitly has an 'any[]' type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

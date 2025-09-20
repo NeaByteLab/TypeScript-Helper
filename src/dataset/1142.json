@@ -1,7 +1,8 @@
 {
   "code": 1142,
   "message": "Line break not permitted here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

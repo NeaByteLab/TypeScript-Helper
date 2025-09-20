@@ -1,7 +1,8 @@
 {
   "code": 2840,
   "message": "An interface cannot extend a primitive type like '{0}'. It can only extend other named object types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

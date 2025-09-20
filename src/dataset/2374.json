@@ -1,7 +1,8 @@
 {
   "code": 2374,
   "message": "Duplicate index signature for type '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

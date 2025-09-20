@@ -1,7 +1,8 @@
 {
   "code": 2771,
   "message": "The last overload is declared here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 7041,
   "message": "The containing arrow function captures the global value of 'this'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

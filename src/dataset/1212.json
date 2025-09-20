@@ -1,7 +1,8 @@
 {
   "code": 1212,
   "message": "Identifier expected. '{0}' is a reserved word in strict mode.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

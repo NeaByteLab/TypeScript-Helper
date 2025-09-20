@@ -1,7 +1,8 @@
 {
   "code": 2708,
   "message": "Cannot use namespace '{0}' as a value.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

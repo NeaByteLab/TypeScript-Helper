@@ -1,7 +1,8 @@
 {
   "code": 2606,
   "message": "Property '{0}' of JSX spread attribute is not assignable to target property.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

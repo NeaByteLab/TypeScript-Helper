@@ -1,7 +1,8 @@
 {
   "code": 18009,
   "message": "Private identifiers cannot be used as parameters.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

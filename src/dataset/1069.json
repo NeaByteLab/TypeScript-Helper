@@ -1,7 +1,8 @@
 {
   "code": 1069,
   "message": "Unexpected token. A type parameter name was expected without curly braces.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

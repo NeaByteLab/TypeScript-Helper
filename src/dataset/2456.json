@@ -1,7 +1,8 @@
 {
   "code": 2456,
   "message": "Type alias '{0}' circularly references itself.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

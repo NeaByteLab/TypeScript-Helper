@@ -1,7 +1,8 @@
 {
   "code": 2571,
   "message": "Object is of type 'unknown'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

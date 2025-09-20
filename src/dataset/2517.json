@@ -1,7 +1,8 @@
 {
   "code": 2517,
   "message": "Cannot assign an abstract constructor type to a non-abstract constructor type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

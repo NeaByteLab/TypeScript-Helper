@@ -1,7 +1,8 @@
 {
   "code": 6138,
   "message": "Property '{0}' is declared but its value is never read.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

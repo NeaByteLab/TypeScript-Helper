@@ -1,7 +1,8 @@
 {
   "code": 2542,
   "message": "Index signature in type '{0}' only permits reading.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

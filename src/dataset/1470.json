@@ -1,7 +1,8 @@
 {
   "code": 1470,
   "message": "The 'import.meta' meta-property is not allowed in files which will build into CommonJS output.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

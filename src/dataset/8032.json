@@ -1,7 +1,8 @@
 {
   "code": 8032,
   "message": "Qualified name '{0}' is not allowed without a leading '@param {object} {1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

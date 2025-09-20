@@ -1,7 +1,8 @@
 {
   "code": 9013,
   "message": "Expression type can't be inferred with --isolatedDeclarations.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

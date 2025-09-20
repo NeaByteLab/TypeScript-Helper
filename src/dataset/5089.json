@@ -1,7 +1,8 @@
 {
   "code": 5089,
   "message": "Option '{0}' cannot be specified when option 'jsx' is '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

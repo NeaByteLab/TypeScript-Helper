@@ -1,7 +1,8 @@
 {
   "code": 2767,
   "message": "The '{0}' property of an iterator must be a method.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

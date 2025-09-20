@@ -1,7 +1,8 @@
 {
   "code": 2537,
   "message": "Type '{0}' has no matching index signature for type '{1}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

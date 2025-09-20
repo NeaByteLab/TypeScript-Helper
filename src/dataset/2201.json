@@ -1,7 +1,8 @@
 {
   "code": 2201,
   "message": "The types returned by '{0}' are incompatible between these types.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

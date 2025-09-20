@@ -1,7 +1,8 @@
 {
   "code": 9026,
   "message": "Declaration emit for this file requires preserving this import for augmentations. This is not supported with --isolatedDeclarations.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

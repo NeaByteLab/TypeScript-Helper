@@ -1,0 +1,2 @@
+function = () => {};
+enum = { A, B };

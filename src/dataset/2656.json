@@ -1,7 +1,8 @@
 {
   "code": 2656,
   "message": "Non-abstract class expression is missing implementations for the following members of '{0}': {1}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

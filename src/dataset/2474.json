@@ -1,7 +1,8 @@
 {
   "code": 2474,
   "message": "const enum member initializers must be constant expressions.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

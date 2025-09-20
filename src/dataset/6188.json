@@ -1,7 +1,8 @@
 {
   "code": 6188,
   "message": "Numeric separators are not allowed here.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

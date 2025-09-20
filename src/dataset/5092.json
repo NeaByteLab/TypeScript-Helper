@@ -1,7 +1,8 @@
 {
   "code": 5092,
   "message": "The root value of a '{0}' file must be an object.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

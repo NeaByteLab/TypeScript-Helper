@@ -1,7 +1,8 @@
 {
   "code": 2334,
   "message": "'this' cannot be referenced in a static property initializer.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

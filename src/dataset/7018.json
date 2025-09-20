@@ -1,7 +1,8 @@
 {
   "code": 7018,
   "message": "Object literal's property '{0}' implicitly has an '{1}' type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

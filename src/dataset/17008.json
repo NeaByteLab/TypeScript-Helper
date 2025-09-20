@@ -1,7 +1,8 @@
 {
   "code": 17008,
   "message": "JSX element '{0}' has no corresponding closing tag.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

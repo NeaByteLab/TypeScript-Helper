@@ -1,7 +1,8 @@
 {
   "code": 2437,
   "message": "Module '{0}' is hidden by a local declaration with the same name.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

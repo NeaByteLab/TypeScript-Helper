@@ -1,7 +1,8 @@
 {
   "code": 6142,
   "message": "Module '{0}' was resolved to '{1}', but '--jsx' is not set.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

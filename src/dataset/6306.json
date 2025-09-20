@@ -1,7 +1,8 @@
 {
   "code": 6306,
   "message": "Referenced project '{0}' must have setting \"composite\": true.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

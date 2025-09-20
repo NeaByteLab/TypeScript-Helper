@@ -1,7 +1,8 @@
 {
   "code": 1178,
   "message": "Octal digit expected.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

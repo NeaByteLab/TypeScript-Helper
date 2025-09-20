@@ -1,7 +1,8 @@
 {
   "code": 6082,
   "message": "Only 'amd' and 'system' modules are supported alongside --{0}.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 4116,
   "message": "This member must have an 'override' modifier because it overrides an abstract method that is declared in the base class '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

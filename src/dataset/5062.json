@@ -1,7 +1,8 @@
 {
   "code": 5062,
   "message": "Substitution '{0}' in pattern '{1}' can have at most one '*' character.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

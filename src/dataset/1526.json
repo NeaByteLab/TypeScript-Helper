@@ -1,7 +1,8 @@
 {
   "code": 1526,
   "message": "Unknown Unicode property value.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

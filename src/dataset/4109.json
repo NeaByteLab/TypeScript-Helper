@@ -1,7 +1,8 @@
 {
   "code": 4109,
   "message": "Type arguments for '{0}' circularly reference themselves.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

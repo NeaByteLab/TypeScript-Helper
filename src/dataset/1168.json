@@ -1,7 +1,8 @@
 {
   "code": 1168,
   "message": "A computed property name in a method overload must refer to an expression whose type is a literal type or a 'unique symbol' type.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

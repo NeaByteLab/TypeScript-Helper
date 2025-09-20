@@ -1,7 +1,8 @@
 {
   "code": 1093,
   "message": "Type annotation cannot appear on a constructor declaration.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

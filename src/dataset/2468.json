@@ -1,7 +1,8 @@
 {
   "code": 2468,
   "message": "Cannot find global value '{0}'.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

@@ -1,7 +1,8 @@
 {
   "code": 2491,
   "message": "The left-hand side of a 'for...in' statement cannot be a destructuring pattern.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {

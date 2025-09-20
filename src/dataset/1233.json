@@ -1,7 +1,8 @@
 {
   "code": 1233,
   "message": "An export declaration can only be used at the top level of a namespace or module.",
-  "regex": "/N/A/g",
+  "regexFind": "/N/A/g",
+  "regexReplace": "N/A",
   "suggestion": "N/A",
   "example": [
     {
