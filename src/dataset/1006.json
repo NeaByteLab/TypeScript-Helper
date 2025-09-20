@@ -1,14 +1,19 @@
 {
   "code": 1006,
   "message": "A file cannot have a reference to itself.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/(.*)/",
+  "regexReplace": "$1",
+  "suggestion": "Remove self-reference. Files cannot reference themselves.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "/// <reference path=\"./index.ts\" />",
+      "fixed": "// Remove self-reference",
+      "description": "Remove triple-slash directive that references the same file"
+    },
+    {
+      "base": "/// <reference path=\"./index.ts\" />",
+      "fixed": "/// <reference path=\"./other-file.ts\" />",
+      "description": "Change reference to point to a different file"
     }
   ]
 }

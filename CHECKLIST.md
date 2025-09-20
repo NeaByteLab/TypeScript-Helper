@@ -7,7 +7,7 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1002 | Unterminated string literal | ✅ | [docs/1002/README.md](docs/1002/README.md) |
 | 1003 | Identifier expected | ✅ | [docs/1003/README.md](docs/1003/README.md) |
 | 1005 | '{0}' expected | ✅ | [docs/1005/README.md](docs/1005/README.md) |
-| 1006 | A file cannot have a reference to itself | 🔄 | [docs/1006/README.md](docs/1006/README.md) |
+| 1006 | A file cannot have a reference to itself | ✅ | [docs/1006/README.md](docs/1006/README.md) |
 | 1007 | The parser expected to find a '{1}' to match the '{0}' token here | 🔄 | [docs/1007/README.md](docs/1007/README.md) |
 | 1009 | Trailing comma not allowed | 🔄 | [docs/1009/README.md](docs/1009/README.md) |
 | 1010 | '*/' expected | 🔄 | [docs/1010/README.md](docs/1010/README.md) |
