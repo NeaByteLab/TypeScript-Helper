@@ -1,0 +1,13 @@
+{
+  "code": 2400,
+  "message": "Expression resolves to variable declaration '_this' that compiler uses to capture 'this' reference.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

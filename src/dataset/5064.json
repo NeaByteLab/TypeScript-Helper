@@ -1,0 +1,13 @@
+{
+  "code": 5064,
+  "message": "Substitution '{0}' for pattern '{1}' has incorrect type, expected 'string', got '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

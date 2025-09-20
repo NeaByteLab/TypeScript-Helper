@@ -1,0 +1,13 @@
+{
+  "code": 2860,
+  "message": "The left-hand side of an 'instanceof' expression must be assignable to the first argument of the right-hand side's '[Symbol.hasInstance]' method.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

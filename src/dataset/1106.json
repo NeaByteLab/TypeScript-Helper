@@ -1,0 +1,13 @@
+{
+  "code": 1106,
+  "message": "The left-hand side of a 'for...of' statement may not be 'async'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

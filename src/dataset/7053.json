@@ -1,0 +1,13 @@
+{
+  "code": 7053,
+  "message": "Element implicitly has an 'any' type because expression of type '{0}' can't be used to index type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2394,
+  "message": "This overload signature is not compatible with its implementation signature.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

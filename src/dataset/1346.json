@@ -1,0 +1,13 @@
+{
+  "code": 1346,
+  "message": "This parameter is not allowed with 'use strict' directive.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

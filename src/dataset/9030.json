@@ -1,0 +1,13 @@
+{
+  "code": 9030,
+  "message": "Add a return type to the function expression.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

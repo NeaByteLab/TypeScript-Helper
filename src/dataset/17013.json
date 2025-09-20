@@ -1,0 +1,13 @@
+{
+  "code": 17013,
+  "message": "Meta-property '{0}' is only allowed in the body of a function declaration, function expression, or constructor.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

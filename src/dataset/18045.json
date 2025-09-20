@@ -1,0 +1,13 @@
+{
+  "code": 18045,
+  "message": "Properties with the 'accessor' modifier are only available when targeting ECMAScript 2015 and higher.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

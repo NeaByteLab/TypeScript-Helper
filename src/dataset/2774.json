@@ -1,0 +1,13 @@
+{
+  "code": 2774,
+  "message": "This condition will always return true since this function is always defined. Did you mean to call it instead?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

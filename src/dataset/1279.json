@@ -1,0 +1,13 @@
+{
+  "code": 1279,
+  "message": "The runtime will invoke the decorator with {1} arguments, but the decorator expects at least {0}.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

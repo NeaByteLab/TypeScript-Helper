@@ -1,0 +1,13 @@
+{
+  "code": 2594,
+  "message": "This module is declared with 'export =', and can only be used with a default import when using the '{0}' flag.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

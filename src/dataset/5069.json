@@ -1,0 +1,13 @@
+{
+  "code": 5069,
+  "message": "Option '{0}' cannot be specified without specifying option '{1}' or option '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

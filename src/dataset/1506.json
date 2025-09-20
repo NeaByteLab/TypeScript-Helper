@@ -1,0 +1,13 @@
+{
+  "code": 1506,
+  "message": "Numbers out of order in quantifier.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1300,
+  "message": "'with' statements are not allowed in an async function block.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

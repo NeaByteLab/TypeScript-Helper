@@ -1,0 +1,13 @@
+{
+  "code": 2665,
+  "message": "Invalid module name in augmentation. Module '{0}' resolves to an untyped module at '{1}', which cannot be augmented.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

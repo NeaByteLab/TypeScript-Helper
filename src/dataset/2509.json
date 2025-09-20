@@ -1,0 +1,13 @@
+{
+  "code": 2509,
+  "message": "Base constructor return type '{0}' is not an object type or intersection of object types with statically known members.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

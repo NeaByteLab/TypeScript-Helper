@@ -1,0 +1,13 @@
+{
+  "code": 6232,
+  "message": "Declaration augments declaration in another file. This cannot be serialized.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

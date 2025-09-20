@@ -1,0 +1,13 @@
+{
+  "code": 1319,
+  "message": "A default export can only be used in an ECMAScript-style module.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

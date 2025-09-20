@@ -1,0 +1,13 @@
+{
+  "code": 2512,
+  "message": "Overload signatures must all be abstract or non-abstract.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

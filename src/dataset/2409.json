@@ -1,0 +1,13 @@
+{
+  "code": 2409,
+  "message": "Return type of constructor signature must be assignable to the instance type of the class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

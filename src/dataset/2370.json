@@ -1,0 +1,13 @@
+{
+  "code": 2370,
+  "message": "A rest parameter must be of an array type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1354,
+  "message": "'readonly' type modifier is only permitted on array and tuple literal types.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

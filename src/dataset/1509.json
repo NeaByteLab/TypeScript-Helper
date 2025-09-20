@@ -1,0 +1,13 @@
+{
+  "code": 1509,
+  "message": "This regular expression flag cannot be toggled within a subpattern.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 5092,
+  "message": "The root value of a '{0}' file must be an object.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

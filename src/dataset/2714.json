@@ -1,0 +1,13 @@
+{
+  "code": 2714,
+  "message": "The expression of an export assignment must be an identifier or qualified name in an ambient context.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

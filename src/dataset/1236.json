@@ -1,0 +1,13 @@
+{
+  "code": 1236,
+  "message": "The return type of a property decorator function must be either 'void' or 'any'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

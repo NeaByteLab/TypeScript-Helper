@@ -1,0 +1,13 @@
+{
+  "code": 2662,
+  "message": "Cannot find name '{0}'. Did you mean the static member '{1}.{0}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

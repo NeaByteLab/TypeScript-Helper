@@ -1,0 +1,13 @@
+{
+  "code": 4023,
+  "message": "Exported variable '{0}' has or is using name '{1}' from external module {2} but cannot be named.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

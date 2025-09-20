@@ -1,0 +1,13 @@
+{
+  "code": 9022,
+  "message": "Inference from class expressions is not supported with --isolatedDeclarations.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

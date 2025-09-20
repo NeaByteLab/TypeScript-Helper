@@ -1,0 +1,13 @@
+{
+  "code": 1259,
+  "message": "Module '{0}' can only be default-imported using the '{1}' flag",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1504,
+  "message": "Subpattern flags must be present when there is a minus sign.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

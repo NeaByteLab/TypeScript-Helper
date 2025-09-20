@@ -1,0 +1,13 @@
+{
+  "code": 2374,
+  "message": "Duplicate index signature for type '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

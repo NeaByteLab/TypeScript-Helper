@@ -1,0 +1,13 @@
+{
+  "code": 2815,
+  "message": "'arguments' cannot be referenced in property initializers or class static initialization blocks.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

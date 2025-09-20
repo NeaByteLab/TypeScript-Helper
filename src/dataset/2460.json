@@ -1,0 +1,13 @@
+{
+  "code": 2460,
+  "message": "Module '{0}' declares '{1}' locally, but it is exported as '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

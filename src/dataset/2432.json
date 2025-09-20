@@ -1,0 +1,13 @@
+{
+  "code": 2432,
+  "message": "In an enum with multiple declarations, only one declaration can omit an initializer for its first enum element.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 17012,
+  "message": "'{0}' is not a valid meta-property for keyword '{1}'. Did you mean '{2}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

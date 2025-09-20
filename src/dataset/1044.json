@@ -1,0 +1,13 @@
+{
+  "code": 1044,
+  "message": "'{0}' modifier cannot appear on a module or namespace element.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

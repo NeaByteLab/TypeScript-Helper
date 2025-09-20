@@ -1,0 +1,13 @@
+{
+  "code": 6064,
+  "message": "Option '{0}' can only be specified in 'tsconfig.json' file or set to 'null' on command line.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

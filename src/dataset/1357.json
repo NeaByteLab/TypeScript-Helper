@@ -1,0 +1,13 @@
+{
+  "code": 1357,
+  "message": "An enum member name must be followed by a ',', '=', or '}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

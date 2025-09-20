@@ -1,0 +1,13 @@
+{
+  "code": 18057,
+  "message": "String literal import and export names are not supported when the '--module' flag is set to 'es2015' or 'es2020'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

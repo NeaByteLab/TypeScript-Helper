@@ -1,0 +1,13 @@
+{
+  "code": 8030,
+  "message": "The type of a function declaration must match the function's signature.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

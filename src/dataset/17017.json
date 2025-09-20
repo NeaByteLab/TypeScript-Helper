@@ -1,0 +1,13 @@
+{
+  "code": 17017,
+  "message": "An @jsxFrag pragma is required when using an @jsx pragma with JSX fragments.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

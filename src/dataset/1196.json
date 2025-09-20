@@ -1,0 +1,13 @@
+{
+  "code": 1196,
+  "message": "Catch clause variable type annotation must be 'any' or 'unknown' if specified.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

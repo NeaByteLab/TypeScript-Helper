@@ -1,0 +1,13 @@
+{
+  "code": 2658,
+  "message": "Type '{0}' provides no match for the signature '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

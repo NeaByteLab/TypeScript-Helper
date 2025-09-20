@@ -1,0 +1,13 @@
+{
+  "code": 6931,
+  "message": "List of file name suffixes to search when resolving a module.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

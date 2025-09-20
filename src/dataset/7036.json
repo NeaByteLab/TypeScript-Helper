@@ -1,0 +1,13 @@
+{
+  "code": 7036,
+  "message": "Dynamic import's specifier must be of type 'string', but here has type '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

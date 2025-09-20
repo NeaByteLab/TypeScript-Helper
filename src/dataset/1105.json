@@ -1,0 +1,13 @@
+{
+  "code": 1105,
+  "message": "A 'break' statement can only be used within an enclosing iteration or switch statement.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

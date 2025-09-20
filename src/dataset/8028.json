@@ -1,0 +1,13 @@
+{
+  "code": 8028,
+  "message": "JSDoc '...' may only appear in the last parameter of a signature.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

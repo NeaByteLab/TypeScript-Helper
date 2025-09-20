@@ -1,0 +1,13 @@
+{
+  "code": 1214,
+  "message": "Identifier expected. '{0}' is a reserved word in strict mode. Modules are automatically in strict mode.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1281,
+  "message": "Cannot access '{0}' from another file without qualification when '{1}' is enabled. Use '{2}' instead.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

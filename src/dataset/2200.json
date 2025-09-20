@@ -1,0 +1,13 @@
+{
+  "code": 2200,
+  "message": "The types of '{0}' are incompatible between these types.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

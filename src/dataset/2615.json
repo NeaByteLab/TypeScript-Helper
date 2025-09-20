@@ -1,0 +1,13 @@
+{
+  "code": 2615,
+  "message": "Type of property '{0}' circularly references itself in mapped type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

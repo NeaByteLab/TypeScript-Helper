@@ -1,0 +1,13 @@
+{
+  "code": 1347,
+  "message": "'use strict' directive cannot be used with non-simple parameter list.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

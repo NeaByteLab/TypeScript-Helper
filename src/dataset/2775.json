@@ -1,0 +1,13 @@
+{
+  "code": 2775,
+  "message": "Assertions require every name in the call target to be declared with an explicit type annotation.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

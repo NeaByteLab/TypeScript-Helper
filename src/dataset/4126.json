@@ -1,0 +1,13 @@
+{
+  "code": 4126,
+  "message": "One value of '{0}.{1}' is the string '{2}', and the other is assumed to be an unknown numeric value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2500,
+  "message": "A class can only implement an identifier/qualified-name with optional type arguments.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1543,
+  "message": "Importing a JSON file into an ECMAScript module requires a 'type: \"json\"' import attribute when 'module' is set to '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

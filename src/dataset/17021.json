@@ -1,0 +1,13 @@
+{
+  "code": 17021,
+  "message": "Unicode escape sequence cannot appear here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

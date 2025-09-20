@@ -1,0 +1,13 @@
+{
+  "code": 7034,
+  "message": "Variable '{0}' implicitly has type '{1}' in some locations where its type cannot be determined.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

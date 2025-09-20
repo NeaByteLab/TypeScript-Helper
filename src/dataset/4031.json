@@ -1,0 +1,13 @@
+{
+  "code": 4031,
+  "message": "Public property '{0}' of exported class has or is using private name '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

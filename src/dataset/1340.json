@@ -1,0 +1,13 @@
+{
+  "code": 1340,
+  "message": "Module '{0}' does not refer to a type, but is used as a type here. Did you mean 'typeof import('{0}')'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2310,
+  "message": "Type '{0}' recursively references itself as a base type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

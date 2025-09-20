@@ -1,0 +1,13 @@
+{
+  "code": 2686,
+  "message": "'{0}' refers to a UMD global, but the current file is a module. Consider adding an import instead.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

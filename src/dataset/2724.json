@@ -1,0 +1,13 @@
+{
+  "code": 2724,
+  "message": "'{0}' has no exported member named '{1}'. Did you mean '{2}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

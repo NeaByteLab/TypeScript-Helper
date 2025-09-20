@@ -1,0 +1,13 @@
+{
+  "code": 1108,
+  "message": "A 'return' statement can only be used within a function body.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

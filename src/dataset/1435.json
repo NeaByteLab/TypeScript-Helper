@@ -1,0 +1,13 @@
+{
+  "code": 1435,
+  "message": "Unknown keyword or identifier. Did you mean '{0}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

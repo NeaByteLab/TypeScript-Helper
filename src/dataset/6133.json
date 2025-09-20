@@ -1,0 +1,13 @@
+{
+  "code": 6133,
+  "message": "'{0}' is declared but its value is never read.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

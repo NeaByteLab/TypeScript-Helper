@@ -1,0 +1,13 @@
+{
+  "code": 1025,
+  "message": "An index signature cannot have a trailing comma.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

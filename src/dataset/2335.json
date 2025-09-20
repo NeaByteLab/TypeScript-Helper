@@ -1,0 +1,13 @@
+{
+  "code": 2335,
+  "message": "'super' can only be referenced in a derived class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

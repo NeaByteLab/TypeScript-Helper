@@ -1,0 +1,13 @@
+{
+  "code": 7052,
+  "message": "Element implicitly has an 'any' type because type '{0}' has no index signature. Did you mean to call '{1}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

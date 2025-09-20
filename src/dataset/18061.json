@@ -1,0 +1,13 @@
+{
+  "code": 18061,
+  "message": "'{0}' is not a valid meta-property for keyword 'import'. Did you mean 'meta' or 'defer'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

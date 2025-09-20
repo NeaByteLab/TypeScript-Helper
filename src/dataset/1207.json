@@ -1,0 +1,13 @@
+{
+  "code": 1207,
+  "message": "Decorators cannot be applied to multiple get/set accessors of the same name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

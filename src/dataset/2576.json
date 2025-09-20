@@ -1,0 +1,13 @@
+{
+  "code": 2576,
+  "message": "Property '{0}' does not exist on type '{1}'. Did you mean to access the static member '{2}' instead?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

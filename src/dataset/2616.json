@@ -1,0 +1,13 @@
+{
+  "code": 2616,
+  "message": "'{0}' can only be imported by using 'import {1} = require({2})' or a default import.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

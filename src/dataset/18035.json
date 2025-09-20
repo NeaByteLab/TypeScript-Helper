@@ -1,0 +1,13 @@
+{
+  "code": 18035,
+  "message": "Invalid value for 'jsxFragmentFactory'. '{0}' is not a valid identifier or qualified-name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

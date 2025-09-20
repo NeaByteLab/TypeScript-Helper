@@ -1,0 +1,13 @@
+{
+  "code": 7019,
+  "message": "Rest parameter '{0}' implicitly has an 'any[]' type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1211,
+  "message": "A class declaration without the 'default' modifier must have a name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2692,
+  "message": "'{0}' is a primitive, but '{1}' is a wrapper object. Prefer using '{0}' when possible.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 5082,
+  "message": "'{0}' could be instantiated with an arbitrary type which could be unrelated to '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

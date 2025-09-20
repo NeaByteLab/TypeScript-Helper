@@ -1,0 +1,13 @@
+{
+  "code": 1537,
+  "message": "Decimal escape sequences and backreferences are not allowed in a character class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

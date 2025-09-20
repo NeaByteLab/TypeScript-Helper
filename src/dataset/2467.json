@@ -1,0 +1,13 @@
+{
+  "code": 2467,
+  "message": "A computed property name cannot reference a type parameter from its containing type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

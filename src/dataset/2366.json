@@ -1,0 +1,13 @@
+{
+  "code": 2366,
+  "message": "Function lacks ending return statement and return type does not include 'undefined'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

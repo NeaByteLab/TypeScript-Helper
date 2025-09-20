@@ -1,0 +1,13 @@
+{
+  "code": 1510,
+  "message": "'\\k' must be followed by a capturing group name enclosed in angle brackets.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

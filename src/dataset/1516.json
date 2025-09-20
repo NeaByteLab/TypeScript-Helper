@@ -1,0 +1,13 @@
+{
+  "code": 1516,
+  "message": "A character class range must not be bounded by another character class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

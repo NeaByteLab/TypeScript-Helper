@@ -1,0 +1,13 @@
+{
+  "code": 5090,
+  "message": "Non-relative paths are not allowed when 'baseUrl' is not set. Did you forget a leading './'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

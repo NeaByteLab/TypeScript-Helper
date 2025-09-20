@@ -1,0 +1,13 @@
+{
+  "code": 1322,
+  "message": "Type of iterated elements of a 'yield*' operand must either be a valid promise or must not contain a callable 'then' member.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

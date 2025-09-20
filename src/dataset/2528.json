@@ -1,0 +1,13 @@
+{
+  "code": 2528,
+  "message": "A module cannot have multiple default exports.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

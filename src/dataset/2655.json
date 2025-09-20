@@ -1,0 +1,13 @@
+{
+  "code": 2655,
+  "message": "Non-abstract class '{0}' is missing implementations for the following members of '{1}': {2} and {3} more.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 7041,
+  "message": "The containing arrow function captures the global value of 'this'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

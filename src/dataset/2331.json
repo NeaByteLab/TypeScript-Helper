@@ -1,0 +1,13 @@
+{
+  "code": 2331,
+  "message": "'this' cannot be referenced in a module or namespace body.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

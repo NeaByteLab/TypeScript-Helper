@@ -1,0 +1,13 @@
+{
+  "code": 1058,
+  "message": "The return type of an async function must either be a valid promise or must not contain a callable 'then' member.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

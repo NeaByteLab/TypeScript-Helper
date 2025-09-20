@@ -1,0 +1,13 @@
+{
+  "code": 4121,
+  "message": "This member cannot have a JSDoc comment with an '@override' tag because its containing class '{0}' does not extend another class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

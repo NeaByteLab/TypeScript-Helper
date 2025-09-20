@@ -1,0 +1,13 @@
+{
+  "code": 2710,
+  "message": "'{0}' are specified twice. The attribute named '{0}' will be overwritten.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

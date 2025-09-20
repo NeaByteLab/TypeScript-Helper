@@ -1,0 +1,13 @@
+{
+  "code": 9035,
+  "message": "Add satisfies and a type assertion to this expression (satisfies T as T) to make the type explicit.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

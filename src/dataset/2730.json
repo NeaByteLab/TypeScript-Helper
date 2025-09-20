@@ -1,0 +1,13 @@
+{
+  "code": 2730,
+  "message": "An arrow function cannot have a 'this' parameter.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

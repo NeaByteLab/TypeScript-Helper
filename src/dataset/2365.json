@@ -1,0 +1,13 @@
+{
+  "code": 2365,
+  "message": "Operator '{0}' cannot be applied to types '{1}' and '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

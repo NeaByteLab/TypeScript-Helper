@@ -1,0 +1,13 @@
+{
+  "code": 1387,
+  "message": "Function type notation must be parenthesized when used in an intersection type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

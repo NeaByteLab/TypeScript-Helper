@@ -1,0 +1,13 @@
+{
+  "code": 1046,
+  "message": "Top-level declarations in .d.ts files must start with either a 'declare' or 'export' modifier.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

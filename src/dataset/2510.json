@@ -1,0 +1,13 @@
+{
+  "code": 2510,
+  "message": "Base constructors must all have the same return type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 17011,
+  "message": "'super' must be called before accessing a property of 'super' in the constructor of a derived class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

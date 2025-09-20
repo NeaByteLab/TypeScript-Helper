@@ -1,0 +1,13 @@
+{
+  "code": 2498,
+  "message": "Module '{0}' uses 'export =' and cannot be used with 'export *'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1522,
+  "message": "A character class must not contain a reserved double punctuator. Did you mean to escape it with backslash?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

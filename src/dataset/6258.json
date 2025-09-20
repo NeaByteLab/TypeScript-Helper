@@ -1,0 +1,13 @@
+{
+  "code": 6258,
+  "message": "'{0}' should be set inside the 'compilerOptions' object of the config json file",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

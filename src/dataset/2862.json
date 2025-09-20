@@ -1,0 +1,13 @@
+{
+  "code": 2862,
+  "message": "Type '{0}' is generic and can only be indexed for reading.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

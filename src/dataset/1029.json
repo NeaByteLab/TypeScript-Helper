@@ -1,0 +1,13 @@
+{
+  "code": 1029,
+  "message": "'{0}' modifier must precede '{1}' modifier.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

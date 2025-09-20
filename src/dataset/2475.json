@@ -1,0 +1,13 @@
+{
+  "code": 2475,
+  "message": "'const' enums can only be used in property or index access expressions or the right hand side of an import declaration or export assignment or type query.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

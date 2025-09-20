@@ -1,0 +1,13 @@
+{
+  "code": 2740,
+  "message": "Type '{0}' is missing the following properties from type '{1}': {2}, and {3} more.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

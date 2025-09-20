@@ -1,0 +1,13 @@
+{
+  "code": 1464,
+  "message": "Type import attributes should have exactly one key - 'resolution-mode' - with value 'import' or 'require'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

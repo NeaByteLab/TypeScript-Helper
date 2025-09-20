@@ -1,0 +1,13 @@
+{
+  "code": 9014,
+  "message": "Computed properties must be number or string literals, variables or dotted expressions with --isolatedDeclarations.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

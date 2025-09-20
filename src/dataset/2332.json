@@ -1,0 +1,13 @@
+{
+  "code": 2332,
+  "message": "'this' cannot be referenced in current location.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

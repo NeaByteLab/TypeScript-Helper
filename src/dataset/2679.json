@@ -1,0 +1,13 @@
+{
+  "code": 2679,
+  "message": "A function that is called with the 'new' keyword cannot have a 'this' type that is 'void'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

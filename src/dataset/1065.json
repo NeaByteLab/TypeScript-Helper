@@ -1,0 +1,13 @@
+{
+  "code": 1065,
+  "message": "The return type of an async function or method must be the global Promise<T> type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2723,
+  "message": "Cannot invoke an object which is possibly 'null' or 'undefined'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

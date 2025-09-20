@@ -1,0 +1,13 @@
+{
+  "code": 1368,
+  "message": "Class constructor may not be a generator.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

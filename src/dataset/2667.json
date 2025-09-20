@@ -1,0 +1,13 @@
+{
+  "code": 2667,
+  "message": "Imports are not permitted in module augmentations. Consider moving them to the enclosing external module.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

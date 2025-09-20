@@ -1,0 +1,13 @@
+{
+  "code": 9036,
+  "message": "Move the expression in default export to a variable and add a type annotation to it.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

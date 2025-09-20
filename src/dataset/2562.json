@@ -1,0 +1,13 @@
+{
+  "code": 2562,
+  "message": "Base class expressions cannot reference class type parameters.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

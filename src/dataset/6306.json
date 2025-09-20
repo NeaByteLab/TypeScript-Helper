@@ -1,0 +1,13 @@
+{
+  "code": 6306,
+  "message": "Referenced project '{0}' must have setting \"composite\": true.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

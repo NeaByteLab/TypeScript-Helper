@@ -1,0 +1,13 @@
+{
+  "code": 2764,
+  "message": "Cannot iterate value because the 'next' method of its iterator expects type '{1}', but array spread will always send '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

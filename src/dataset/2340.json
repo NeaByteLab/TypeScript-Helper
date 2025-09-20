@@ -1,0 +1,13 @@
+{
+  "code": 2340,
+  "message": "Only public and protected methods of the base class are accessible via the 'super' keyword.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

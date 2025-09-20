@@ -1,0 +1,13 @@
+{
+  "code": 2396,
+  "message": "Duplicate identifier 'arguments'. Compiler uses 'arguments' to initialize rest parameters.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

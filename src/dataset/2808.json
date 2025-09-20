@@ -1,0 +1,13 @@
+{
+  "code": 2808,
+  "message": "A get accessor must be at least as accessible as the setter",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

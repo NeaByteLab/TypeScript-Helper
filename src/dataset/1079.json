@@ -1,0 +1,13 @@
+{
+  "code": 1079,
+  "message": "A '{0}' modifier cannot be used with an import declaration.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 7051,
+  "message": "Parameter has a name but no type. Did you mean '{0}: {1}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

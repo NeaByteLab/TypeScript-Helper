@@ -1,0 +1,13 @@
+{
+  "code": 4019,
+  "message": "Implements clause of exported class '{0}' has or is using private name '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

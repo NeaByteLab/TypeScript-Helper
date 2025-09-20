@@ -1,0 +1,13 @@
+{
+  "code": 1443,
+  "message": "Module declaration names may only use ' or \" quoted strings.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

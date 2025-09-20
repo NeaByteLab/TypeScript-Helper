@@ -1,0 +1,13 @@
+{
+  "code": 18019,
+  "message": "'{0}' modifier cannot be used with a private identifier.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

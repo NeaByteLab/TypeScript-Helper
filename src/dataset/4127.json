@@ -1,0 +1,13 @@
+{
+  "code": 4127,
+  "message": "This member cannot have an 'override' modifier because its name is dynamic.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

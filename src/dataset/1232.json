@@ -1,0 +1,13 @@
+{
+  "code": 1232,
+  "message": "An import declaration can only be used at the top level of a namespace or module.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

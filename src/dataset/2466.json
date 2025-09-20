@@ -1,0 +1,13 @@
+{
+  "code": 2466,
+  "message": "'super' cannot be referenced in a computed property name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

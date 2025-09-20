@@ -1,0 +1,13 @@
+{
+  "code": 1107,
+  "message": "Jump target cannot cross function boundary.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

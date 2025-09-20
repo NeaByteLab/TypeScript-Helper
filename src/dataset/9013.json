@@ -1,0 +1,13 @@
+{
+  "code": 9013,
+  "message": "Expression type can't be inferred with --isolatedDeclarations.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 6048,
+  "message": "Locale must be of the form <language> or <language>-<territory>. For example '{0}' or '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

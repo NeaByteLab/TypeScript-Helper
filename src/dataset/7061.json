@@ -1,0 +1,13 @@
+{
+  "code": 7061,
+  "message": "A mapped type may not declare properties or methods.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

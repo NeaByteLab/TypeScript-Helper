@@ -1,0 +1,13 @@
+{
+  "code": 6266,
+  "message": "Option '{0}' can only be specified on command line.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

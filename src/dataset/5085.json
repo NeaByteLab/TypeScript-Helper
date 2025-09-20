@@ -1,0 +1,13 @@
+{
+  "code": 5085,
+  "message": "A tuple member cannot be both optional and rest.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

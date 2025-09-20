@@ -1,0 +1,13 @@
+{
+  "code": 18007,
+  "message": "JSX expressions may not use the comma operator. Did you mean to write an array?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

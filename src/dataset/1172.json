@@ -1,0 +1,13 @@
+{
+  "code": 1172,
+  "message": "'extends' clause already seen.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

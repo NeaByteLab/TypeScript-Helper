@@ -1,0 +1,13 @@
+{
+  "code": 1055,
+  "message": "Type '{0}' is not a valid async function return type in ES5 because it does not refer to a Promise-compatible constructor value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

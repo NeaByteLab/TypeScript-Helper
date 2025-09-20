@@ -1,0 +1,13 @@
+{
+  "code": 2752,
+  "message": "The first export default is here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

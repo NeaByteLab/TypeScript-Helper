@@ -1,0 +1,13 @@
+{
+  "code": 2761,
+  "message": "Type '{0}' has no construct signatures.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2328,
+  "message": "Types of parameters '{0}' and '{1}' are incompatible.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

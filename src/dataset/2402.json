@@ -1,0 +1,13 @@
+{
+  "code": 2402,
+  "message": "Expression resolves to '_super' that compiler uses to capture base class reference.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

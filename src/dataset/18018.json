@@ -1,0 +1,13 @@
+{
+  "code": 18018,
+  "message": "The declaration of '{0}' that you probably intended to use is defined here",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

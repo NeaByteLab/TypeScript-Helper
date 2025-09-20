@@ -1,0 +1,13 @@
+{
+  "code": 2783,
+  "message": "'{0}' is specified more than once, so this usage will be overwritten.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

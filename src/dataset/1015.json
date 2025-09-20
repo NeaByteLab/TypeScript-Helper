@@ -1,0 +1,13 @@
+{
+  "code": 1015,
+  "message": "Parameter cannot have question mark and initializer.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

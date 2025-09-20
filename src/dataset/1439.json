@@ -1,0 +1,13 @@
+{
+  "code": 1439,
+  "message": "Type alias must be given a name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 5057,
+  "message": "Cannot find a tsconfig.json file at the specified directory: '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

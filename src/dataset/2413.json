@@ -1,0 +1,13 @@
+{
+  "code": 2413,
+  "message": "'{0}' index type '{1}' is not assignable to '{2}' index type '{3}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

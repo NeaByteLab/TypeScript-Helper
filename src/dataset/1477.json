@@ -1,0 +1,13 @@
+{
+  "code": 1477,
+  "message": "An instantiation expression cannot be followed by a property access.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

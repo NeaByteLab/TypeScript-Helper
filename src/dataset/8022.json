@@ -1,0 +1,13 @@
+{
+  "code": 8022,
+  "message": "JSDoc '@{0}' is not attached to a class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

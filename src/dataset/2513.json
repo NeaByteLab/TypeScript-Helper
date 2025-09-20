@@ -1,0 +1,13 @@
+{
+  "code": 2513,
+  "message": "Abstract method '{0}' in class '{1}' cannot be accessed via super expression.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

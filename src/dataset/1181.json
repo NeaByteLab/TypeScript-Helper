@@ -1,0 +1,13 @@
+{
+  "code": 1181,
+  "message": "Array element destructuring pattern expected.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

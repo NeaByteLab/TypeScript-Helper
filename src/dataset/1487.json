@@ -1,0 +1,13 @@
+{
+  "code": 1487,
+  "message": "Octal escape sequences are not allowed. Use the syntax '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

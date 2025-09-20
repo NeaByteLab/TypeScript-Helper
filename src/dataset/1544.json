@@ -1,0 +1,13 @@
+{
+  "code": 1544,
+  "message": "Named imports from a JSON file into an ECMAScript module are not allowed when 'module' is set to '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

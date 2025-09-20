@@ -1,0 +1,13 @@
+{
+  "code": 5095,
+  "message": "Option '{0}' can only be used when 'module' is set to 'preserve', 'commonjs', or 'es2015' or later.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

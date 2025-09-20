@@ -1,0 +1,13 @@
+{
+  "code": 1288,
+  "message": "An import alias cannot resolve to a type or type-only declaration when 'verbatimModuleSyntax' is enabled.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

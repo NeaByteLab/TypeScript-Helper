@@ -1,0 +1,13 @@
+{
+  "code": 5102,
+  "message": "Option '{0}' has been removed. Please remove it from your configuration.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

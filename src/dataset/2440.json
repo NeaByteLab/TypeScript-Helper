@@ -1,0 +1,13 @@
+{
+  "code": 2440,
+  "message": "Import declaration conflicts with local declaration of '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

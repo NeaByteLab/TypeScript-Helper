@@ -1,0 +1,13 @@
+{
+  "code": 17001,
+  "message": "JSX elements cannot have multiple attributes with the same name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

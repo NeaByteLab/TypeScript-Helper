@@ -1,0 +1,13 @@
+{
+  "code": 2308,
+  "message": "Module {0} has already exported a member named '{1}'. Consider explicitly re-exporting to resolve the ambiguity.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

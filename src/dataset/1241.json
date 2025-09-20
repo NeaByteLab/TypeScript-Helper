@@ -1,0 +1,13 @@
+{
+  "code": 1241,
+  "message": "Unable to resolve signature of method decorator when called as an expression.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

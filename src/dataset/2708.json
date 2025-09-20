@@ -1,0 +1,13 @@
+{
+  "code": 2708,
+  "message": "Cannot use namespace '{0}' as a value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

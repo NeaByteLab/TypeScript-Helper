@@ -1,0 +1,13 @@
+{
+  "code": 2677,
+  "message": "A type predicate's type must be assignable to its parameter's type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

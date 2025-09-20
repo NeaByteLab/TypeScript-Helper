@@ -1,0 +1,13 @@
+{
+  "code": 1261,
+  "message": "Already included file name '{0}' differs from file name '{1}' only in casing.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

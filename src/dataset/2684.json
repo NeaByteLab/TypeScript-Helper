@@ -1,0 +1,13 @@
+{
+  "code": 2684,
+  "message": "The 'this' context of type '{0}' is not assignable to method's 'this' of type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

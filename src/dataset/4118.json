@@ -1,0 +1,13 @@
+{
+  "code": 4118,
+  "message": "The type of this node cannot be serialized because its property '{0}' cannot be serialized.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2489,
+  "message": "An iterator must have a 'next()' method.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1497,
+  "message": "Expression must be enclosed in parentheses to be used as a decorator.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

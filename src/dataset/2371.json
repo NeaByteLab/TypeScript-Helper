@@ -1,0 +1,13 @@
+{
+  "code": 2371,
+  "message": "A parameter initializer is only allowed in a function or constructor implementation.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

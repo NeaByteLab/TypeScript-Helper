@@ -1,0 +1,13 @@
+{
+  "code": 6205,
+  "message": "All type parameters are unused.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

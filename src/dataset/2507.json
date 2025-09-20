@@ -1,0 +1,13 @@
+{
+  "code": 2507,
+  "message": "Type '{0}' is not a constructor function type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2796,
+  "message": "It is likely that you are missing a comma to separate these two template expressions. They form a tagged template expression which cannot be invoked.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

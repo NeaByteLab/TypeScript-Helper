@@ -1,0 +1,13 @@
+{
+  "code": 2699,
+  "message": "Static property '{0}' conflicts with built-in property 'Function.{0}' of constructor function '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

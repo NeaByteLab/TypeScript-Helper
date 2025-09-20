@@ -1,0 +1,13 @@
+{
+  "code": 2602,
+  "message": "JSX element implicitly has type 'any' because the global type 'JSX.Element' does not exist.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

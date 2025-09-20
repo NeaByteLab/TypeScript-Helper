@@ -1,0 +1,13 @@
+{
+  "code": 5063,
+  "message": "Substitutions for pattern '{0}' should be an array.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

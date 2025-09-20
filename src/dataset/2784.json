@@ -1,0 +1,13 @@
+{
+  "code": 2784,
+  "message": "'get' and 'set' accessors cannot declare 'this' parameters.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

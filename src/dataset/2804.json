@@ -1,0 +1,13 @@
+{
+  "code": 2804,
+  "message": "Duplicate identifier '{0}'. Static and instance elements cannot share the same private name.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2657,
+  "message": "JSX expressions must have one parent element.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

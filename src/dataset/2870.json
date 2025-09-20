@@ -1,0 +1,13 @@
+{
+  "code": 2870,
+  "message": "This binary expression is never nullish. Are you missing parentheses?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

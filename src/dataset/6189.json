@@ -1,0 +1,13 @@
+{
+  "code": 6189,
+  "message": "Multiple consecutive numeric separators are not permitted.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

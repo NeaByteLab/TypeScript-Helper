@@ -1,0 +1,13 @@
+{
+  "code": 4004,
+  "message": "Type parameter '{0}' of exported interface has or is using private name '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

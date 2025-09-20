@@ -1,0 +1,13 @@
+{
+  "code": 5042,
+  "message": "Option 'project' cannot be mixed with source files on a command line.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

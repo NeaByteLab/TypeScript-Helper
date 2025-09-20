@@ -1,0 +1,13 @@
+{
+  "code": 1348,
+  "message": "Non-simple parameter declared here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

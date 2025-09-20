@@ -1,0 +1,13 @@
+{
+  "code": 9005,
+  "message": "Declaration emit for this file requires using private name '{0}'. An explicit type annotation may unblock declaration emit.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

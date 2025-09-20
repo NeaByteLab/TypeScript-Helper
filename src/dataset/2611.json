@@ -1,0 +1,13 @@
+{
+  "code": 2611,
+  "message": "'{0}' is defined as a property in class '{1}', but is overridden here in '{2}' as an accessor.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

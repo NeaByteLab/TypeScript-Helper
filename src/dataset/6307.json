@@ -1,0 +1,13 @@
+{
+  "code": 6307,
+  "message": "File '{0}' is not listed within the file list of project '{1}'. Projects must list all files or use an 'include' pattern.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

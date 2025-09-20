@@ -1,0 +1,13 @@
+{
+  "code": 1115,
+  "message": "A 'continue' statement can only jump to a label of an enclosing iteration statement.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 1325,
+  "message": "Argument of dynamic import cannot be spread element.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

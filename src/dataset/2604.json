@@ -1,0 +1,13 @@
+{
+  "code": 2604,
+  "message": "JSX element type '{0}' does not have any construct or call signatures.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

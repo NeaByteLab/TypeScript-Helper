@@ -1,0 +1,13 @@
+{
+  "code": 7014,
+  "message": "Function type, which lacks return-type annotation, implicitly has an '{0}' return type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

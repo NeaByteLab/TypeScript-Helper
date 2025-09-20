@@ -1,0 +1,13 @@
+{
+  "code": 17005,
+  "message": "A constructor cannot contain a 'super' call when its class extends 'null'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

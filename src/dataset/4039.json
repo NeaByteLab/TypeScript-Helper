@@ -1,0 +1,13 @@
+{
+  "code": 4039,
+  "message": "Return type of public static getter '{0}' from exported class has or is using name '{1}' from private module '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

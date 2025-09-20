@@ -1,0 +1,13 @@
+{
+  "code": 5087,
+  "message": "A labeled tuple element is declared as rest with a '...' before the name, rather than before the type.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

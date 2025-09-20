@@ -1,0 +1,13 @@
+{
+  "code": 2852,
+  "message": "'await using' statements are only allowed within async functions and at the top levels of modules.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

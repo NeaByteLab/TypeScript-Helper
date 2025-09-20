@@ -1,0 +1,13 @@
+{
+  "code": 2707,
+  "message": "Generic type '{0}' requires between {1} and {2} type arguments.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

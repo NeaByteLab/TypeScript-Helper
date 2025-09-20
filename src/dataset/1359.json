@@ -1,0 +1,13 @@
+{
+  "code": 1359,
+  "message": "Identifier expected. '{0}' is a reserved word that cannot be used here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

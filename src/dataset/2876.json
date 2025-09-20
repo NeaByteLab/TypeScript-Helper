@@ -1,0 +1,13 @@
+{
+  "code": 2876,
+  "message": "This relative import path is unsafe to rewrite because it looks like a file name, but actually resolves to \"{0}\".",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

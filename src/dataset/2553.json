@@ -1,0 +1,13 @@
+{
+  "code": 2553,
+  "message": "Computed values are not permitted in an enum with string valued members.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

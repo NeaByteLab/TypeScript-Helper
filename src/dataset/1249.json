@@ -1,0 +1,13 @@
+{
+  "code": 1249,
+  "message": "A decorator can only decorate a method implementation, not an overload.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

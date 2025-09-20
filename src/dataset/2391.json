@@ -1,0 +1,13 @@
+{
+  "code": 2391,
+  "message": "Function implementation is missing or not immediately following the declaration.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

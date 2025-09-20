@@ -1,0 +1,13 @@
+{
+  "code": 2481,
+  "message": "Cannot initialize outer scoped variable '{0}' in the same scope as block scoped declaration '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

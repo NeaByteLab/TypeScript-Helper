@@ -1,0 +1,13 @@
+{
+  "code": 9008,
+  "message": "Method must have an explicit return type annotation with --isolatedDeclarations.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

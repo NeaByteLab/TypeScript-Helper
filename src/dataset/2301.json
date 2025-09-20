@@ -1,0 +1,13 @@
+{
+  "code": 2301,
+  "message": "Initializer of instance member variable '{0}' cannot reference identifier '{1}' declared in the constructor.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 9018,
+  "message": "Arrays with spread elements can't inferred with --isolatedDeclarations.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

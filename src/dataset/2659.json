@@ -1,0 +1,13 @@
+{
+  "code": 2659,
+  "message": "'super' is only allowed in members of object literal expressions when option 'target' is 'ES2015' or higher.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

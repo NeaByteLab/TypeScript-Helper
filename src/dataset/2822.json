@@ -1,0 +1,13 @@
+{
+  "code": 2822,
+  "message": "Import assertions cannot be used with type-only imports or exports.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

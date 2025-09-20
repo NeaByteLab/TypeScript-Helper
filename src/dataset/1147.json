@@ -1,0 +1,13 @@
+{
+  "code": 1147,
+  "message": "Import declarations in a namespace cannot reference a module.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

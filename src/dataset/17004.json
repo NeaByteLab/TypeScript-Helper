@@ -1,0 +1,13 @@
+{
+  "code": 17004,
+  "message": "Cannot use JSX unless the '--jsx' flag is provided.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

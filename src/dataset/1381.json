@@ -1,0 +1,13 @@
+{
+  "code": 1381,
+  "message": "Unexpected token. Did you mean `{'}'}` or `&rbrace;`?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

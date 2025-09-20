@@ -1,0 +1,13 @@
+{
+  "code": 5093,
+  "message": "Compiler option '--{0}' may only be used with '--build'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

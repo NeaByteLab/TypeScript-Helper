@@ -1,0 +1,13 @@
+{
+  "code": 1528,
+  "message": "Any Unicode property that would possibly match more than a single character is only available when the Unicode Sets (v) flag is set.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

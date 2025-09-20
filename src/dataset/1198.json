@@ -1,0 +1,13 @@
+{
+  "code": 1198,
+  "message": "An extended Unicode escape value must be between 0x0 and 0x10FFFF inclusive.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

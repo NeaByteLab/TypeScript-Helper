@@ -1,0 +1,13 @@
+{
+  "code": 1174,
+  "message": "Classes can only extend a single class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

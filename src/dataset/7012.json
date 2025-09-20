@@ -1,0 +1,13 @@
+{
+  "code": 7012,
+  "message": "This overload implicitly returns the type '{0}' because it lacks a return type annotation.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

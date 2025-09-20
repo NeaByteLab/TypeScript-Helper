@@ -1,0 +1,13 @@
+{
+  "code": 1351,
+  "message": "An identifier or keyword cannot immediately follow a numeric literal.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

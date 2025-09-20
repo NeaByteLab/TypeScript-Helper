@@ -1,0 +1,13 @@
+{
+  "code": 5051,
+  "message": "Option '{0} can only be used when either option '--inlineSourceMap' or option '--sourceMap' is provided.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

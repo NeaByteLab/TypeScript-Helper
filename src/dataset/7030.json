@@ -1,0 +1,13 @@
+{
+  "code": 7030,
+  "message": "Not all code paths return a value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

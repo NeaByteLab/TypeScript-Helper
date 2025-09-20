@@ -1,0 +1,13 @@
+{
+  "code": 2673,
+  "message": "Constructor of class '{0}' is private and only accessible within the class declaration.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

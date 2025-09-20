@@ -1,0 +1,13 @@
+{
+  "code": 1231,
+  "message": "An export assignment must be at the top level of a file or module declaration.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

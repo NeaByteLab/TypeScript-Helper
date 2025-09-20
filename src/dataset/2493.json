@@ -1,0 +1,13 @@
+{
+  "code": 2493,
+  "message": "Tuple type '{0}' of length '{1}' has no element at index '{2}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

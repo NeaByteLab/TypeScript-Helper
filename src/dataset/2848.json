@@ -1,0 +1,13 @@
+{
+  "code": 2848,
+  "message": "The right-hand side of an 'instanceof' expression must not be an instantiation expression.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

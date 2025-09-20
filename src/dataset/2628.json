@@ -1,0 +1,13 @@
+{
+  "code": 2628,
+  "message": "Cannot assign to '{0}' because it is an enum.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

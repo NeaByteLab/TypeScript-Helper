@@ -1,0 +1,13 @@
+{
+  "code": 2664,
+  "message": "Invalid module name in augmentation, module '{0}' cannot be found.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

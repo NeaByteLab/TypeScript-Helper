@@ -1,0 +1,13 @@
+{
+  "code": 1051,
+  "message": "A 'set' accessor cannot have an optional parameter.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

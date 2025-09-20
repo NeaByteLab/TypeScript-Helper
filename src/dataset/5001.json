@@ -1,0 +1,13 @@
+{
+  "code": 5001,
+  "message": "The current host does not support the '{0}' option.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

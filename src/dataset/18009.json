@@ -1,0 +1,13 @@
+{
+  "code": 18009,
+  "message": "Private identifiers cannot be used as parameters.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

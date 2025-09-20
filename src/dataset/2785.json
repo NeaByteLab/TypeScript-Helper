@@ -1,0 +1,13 @@
+{
+  "code": 2785,
+  "message": "This spread always overwrites this property.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

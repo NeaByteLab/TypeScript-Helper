@@ -1,0 +1,13 @@
+{
+  "code": 4111,
+  "message": "Property '{0}' comes from an index signature, so it must be accessed with ['{0}'].",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

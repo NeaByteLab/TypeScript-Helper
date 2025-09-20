@@ -1,0 +1,13 @@
+{
+  "code": 1534,
+  "message": "This backreference refers to a group that does not exist. There are no capturing groups in this regular expression.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

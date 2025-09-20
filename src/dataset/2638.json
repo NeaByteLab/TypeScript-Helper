@@ -1,0 +1,13 @@
+{
+  "code": 2638,
+  "message": "Type '{0}' may represent a primitive value, which is not permitted as the right operand of the 'in' operator.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 8020,
+  "message": "JSDoc types can only be used inside documentation comments.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

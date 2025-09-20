@@ -1,0 +1,13 @@
+{
+  "code": 4114,
+  "message": "This member must have an 'override' modifier because it overrides a member in the base class '{0}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

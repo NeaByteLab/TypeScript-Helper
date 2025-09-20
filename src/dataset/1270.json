@@ -1,0 +1,13 @@
+{
+  "code": 1270,
+  "message": "Decorator function return type '{0}' is not assignable to type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

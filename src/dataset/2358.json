@@ -1,0 +1,13 @@
+{
+  "code": 2358,
+  "message": "The left-hand side of an 'instanceof' expression must be of type 'any', an object type or a type parameter.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

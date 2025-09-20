@@ -1,0 +1,13 @@
+{
+  "code": 2542,
+  "message": "Index signature in type '{0}' only permits reading.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

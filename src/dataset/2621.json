@@ -1,0 +1,13 @@
+{
+  "code": 2621,
+  "message": "Target allows only {0} element(s) but source may have more.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

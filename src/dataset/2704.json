@@ -1,0 +1,13 @@
+{
+  "code": 2704,
+  "message": "The operand of a 'delete' operator cannot be a read-only property.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

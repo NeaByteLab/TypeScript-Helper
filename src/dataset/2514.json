@@ -1,0 +1,13 @@
+{
+  "code": 2514,
+  "message": "A tuple type cannot be indexed with a negative value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

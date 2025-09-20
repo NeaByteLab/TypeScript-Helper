@@ -1,0 +1,13 @@
+{
+  "code": 2797,
+  "message": "A mixin class that extends from a type variable containing an abstract construct signature must also be declared 'abstract'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

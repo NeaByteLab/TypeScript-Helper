@@ -1,0 +1,13 @@
+{
+  "code": 2865,
+  "message": "Import '{0}' conflicts with local value, so must be declared with a type-only import when 'isolatedModules' is enabled.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

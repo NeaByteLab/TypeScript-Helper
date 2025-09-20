@@ -1,0 +1,13 @@
+{
+  "code": 8009,
+  "message": "The '{0}' modifier can only be used in TypeScript files.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

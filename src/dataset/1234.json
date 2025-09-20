@@ -1,0 +1,13 @@
+{
+  "code": 1234,
+  "message": "An ambient module declaration is only allowed at the top level in a file.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

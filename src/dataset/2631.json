@@ -1,0 +1,13 @@
+{
+  "code": 2631,
+  "message": "Cannot assign to '{0}' because it is a namespace.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

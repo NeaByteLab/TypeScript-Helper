@@ -1,0 +1,13 @@
+{
+  "code": 7059,
+  "message": "This syntax is reserved in files with the .mts or .cts extension. Use an `as` expression instead.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

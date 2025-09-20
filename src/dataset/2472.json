@@ -1,0 +1,13 @@
+{
+  "code": 2472,
+  "message": "Spread operator in 'new' expressions is only available when targeting ECMAScript 5 and higher.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

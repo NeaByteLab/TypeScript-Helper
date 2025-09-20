@@ -1,0 +1,13 @@
+{
+  "code": 2842,
+  "message": "'{0}' is an unused renaming of '{1}'. Did you intend to use it as a type annotation?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

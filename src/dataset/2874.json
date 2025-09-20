@@ -1,0 +1,13 @@
+{
+  "code": 2874,
+  "message": "This JSX tag requires '{0}' to be in scope, but it could not be found.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

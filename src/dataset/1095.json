@@ -1,0 +1,13 @@
+{
+  "code": 1095,
+  "message": "A 'set' accessor cannot have a return type annotation.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

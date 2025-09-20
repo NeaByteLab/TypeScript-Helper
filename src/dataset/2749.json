@@ -1,0 +1,13 @@
+{
+  "code": 2749,
+  "message": "'{0}' refers to a value, but is being used as a type here. Did you mean 'typeof {0}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

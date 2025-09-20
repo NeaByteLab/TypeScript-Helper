@@ -1,0 +1,13 @@
+{
+  "code": 2520,
+  "message": "Duplicate identifier '{0}'. Compiler uses declaration '{1}' to support async functions.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

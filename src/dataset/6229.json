@@ -1,0 +1,13 @@
+{
+  "code": 6229,
+  "message": "Tag '{0}' expects at least '{1}' arguments, but the JSX factory '{2}' provides at most '{3}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

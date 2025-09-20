@@ -1,0 +1,13 @@
+{
+  "code": 4110,
+  "message": "Tuple type arguments circularly reference themselves.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

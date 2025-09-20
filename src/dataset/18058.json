@@ -1,0 +1,13 @@
+{
+  "code": 18058,
+  "message": "Default imports are not allowed in a deferred import.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

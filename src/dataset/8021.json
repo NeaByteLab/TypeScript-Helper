@@ -1,0 +1,13 @@
+{
+  "code": 8021,
+  "message": "JSDoc '@typedef' tag should either have a type annotation or be followed by '@property' or '@member' tags.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

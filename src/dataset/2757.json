@@ -1,0 +1,13 @@
+{
+  "code": 2757,
+  "message": "Type '{0}' has no call signatures.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

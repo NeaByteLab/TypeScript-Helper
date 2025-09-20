@@ -1,0 +1,13 @@
+{
+  "code": 2843,
+  "message": "We can only write a type for '{0}' by adding a type for the entire parameter here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

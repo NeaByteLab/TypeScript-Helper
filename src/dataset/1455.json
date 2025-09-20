@@ -1,0 +1,13 @@
+{
+  "code": 1455,
+  "message": "`resolution-mode` is the only valid key for type import assertions.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

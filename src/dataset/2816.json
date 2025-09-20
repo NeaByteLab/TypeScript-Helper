@@ -1,0 +1,13 @@
+{
+  "code": 2816,
+  "message": "Cannot use 'this' in a static property initializer of a decorated class.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

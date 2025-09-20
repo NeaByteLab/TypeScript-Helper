@@ -1,0 +1,13 @@
+{
+  "code": 2559,
+  "message": "Type '{0}' has no properties in common with type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

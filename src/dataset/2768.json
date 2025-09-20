@@ -1,0 +1,13 @@
+{
+  "code": 2768,
+  "message": "The '{0}' property of an async iterator must be a method.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

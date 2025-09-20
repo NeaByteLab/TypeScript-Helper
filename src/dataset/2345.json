@@ -1,0 +1,13 @@
+{
+  "code": 2345,
+  "message": "Argument of type '{0}' is not assignable to parameter of type '{1}'.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

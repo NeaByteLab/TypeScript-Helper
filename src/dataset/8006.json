@@ -1,0 +1,13 @@
+{
+  "code": 8006,
+  "message": "'{0}' declarations can only be used in TypeScript files.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

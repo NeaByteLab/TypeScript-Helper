@@ -1,0 +1,13 @@
+{
+  "code": 1339,
+  "message": "Module '{0}' does not refer to a value, but is used as a value here.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

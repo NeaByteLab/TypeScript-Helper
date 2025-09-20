@@ -1,0 +1,13 @@
+{
+  "code": 1525,
+  "message": "Expected a Unicode property value.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

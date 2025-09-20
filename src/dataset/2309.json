@@ -1,0 +1,13 @@
+{
+  "code": 2309,
+  "message": "An export assignment cannot be used in a module with other exported elements.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

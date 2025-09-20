@@ -1,0 +1,13 @@
+{
+  "code": 1024,
+  "message": "'readonly' modifier can only appear on a property declaration or index signature.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

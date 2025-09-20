@@ -1,0 +1,13 @@
+{
+  "code": 5077,
+  "message": "Unknown build option '{0}'. Did you mean '{1}'?",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

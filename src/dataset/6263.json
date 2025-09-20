@@ -1,0 +1,13 @@
+{
+  "code": 6263,
+  "message": "Module '{0}' was resolved to '{1}', but '--allowArbitraryExtensions' is not set.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

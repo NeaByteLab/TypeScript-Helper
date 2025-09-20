@@ -1,0 +1,13 @@
+{
+  "code": 1269,
+  "message": "Cannot use 'export import' on a type or type-only namespace when '{0}' is enabled.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

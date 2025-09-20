@@ -1,0 +1,13 @@
+{
+  "code": 1470,
+  "message": "The 'import.meta' meta-property is not allowed in files which will build into CommonJS output.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "code": 2544,
+  "message": "Expression resolves to variable declaration '_newTarget' that compiler uses to capture 'new.target' meta-property reference.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}

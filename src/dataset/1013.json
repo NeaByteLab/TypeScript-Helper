@@ -1,0 +1,13 @@
+{
+  "code": 1013,
+  "message": "A rest parameter or binding pattern may not have a trailing comma.",
+  "regex": "/N/A/g",
+  "suggestion": "N/A",
+  "example": [
+    {
+      "base": "N/A",
+      "fixed": "N/A",
+      "description": "N/A"
+    }
+  ]
+}
