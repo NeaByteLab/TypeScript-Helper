@@ -33,26 +33,6 @@ Move optional parameters after required parameters. Required parameters must com
 
 **Explanation:** Move optional parameter after required parameter
 
-### Example 3: Complex types
-```diff
-- function test(x?: string | number, y: boolean) {
-+ function test(y: boolean, x?: string | number) {
-  return { x, y }
-}
-```
-
-**Explanation:** Required parameters with complex types must come before optional ones
-
-### Example 4: Multiple parameters
-```diff
-- function complex(a?: string, b?: number, c: boolean) {
-+ function complex(c: boolean, a?: string, b?: number) {
-  return { a, b, c }
-}
-```
-
-**Explanation:** All required parameters must come before optional ones
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

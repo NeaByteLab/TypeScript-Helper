@@ -14,21 +14,6 @@
       "base": "const greetArrow = (name?: string = \"Guest\") => {",
       "fixed": "const greetArrow = (name: string = \"Guest\") => {",
       "description": "Arrow function parameters with default values don't need the '?'"
-    },
-    {
-      "base": "class Greeter {\n  greet(name?: string = \"Guest\") {\n    console.log(`Hello, ${name}!`)\n  }\n}",
-      "fixed": "class Greeter {\n  greet(name: string = \"Guest\") {\n    console.log(`Hello, ${name}!`)\n  }\n}",
-      "description": "Method parameters with default values don't need the '?'"
-    },
-    {
-      "base": "function genericFunction<T>(value?: T = null): T | null {",
-      "fixed": "function genericFunction<T>(value: T = null): T | null {",
-      "description": "Generic function parameters with default values don't need the '?'"
-    },
-    {
-      "base": "function withCallback(callback?: (value: string) => void = (v) => console.log(v)) {",
-      "fixed": "function withCallback(callback: (value: string) => void = (v) => console.log(v)) {",
-      "description": "Callback parameters with default values don't need the '?'"
     }
   ]
 }

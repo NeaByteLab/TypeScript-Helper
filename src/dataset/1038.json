@@ -14,11 +14,6 @@
       "base": "declare namespace MyNamespace {\n  declare interface Config {\n    name: string\n  }\n}",
       "fixed": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n}",
       "description": "Remove declare modifier from interface in ambient namespace"
-    },
-    {
-      "base": "declare module \"utils\" {\n  declare export function helper(): void\n}",
-      "fixed": "declare module \"utils\" {\n  export function helper(): void\n}",
-      "description": "Remove declare modifier from function in ambient module"
     }
   ]
 }

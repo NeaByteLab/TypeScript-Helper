@@ -15,35 +15,23 @@ Remove async modifier from ambient context. Ambient contexts (declare module, de
 
 ### Example 1: Async function in declare module
 ```diff
-- declare module "test" {
--   async function helper(): Promise<void>
-- }
-+ declare module "test" {
-+   function helper(): Promise<void>
-+ }
+declare module "test" {
+-  async function helper(): Promise<void>
++  function helper(): Promise<void>
+}
 ```
 
 **Explanation:** Remove async modifier from function declaration in ambient module
 
 ### Example 2: Async function in declare namespace
 ```diff
-- declare namespace MyNamespace {
--   async function process(): Promise<string>
-- }
-+ declare namespace MyNamespace {
-+   function process(): Promise<string>
-+ }
+declare namespace MyNamespace {
+-  async function process(): Promise<string>
++  function process(): Promise<string>
+}
 ```
 
 **Explanation:** Remove async modifier from function declaration in ambient namespace
-
-### Example 3: Async function in ambient declaration
-```diff
-- declare async function globalHelper(): Promise<void>
-+ declare function globalHelper(): Promise<void>
-```
-
-**Explanation:** Remove async modifier from global ambient function declaration
 
 ## 🖼️ Visual Output
 ### Command

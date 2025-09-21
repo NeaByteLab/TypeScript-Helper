@@ -15,53 +15,28 @@ Add parentheses or member access after super. The super keyword must be followed
 
 ### Example 1: Super in constructor
 ```diff
-- class Child extends Parent {
--   constructor() {
+class Child extends Parent {
+   constructor() {
 -     super
--   }
-- }
-+ class Child extends Parent {
-+   constructor() {
 +     super()
-+   }
-+ }
+   }
+}
 ```
 
 **Explanation:** Add parentheses to call parent constructor
 
 ### Example 2: Super in method
 ```diff
-- class Child extends Parent {
--   method() {
--     super
--     return 'test'
--   }
-- }
-+ class Child extends Parent {
-+   method() {
-+     super.method()
-+     return 'test'
-+   }
-+ }
+class Child extends Parent {
+   method() {
+-    super
++    super.method()
+     return 'test'
+   }
+ }
 ```
 
 **Explanation:** Add member access to call parent method
-
-### Example 3: Super in return statement
-```diff
-- class Child extends Parent {
--   getValue() {
--     return super
--   }
-- }
-+ class Child extends Parent {
-+   getValue() {
-+     return super.getValue()
-+   }
-+ }
-```
-
-**Explanation:** Add method call to access parent method
 
 ## 🖼️ Visual Output
 ### Command

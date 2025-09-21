@@ -15,33 +15,33 @@ Remove parameters from get accessor. Get accessors cannot have parameters - they
 
 ### Example 1: Get accessor with single parameter
 ```diff
-  class TestClass {
-    private _value: string = ''
+class TestClass {
+   private _value: string = ''
 
--   get value(param: string): string {
--     return this._value + param
-+   get value(): string {
-+     return this._value
-    }
+-  get value(param: string): string {
+-    return this._value + param
++  get value(): string {
++    return this._value
+   }
 
-    set value(newValue: string) {
-      this._value = newValue
-    }
-  }
+   set value(newValue: string) {
+     this._value = newValue
+   }
+}
 ```
 
 **Explanation:** Remove parameters from get accessor
 
 ### Example 2: Get accessor with optional parameter
 ```diff
-  class MyClass {
-    private _config: any
+class MyClass {
+   private _config: any
 
--   get config(optional?: boolean): any {
-+   get config(): any {
-      return this._config
-    }
-  }
+-  get config(optional?: boolean): any {
++  get config(): any {
+     return this._config
+   }
+}
 ```
 
 **Explanation:** Remove parameters from get accessor with optional parameter

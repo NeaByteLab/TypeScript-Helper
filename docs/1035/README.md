@@ -15,43 +15,25 @@ Add declare keyword to make it an ambient module. Only ambient modules (declare 
 
 ### Example 1: Basic module declaration
 ```diff
-- module "my-module" {
--   export const value = 42
-- }
-+ declare module "my-module" {
-+   export const value = 42
-+ }
+-  module "my-module" {
++  declare module "my-module" {
+     export const value = 42
+   }
 ```
 
 **Explanation:** Add declare keyword to make it an ambient module
 
 ### Example 2: Type definitions module
 ```diff
-- module "@types/node" {
--   export interface Process {
--     env: any
--   }
-- }
-+ declare module "@types/node" {
-+   export interface Process {
-+     env: any
-+   }
-+ }
+-  module "@types/node" {
++  declare module "@types/node" {
+     export interface Process {
+       env: any
+     }
+   }
 ```
 
 **Explanation:** Convert to ambient module declaration with declare keyword
-
-### Example 3: Custom package module
-```diff
-- module "custom-package" {
--   export function helper(): void
-- }
-+ declare module "custom-package" {
-+   export function helper(): void
-+ }
-```
-
-**Explanation:** Make module declaration ambient by adding declare keyword
 
 ## 🖼️ Visual Output
 ### Command

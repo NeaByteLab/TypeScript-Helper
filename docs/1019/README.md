@@ -37,18 +37,6 @@ Remove question mark from index signature parameter. Index signature parameters 
 
 **Explanation:** Remove optional modifier from index signature parameter
 
-### Example 3: Different type
-```diff
-- interface ConfigInterface {
--   [name?: number]: boolean
-- }
-+ interface ConfigInterface {
-+   [name: string]: boolean
-- }
-```
-
-**Explanation:** Index signature parameters must be required, not optional
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

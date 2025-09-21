@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  async config = {}\n}",
       "fixed": "class DataClass {\n  config = {}\n}",
       "description": "Remove async modifier from class property, use async method instead"
-    },
-    {
-      "base": "const async value = 'test'",
-      "fixed": "const value = 'test'",
-      "description": "Remove async modifier from variable declaration"
     }
   ]
 }

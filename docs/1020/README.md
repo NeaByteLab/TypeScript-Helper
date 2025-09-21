@@ -15,39 +15,23 @@ Remove initializer from index signature parameter. Index signature parameters ca
 
 ### Example 1: Basic initializer in index signature
 ```diff
-- interface MyInterface {
--   [key: string = 'default']: any
-- }
-+ interface MyInterface {
-+   [key: string]: any
-+ }
+interface MyInterface {
+-  [key: string = 'default']: any
++  [key: string]: any
+}
 ```
 
 **Explanation:** Index signature parameters cannot have default values, remove the initializer
 
 ### Example 2: Different variable name and value
 ```diff
-- interface DataInterface {
--   [prop: string = 'value']: unknown
-- }
-+ interface DataInterface {
-+   [prop: string]: unknown
-+ }
+interface DataInterface {
+-  [prop: string = 'value']: unknown
++  [prop: string]: unknown
+}
 ```
 
 **Explanation:** Remove default value from index signature parameter
-
-### Example 3: Different type and value
-```diff
-- interface ConfigInterface {
--   [name: string = 123]: boolean
-- }
-+ interface ConfigInterface {
-+   [name: string]: boolean
-+ }
-```
-
-**Explanation:** Index signature parameters cannot have initializers
 
 ## 🖼️ Visual Output
 ### Command

@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  import process() {\n    return 'data'\n  }\n}",
       "fixed": "class DataClass {\n  process() {\n    return 'data'\n  }\n}",
       "description": "Remove import modifier from class method declaration"
-    },
-    {
-      "base": "class ConfigClass {\n  export calculate() {\n    return 42\n  }\n}",
-      "fixed": "class ConfigClass {\n  calculate() {\n    return 42\n  }\n}",
-      "description": "Remove export modifier from class method, use on class declaration instead"
     }
   ]
 }

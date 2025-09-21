@@ -14,11 +14,6 @@
       "base": "const process = (...items: number[] = [1, 2, 3]) => items",
       "fixed": "const process = (...items: number[]) => items",
       "description": "Remove initializer from rest parameter in arrow function"
-    },
-    {
-      "base": "function helper(...params: any[] = []) {\n  console.log(params)\n}",
-      "fixed": "function helper(...params: any[]) {\n  console.log(params)\n}",
-      "description": "Remove empty array initializer from rest parameter"
     }
   ]
 }

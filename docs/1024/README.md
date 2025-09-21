@@ -15,51 +15,27 @@ Remove 'readonly' modifier from method declaration. The 'readonly' modifier can 
 
 ### Example 1: Readonly modifier on method
 ```diff
-- class MyClass {
--   readonly method() {
--     return 'test'
--   }
-- }
-+ class MyClass {
-+   method() {
-+     return 'test'
-+   }
-+ }
+class MyClass {
+-  readonly method() {
++  method() {
+     return 'test'
+   }
+}
 ```
 
 **Explanation:** Remove readonly modifier from method declaration
 
 ### Example 2: Different method name
 ```diff
-- class DataClass {
--   readonly process() {
--     return 'data'
--   }
-- }
-+ class DataClass {
-+   process() {
-+     return 'data'
-+   }
-+ }
+class DataClass {
+-  readonly process() {
++  process() {
+     return 'data'
+   }
+}
 ```
 
 **Explanation:** Readonly modifier cannot be used on methods
-
-### Example 3: Different class name
-```diff
-- class ConfigClass {
--   readonly calculate() {
--     return 42
--   }
-- }
-+ class ConfigClass {
-+   calculate() {
-+     return 42
-+   }
-+ }
-```
-
-**Explanation:** Remove readonly modifier from method, use on properties instead
 
 ## 🖼️ Visual Output
 ### Command

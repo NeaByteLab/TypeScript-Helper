@@ -15,46 +15,26 @@ Remove executable statements from ambient context. Ambient contexts (declare mod
 
 ### Example 1: Console.log in ambient module
 ```diff
-- declare module "my-module" {
--   const value = 42
--   console.log(value)
-- }
-+ declare module "my-module" {
-+   const value: number
-+ }
+declare module "my-module" {
+-  const value = 42
++  const value: number
+   console.log(value)
+}
 ```
 
 **Explanation:** Remove console.log statement and add type annotation instead of initializer
 
 ### Example 2: Debugger in ambient namespace
 ```diff
-- declare namespace MyNamespace {
--   interface Config {
--     name: string
--   }
--   debugger
-- }
-+ declare namespace MyNamespace {
-+   interface Config {
-+     name: string
-+   }
-+ }
+declare namespace MyNamespace {
+   interface Config {
+     name: string
+   }
+-  debugger
+}
 ```
 
 **Explanation:** Remove debugger statement from ambient namespace
-
-### Example 3: If statement in ambient module
-```diff
-- declare module "utils" {
--   export function helper(): void
--   if (true) { return }
-- }
-+ declare module "utils" {
-+   export function helper(): void
-+ }
-```
-
-**Explanation:** Remove if statement from ambient module context
 
 ## 🖼️ Visual Output
 ### Command

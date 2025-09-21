@@ -15,39 +15,23 @@ Remove initializer from ambient context. Ambient contexts (declare module, decla
 
 ### Example 1: Number initializer in ambient module
 ```diff
-- declare module "my-module" {
--   const value: number = 42
-- }
-+ declare module "my-module" {
-+   const value: number
-+ }
+declare module "my-module" {
+-  const value: number = 42
++  const value: number
+}
 ```
 
 **Explanation:** Remove initializer from const declaration in ambient module
 
 ### Example 2: String initializer in ambient namespace
 ```diff
-- declare namespace MyNamespace {
--   const config: string = 'default'
-- }
-+ declare namespace MyNamespace {
-+   const config: string
-+ }
+declare namespace MyNamespace {
+-  const config: string = 'default'
++  const config: string
+}
 ```
 
 **Explanation:** Remove initializer from const declaration in ambient namespace
-
-### Example 3: Function initializer in ambient module
-```diff
-- declare module "utils" {
--   export const helper: () => void = () => {}
-- }
-+ declare module "utils" {
-+   export const helper: () => void
-+ }
-```
-
-**Explanation:** Remove function initializer from const declaration in ambient module
 
 ## 🖼️ Visual Output
 ### Command

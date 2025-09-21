@@ -14,11 +14,6 @@
       "base": "module \"@types/node\" {\n  export interface Process {\n    env: any\n  }\n}",
       "fixed": "declare module \"@types/node\" {\n  export interface Process {\n    env: any\n  }\n}",
       "description": "Convert to ambient module declaration with declare keyword"
-    },
-    {
-      "base": "module \"custom-package\" {\n  export function helper(): void\n}",
-      "fixed": "declare module \"custom-package\" {\n  export function helper(): void\n}",
-      "description": "Make module declaration ambient by adding declare keyword"
     }
   ]
 }

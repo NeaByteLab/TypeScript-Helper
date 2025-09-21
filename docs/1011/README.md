@@ -29,62 +29,6 @@ Add an index or property name inside the square brackets for element access
 
 **Explanation:** Object property access requires a property name inside the brackets
 
-### Example 3: Empty string character access
-```diff
-- const char = str[]
-+ const char = str[0]
-```
-
-**Explanation:** String character access requires an index inside the brackets
-
-### Example 4: Function call result access
-```diff
-- const result = getArray()[]
-+ const result = getArray()[0]
-```
-
-**Explanation:** Function call result access requires an index inside the brackets
-
-### Example 5: Variable array access
-```diff
-- let item = numbers[]
-+ let item = numbers[0]
-```
-
-**Explanation:** Variable array access requires an index inside the brackets
-
-### Example 6: Expression array access
-```diff
-- const sum = (arr[0] + arr[1] + arr[])
-+ const sum = (arr[0] + arr[1] + arr[2])
-```
-
-**Explanation:** Expression array access requires an index inside the brackets
-
-### Example 7: Function parameter access
-```diff
-- function processItem(item: any) {
--   return item[]
-- }
-+ function processItem(item: any) {
-+   return item[0]
-+ }
-```
-
-**Explanation:** Function parameter access requires an index inside the brackets
-
-### Example 8: Return statement array access
-```diff
-- function getFirstItem(arr: number[]) {
--   return arr[]
-- }
-+ function getFirstItem(arr: number[]) {
-+   return arr[0]
-+ }
-```
-
-**Explanation:** Return statement array access requires an index inside the brackets
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

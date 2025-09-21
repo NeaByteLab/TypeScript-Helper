@@ -14,11 +14,6 @@
       "base": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n  debugger\n}",
       "fixed": "declare namespace MyNamespace {\n  interface Config {\n    name: string\n  }\n}",
       "description": "Remove debugger statement from ambient namespace"
-    },
-    {
-      "base": "declare module \"utils\" {\n  export function helper(): void\n  if (true) { return }\n}",
-      "fixed": "declare module \"utils\" {\n  export function helper(): void\n}",
-      "description": "Remove if statement from ambient module context"
     }
   ]
 }

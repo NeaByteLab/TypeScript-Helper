@@ -15,47 +15,25 @@ Reorder modifiers correctly. Accessibility modifiers (public, private, protected
 
 ### Example 1: Static before public
 ```diff
-- class MyClass {
--   static public method() {
--     return 'test'
--   }
-- }
-+ class MyClass {
-+   public static method() {
-+     return 'test'
-+   }
-+ }
+class MyClass {
+-  static public method() {
++  public static method() {
+     return 'test'
+   }
+}
 ```
 
 **Explanation:** Move public modifier before static modifier
 
 ### Example 2: Static before private
 ```diff
-- class DataClass {
--   static private property = 'data'
-- }
-+ class DataClass {
-+   private static property = 'data'
-+ }
+class DataClass {
+-  static private property = 'data'
++  private static property = 'data'
+}
 ```
 
 **Explanation:** Move private modifier before static modifier
-
-### Example 3: Static before protected
-```diff
-- class ConfigClass {
--   static protected calculate() {
--     return 42
--   }
-- }
-+ class ConfigClass {
-+   protected static calculate() {
-+     return 42
-+   }
-+ }
-```
-
-**Explanation:** Move protected modifier before static modifier
 
 ## 🖼️ Visual Output
 ### Command

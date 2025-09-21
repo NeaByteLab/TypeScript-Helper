@@ -15,102 +15,31 @@ Change return type to Promise<T> or use a Promise-compatible type. Async functio
 
 ### Example 1: Custom Promise class as return type
 ```diff
-  class CustomPromise {
-    constructor(executor: any) {}
-  }
+class CustomPromise {
+  constructor(executor: any) {}
+}
 
 - async function testAsync(): CustomPromise {
 + async function testAsync(): Promise<CustomPromise> {
     return new CustomPromise(() => {})
-  }
+}
 ```
 
 **Explanation:** Change return type to Promise for async function
 
 ### Example 2: Custom type as return type
 ```diff
-  class MyType {
-    value: string
-  }
+class MyType {
+  value: string
+}
 
 - async function getData(): MyType {
 + async function getData(): Promise<MyType> {
     return new MyType()
-  }
+}
 ```
 
 **Explanation:** Wrap return type in Promise for async function
-
-### Example 3: Interface as return type
-```diff
-  interface UserData {
-    id: number
-    name: string
-  }
-
-- async function fetchUser(): UserData {
-+ async function fetchUser(): Promise<UserData> {
-    return { id: 1, name: 'John' }
-  }
-```
-
-**Explanation:** Wrap interface return type in Promise for async function
-
-### Example 4: Generic type as return type
-```diff
-  class ApiResponse<T> {
-    data: T
-  }
-
-- async function fetchData(): ApiResponse<string> {
-+ async function fetchData(): Promise<ApiResponse<string>> {
-    return new ApiResponse<string>()
-  }
-```
-
-**Explanation:** Wrap generic type return type in Promise for async function
-
-### Example 5: Union type as return type
-```diff
-  type Result = 'success' | 'error'
-  
-- async function process(): Result {
-+ async function process(): Promise<Result> {
-    return 'success'
-  }
-```
-
-**Explanation:** Wrap union type return type in Promise for async function
-
-### Example 6: Array type as return type
-```diff
-- async function getItems(): string[] {
-+ async function getItems(): Promise<string[]> {
-    return ['item1', 'item2']
-  }
-```
-
-**Explanation:** Wrap array type return type in Promise for async function
-
-### Example 7: Object type as return type
-```diff
-- async function getConfig(): { apiUrl: string; timeout: number } {
-+ async function getConfig(): Promise<{ apiUrl: string; timeout: number }> {
-    return { apiUrl: 'https://api.example.com', timeout: 5000 }
-  }
-```
-
-**Explanation:** Wrap object type return type in Promise for async function
-
-### Example 8: Function type as return type
-```diff
-- async function getHandler(): () => void {
-+ async function getHandler(): Promise<() => void> {
-    return () => console.log('Hello')
-  }
-```
-
-**Explanation:** Wrap function type return type in Promise for async function
 
 ## 🖼️ Visual Output
 ### Command

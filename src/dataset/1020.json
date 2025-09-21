@@ -14,11 +14,6 @@
       "base": "interface DataInterface {\n  [prop: string = 'value']: unknown\n}",
       "fixed": "interface DataInterface {\n  [prop: string]: unknown\n}",
       "description": "Remove default value from index signature parameter"
-    },
-    {
-      "base": "interface ConfigInterface {\n  [name: string = 123]: boolean\n}",
-      "fixed": "interface ConfigInterface {\n  [name: string]: boolean\n}",
-      "description": "Index signature parameters cannot have initializers"
     }
   ]
 }

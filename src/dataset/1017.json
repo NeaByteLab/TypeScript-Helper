@@ -14,11 +14,6 @@
       "base": "interface DataInterface {\n  [...args: unknown]: unknown\n}",
       "fixed": "interface DataInterface {\n  [key: string]: unknown\n}",
       "description": "Replace rest parameter with standard index signature parameter"
-    },
-    {
-      "base": "interface ConfigInterface {\n  [...items: string]: number\n}",
-      "fixed": "interface ConfigInterface {\n  [key: string]: number\n}",
-      "description": "Index signatures must use standard parameter syntax, not rest parameters"
     }
   ]
 }

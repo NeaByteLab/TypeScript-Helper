@@ -15,44 +15,32 @@ Replace rest parameter with a single parameter. Set accessors cannot have rest p
 
 ### Example 1: Rest parameter in set accessor
 ```diff
-  class TestClass {
-    private _value: string = ''
+class TestClass {
+   private _value: string = ''
     
--   set value(...args: string[]) {
-+   set value(args: string[]) {
-      this._value = args.join('')
-    }
+-  set value(...args: string[]) {
++  set value(args: string[]) {
+     this._value = args.join('')
+   }
 
-    get value(): string {
-      return this._value
-    }
-  }
+   get value(): string {
+     return this._value
+   }
+}
 ```
 
 **Explanation:** Replace rest parameter with single parameter in set accessor
 
 ### Example 2: Rest parameter with multiple types
 ```diff
-  class DataClass {
-    private _data: any
+class DataClass {
+   private _data: any
 
--   set data(...items: any[]) {
-+   set data(items: any[]) {
-      this._data = items
-    }
-  }
-```
-
-**Explanation:** Replace rest parameter with single parameter in set accessor
-
-### Example 3: Rest parameter with number array
-```diff
-  class NumberClass {
--   set numbers(...nums: number[]) {
-+   set numbers(nums: number[]) {
-      this._numbers = nums
-    }
-  }
+-  set data(...items: any[]) {
++  set data(items: any[]) {
+     this._data = items
+   }
+}
 ```
 
 **Explanation:** Replace rest parameter with single parameter in set accessor

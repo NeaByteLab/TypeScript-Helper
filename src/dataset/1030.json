@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  static static method() {\n    return 'data'\n  }\n}",
       "fixed": "class DataClass {\n  static method() {\n    return 'data'\n  }\n}",
       "description": "Remove duplicate static modifier from method declaration"
-    },
-    {
-      "base": "class ConfigClass {\n  async async calculate() {\n    return 42\n  }\n}",
-      "fixed": "class ConfigClass {\n  async calculate() {\n    return 42\n  }\n}",
-      "description": "Remove duplicate async modifier from method declaration"
     }
   ]
 }

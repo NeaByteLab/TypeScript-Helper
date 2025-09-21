@@ -45,62 +45,6 @@ Remove the parameter initializer from set accessor. Set accessors cannot have de
 
 **Explanation:** Remove parameter initializer from set accessor with number type
 
-### Example 3: Parameter with object initializer
-```diff
-  class MyClass {
-    private _config: any = null
-
--   set config(item: any = null) {
-+   set config(item: any) {
-      this._config = item
-    }
-  }
-```
-
-**Explanation:** Remove parameter initializer from set accessor with object type
-
-### Example 4: Parameter with array initializer
-```diff
-  class ArrayClass {
-    private _items: string[] = []
-
--   set items(items: string[] = []) {
-+   set items(items: string[]) {
-      this._items = items
-    }
-  }
-```
-
-**Explanation:** Remove parameter initializer from set accessor with array type
-
-### Example 5: Parameter with boolean initializer
-```diff
-  class BooleanClass {
-    private _enabled: boolean = true
-
--   set enabled(enabled: boolean = true) {
-+   set enabled(enabled: boolean) {
-      this._enabled = enabled
-    }
-  }
-```
-
-**Explanation:** Remove parameter initializer from set accessor with boolean type
-
-### Example 6: Parameter with special characters
-```diff
-  class SpecialClass {
-    private _special: string = 'test'
-
--   set $special(value: string = 'test') {
-+   set $special(value: string) {
-      this._special = value
-    }
-  }
-```
-
-**Explanation:** Remove parameter initializer from set accessor with special characters
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

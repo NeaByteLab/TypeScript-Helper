@@ -14,11 +14,6 @@
       "base": "namespace MyNamespace {\n  private function helper() {}\n}",
       "fixed": "namespace MyNamespace {\n  function helper() {}\n}",
       "description": "Remove private modifier from namespace element"
-    },
-    {
-      "base": "module Utils {\n  static const config = {}\n}",
-      "fixed": "module Utils {\n  const config = {}\n}",
-      "description": "Remove static modifier from module element"
     }
   ]
 }

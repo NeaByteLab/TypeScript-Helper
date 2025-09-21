@@ -15,51 +15,27 @@ Remove invalid modifier from class method. Export and import modifiers cannot be
 
 ### Example 1: Export modifier on method
 ```diff
-- class MyClass {
--   export method() {
--     return 'test'
--   }
-- }
-+ class MyClass {
-+   method() {
-+     return 'test'
-+   }
-+ }
+class MyClass {
+-  export method() {
++  method() {
+     return 'test'
+   }
+}
 ```
 
 **Explanation:** Remove export modifier from class method declaration
 
 ### Example 2: Import modifier on method
 ```diff
-- class DataClass {
--   import process() {
--     return 'data'
--   }
-- }
-+ class DataClass {
-+   process() {
-+     return 'data'
-+   }
-+ }
+class DataClass {
+-  import process() {
++  process() {
+     return 'data'
+   }
+}
 ```
 
 **Explanation:** Remove import modifier from class method declaration
-
-### Example 3: Export modifier on different method
-```diff
-- class ConfigClass {
--   export calculate() {
--     return 42
--   }
-- }
-+ class ConfigClass {
-+   calculate() {
-+     return 42
-+   }
-+ }
-```
-
-**Explanation:** Remove export modifier from class method, use on class declaration instead
 
 ## 🖼️ Visual Output
 ### Command

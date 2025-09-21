@@ -14,11 +14,6 @@
       "base": "declare namespace MyNamespace {\n  const config: string = 'default'\n}",
       "fixed": "declare namespace MyNamespace {\n  const config: string\n}",
       "description": "Remove initializer from const declaration in ambient namespace"
-    },
-    {
-      "base": "declare module \"utils\" {\n  export const helper: () => void = () => {}\n}",
-      "fixed": "declare module \"utils\" {\n  export const helper: () => void\n}",
-      "description": "Remove function initializer from const declaration in ambient module"
     }
   ]
 }

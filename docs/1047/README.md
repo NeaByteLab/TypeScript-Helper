@@ -16,11 +16,9 @@ Remove question mark from rest parameter. Rest parameters cannot be optional - t
 ### Example 1: Optional rest parameter in function
 ```diff
 - function testOptionalRest(...args?: string[]) {
--   return args
-- }
 + function testOptionalRest(...args: string[]) {
-+   return args
-+ }
+    return args
+  }
 ```
 
 **Explanation:** Remove optional marker from rest parameter
@@ -32,54 +30,6 @@ Remove question mark from rest parameter. Rest parameters cannot be optional - t
 ```
 
 **Explanation:** Remove optional marker from rest parameter in arrow function
-
-### Example 3: Optional rest parameter in function declaration
-```diff
-- function helper(...params?: any[]) {
--   console.log(params)
-- }
-+ function helper(...params: any[]) {
-+   console.log(params)
-+ }
-```
-
-**Explanation:** Remove optional marker from rest parameter in function declaration
-
-### Example 4: Optional rest parameter with special characters
-```diff
-- function processData(...$special?: string[]) {
--   return $special
-- }
-+ function processData(...$special: string[]) {
-+   return $special
-- }
-```
-
-**Explanation:** Remove optional marker from rest parameter with special characters
-
-### Example 5: Optional rest parameter with hyphenated name
-```diff
-- function handleItems(...test-property?: string[]) {
--   return test-property
-- }
-+ function handleItems(...test-property: string[]) {
-+   return test-property
-- }
-```
-
-**Explanation:** Remove optional marker from rest parameter with hyphenated name
-
-### Example 6: Optional rest parameter with dot notation
-```diff
-- function processData(...test.property?: string[]) {
--   return test.property
-- }
-+ function processData(...test.property: string[]) {
-+   return test.property
-- }
-```
-
-**Explanation:** Remove optional marker from rest parameter with dot notation
 
 ## 🖼️ Visual Output
 ### Command

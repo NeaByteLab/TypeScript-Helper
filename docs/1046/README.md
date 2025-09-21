@@ -15,67 +15,19 @@ Add declare or export modifier to top-level declaration. In .d.ts files, all top
 
 ### Example 1: Missing declare modifier on const
 ```diff
-- const globalValue = 42
-+ declare const globalValue: number
+-  const globalValue = 42
++  declare const globalValue: number
 ```
 
 **Explanation:** Add declare modifier and proper type annotation
 
 ### Example 2: Missing declare modifier on function
 ```diff
-- function globalFunction() {}
-+ declare function globalFunction(): void
+-  function globalFunction() {}
++  declare function globalFunction(): void
 ```
 
 **Explanation:** Add declare modifier and return type annotation
-
-### Example 3: Missing export modifier on interface
-```diff
-- interface MyInterface {}
-+ export interface MyInterface {}
-```
-
-**Explanation:** Add export modifier to interface declaration
-
-### Example 4: Missing declare modifier on class
-```diff
-- class MyClass {}
-+ declare class MyClass {}
-```
-
-**Explanation:** Add declare modifier to class declaration
-
-### Example 5: Missing declare modifier on type
-```diff
-- type MyType = string
-+ declare type MyType = string
-```
-
-**Explanation:** Add declare modifier to type declaration
-
-### Example 6: Missing declare modifier on enum
-```diff
-- enum MyEnum {}
-+ declare enum MyEnum {}
-```
-
-**Explanation:** Add declare modifier to enum declaration
-
-### Example 7: Missing declare modifier on let
-```diff
-- let config = {}
-+ declare let config: object
-```
-
-**Explanation:** Add declare modifier and proper type annotation
-
-### Example 8: Missing declare modifier on var
-```diff
-- var data = []
-+ declare var data: any[]
-```
-
-**Explanation:** Add declare modifier and proper type annotation
 
 ## 🖼️ Visual Output
 ### Command

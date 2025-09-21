@@ -37,18 +37,6 @@ Remove rest parameter from index signature. Index signatures can only have a sin
 
 **Explanation:** Replace rest parameter with standard index signature parameter
 
-### Example 3: Different type
-```diff
-- interface ConfigInterface {
--   [...items: string]: number
-- }
-+ interface ConfigInterface {
-+   [key: string]: number
-+ }
-```
-
-**Explanation:** Index signatures must use standard parameter syntax, not rest parameters
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

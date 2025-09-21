@@ -14,11 +14,6 @@
       "base": "class Child extends Parent {\n  method() {\n    super\n    return 'test'\n  }\n}",
       "fixed": "class Child extends Parent {\n  method() {\n    super.method()\n    return 'test'\n  }\n}",
       "description": "Add member access to call parent method"
-    },
-    {
-      "base": "class Child extends Parent {\n  getValue() {\n    return super\n  }\n}",
-      "fixed": "class Child extends Parent {\n  getValue() {\n    return super.getValue()\n  }\n}",
-      "description": "Add method call to access parent method"
     }
   ]
 }

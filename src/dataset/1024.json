@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  readonly process() {\n    return 'data'\n  }\n}",
       "fixed": "class DataClass {\n  process() {\n    return 'data'\n  }\n}",
       "description": "Readonly modifier cannot be used on methods"
-    },
-    {
-      "base": "class ConfigClass {\n  readonly calculate() {\n    return 42\n  }\n}",
-      "fixed": "class ConfigClass {\n  calculate() {\n    return 42\n  }\n}",
-      "description": "Remove readonly modifier from method, use on properties instead"
     }
   ]
 }

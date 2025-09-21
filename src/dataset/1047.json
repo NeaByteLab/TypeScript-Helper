@@ -14,11 +14,6 @@
       "base": "const process = (...items?: number[]) => items",
       "fixed": "const process = (...items: number[]) => items",
       "description": "Remove optional marker from rest parameter in arrow function"
-    },
-    {
-      "base": "function helper(...params?: any[]) {\n  console.log(params)\n}",
-      "fixed": "function helper(...params: any[]) {\n  console.log(params)\n}",
-      "description": "Remove optional marker from rest parameter in function declaration"
     }
   ]
 }

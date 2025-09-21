@@ -14,16 +14,6 @@
       "base": "function globalFunction() {}",
       "fixed": "declare function globalFunction(): void",
       "description": "Add declare modifier and return type annotation"
-    },
-    {
-      "base": "interface MyInterface {}",
-      "fixed": "export interface MyInterface {}",
-      "description": "Add export modifier to interface declaration"
-    },
-    {
-      "base": "class MyClass {}",
-      "fixed": "declare class MyClass {}",
-      "description": "Add declare modifier to class declaration"
     }
   ]
 }

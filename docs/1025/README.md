@@ -15,39 +15,23 @@ Remove trailing comma from index signature. Index signatures cannot have trailin
 
 ### Example 1: Basic trailing comma in index signature
 ```diff
-- interface MyInterface {
--   [key: string,]: any
-- }
-+ interface MyInterface {
-+   [key: string]: any
-+ }
+interface MyInterface {
+-  [key: string,]: any
++  [key: string]: any
+}
 ```
 
 **Explanation:** Remove trailing comma from index signature
 
 ### Example 2: Different variable name
 ```diff
-- interface DataInterface {
--   [prop: string,]: unknown
-- }
-+ interface DataInterface {
-+   [prop: string]: unknown
-+ }
+interface DataInterface {
+-  [prop: string,]: unknown
++  [prop: string]: unknown
+}
 ```
 
 **Explanation:** Index signatures cannot have trailing commas
-
-### Example 3: Different type
-```diff
-- interface ConfigInterface {
--   [name: string,]: boolean
-- }
-+ interface ConfigInterface {
-+   [name: string]: boolean
-+ }
-```
-
-**Explanation:** Remove trailing comma from index signature parameter
 
 ## 🖼️ Visual Output
 ### Command

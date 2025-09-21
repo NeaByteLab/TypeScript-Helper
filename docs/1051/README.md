@@ -45,20 +45,6 @@ Remove the optional parameter modifier (?) from set accessor. Set accessors cann
 
 **Explanation:** Remove optional parameter modifier from set accessor with type annotation
 
-### Example 3: Optional parameter with complex type
-```diff
-  class MyClass {
-    private _data: { id: number; name: string }
-
--   set data(item?: { id: number; name: string }) {
-+   set data(item: { id: number; name: string }) {
-      this._data = item
-    }
-  }
-```
-
-**Explanation:** Remove optional parameter modifier from set accessor with complex type
-
 ## 🖼️ Visual Output
 ### Command
 ```bash

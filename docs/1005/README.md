@@ -15,14 +15,11 @@ Add missing punctuation mark. Common fixes: comma between object properties, col
 
 ### Example 1: Missing comma between object properties
 ```diff
-- const obj = {
--   name: "John"
--   age: 30
-- }
-+ const obj = {
-+   name: "John",
-+   age: 30
-+ }
+const obj = {
+-  name: "John"
++  name: "John",
+   age: 30
+}
 ```
 
 **Explanation:** Missing comma between object literal properties

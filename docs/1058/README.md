@@ -31,105 +31,17 @@ Change return type to Promise<T> or remove the 'then' method. Async functions mu
 
 ### Example 2: Class with then property as return type
 ```diff
-  class CustomPromise {
-    then: () => void = () => {}
-  }
+class CustomPromise {
+  then: () => void = () => {}
+}
   
 - async function getData(): CustomPromise {
 + async function getData(): Promise<CustomPromise> {
     return new CustomPromise()
-  }
+}
 ```
 
 **Explanation:** Use Promise return type for async function
-
-### Example 3: Interface with then method as return type
-```diff
-  interface PromiseLike {
-    then(): void
-  }
-  
-- async function process(): PromiseLike {
-+ async function process(): Promise<PromiseLike> {
-    return { then: () => {} }
-  }
-```
-
-**Explanation:** Wrap interface return type in Promise for async function
-
-### Example 4: Class with callable then method as return type
-```diff
-  class MyClass {
-    then(callback: Function) {
-      callback()
-      return this
-    }
-  }
-  
-- async function handle(): MyClass {
-+ async function handle(): Promise<MyClass> {
-    return new MyClass()
-  }
-```
-
-**Explanation:** Wrap class return type in Promise for async function
-
-### Example 5: Object with then method as return type
-```diff
-- async function createObject(): { then: () => void } {
-+ async function createObject(): Promise<{ then: () => void }> {
-    return { then: () => {} }
-  }
-```
-
-**Explanation:** Wrap object return type in Promise for async function
-
-### Example 6: Generic class with then method as return type
-```diff
-  class ApiResponse<T> {
-    data: T
-    then(): void {}
-  }
-
-- async function fetchData(): ApiResponse<string> {
-+ async function fetchData(): Promise<ApiResponse<string>> {
-    return new ApiResponse<string>()
-  }
-```
-
-**Explanation:** Wrap generic class return type in Promise for async function
-
-### Example 7: Class with then method and parameters as return type
-```diff
-  class Handler {
-    then(onSuccess: Function, onError?: Function) {
-      return this
-    }
-  }
-
-- async function getHandler(): Handler {
-+ async function getHandler(): Promise<Handler> {
-    return new Handler()
-  }
-```
-
-**Explanation:** Wrap class with parameterized then method return type in Promise for async function
-
-### Example 8: Class with then method returning different type as return type
-```diff
-  class CustomType {
-    then(): string {
-      return 'result'
-    }
-  }
-
-- async function process(): CustomType {
-+ async function process(): Promise<CustomType> {
-    return new CustomType()
-  }
-```
-
-**Explanation:** Wrap class with then method returning different type in Promise for async function
 
 ## 🖼️ Visual Output
 ### Command

@@ -15,39 +15,23 @@ Add a type annotation to the index signature. Index signatures must specify the 
 
 ### Example 1: Basic index signature missing type annotation
 ```diff
-- interface MyInterface {
--   [key: string]
-- }
-+ interface MyInterface {
-+   [key: string]: any
-+ }
+interface MyInterface {
+-  [key: string]
++  [key: string]: any
+}
 ```
 
 **Explanation:** Add type annotation to index signature
 
 ### Example 2: Different variable name
 ```diff
-- interface DataInterface {
--   [prop: string]
-- }
 + interface DataInterface {
-+   [prop: string]: any
+-  [prop: string]
++  [prop: string]: any
 + }
 ```
 
 **Explanation:** Index signatures must have a type annotation for their values
-
-### Example 3: Different interface name
-```diff
-- interface ConfigInterface {
--   [name: string]
-- }
-+ interface ConfigInterface {
-+   [name: string]: any
-+ }
-```
-
-**Explanation:** Add missing type annotation to index signature
 
 ## 🖼️ Visual Output
 ### Command

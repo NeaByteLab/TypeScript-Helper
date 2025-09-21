@@ -15,12 +15,10 @@ Remove async modifier from property declaration. The async modifier can only be 
 
 ### Example 1: Async class property
 ```diff
-- class TestClass {
--   async property = 'value'
-- }
-+ class TestClass {
-+   property = 'value'
-+ }
+class TestClass {
+-  async property = 'value'
++  property = 'value'
+}
 ```
 
 **Explanation:** Remove async modifier from class property declaration
@@ -32,38 +30,6 @@ Remove async modifier from property declaration. The async modifier can only be 
 ```
 
 **Explanation:** Remove async modifier from variable declaration
-
-### Example 3: Async let declaration
-```diff
-- let async data = await fetch()
-+ let data = await fetch()
-```
-
-**Explanation:** Remove async modifier from let declaration
-
-### Example 4: Async const with complex assignment
-```diff
-- const async result = await processData()
-+ const result = await processData()
-```
-
-**Explanation:** Remove async modifier from const declaration with async assignment
-
-### Example 5: Async property with special characters
-```diff
-- class MyClass {
--   async $special = 'value'
--   async test-property = 'value'
--   async test.property = 'value'
-- }
-+ class MyClass {
-+   $special = 'value'
-+   test-property = 'value'
-+   test.property = 'value'
-+ }
-```
-
-**Explanation:** Remove async modifier from properties with special characters
 
 ## 🖼️ Visual Output
 ### Command

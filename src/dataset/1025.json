@@ -14,11 +14,6 @@
       "base": "interface DataInterface {\n  [prop: string,]: unknown\n}",
       "fixed": "interface DataInterface {\n  [prop: string]: unknown\n}",
       "description": "Index signatures cannot have trailing commas"
-    },
-    {
-      "base": "interface ConfigInterface {\n  [name: string,]: boolean\n}",
-      "fixed": "interface ConfigInterface {\n  [name: string]: boolean\n}",
-      "description": "Remove trailing comma from index signature parameter"
     }
   ]
 }

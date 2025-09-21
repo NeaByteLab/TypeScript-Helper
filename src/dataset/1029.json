@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  static private property = 'data'\n}",
       "fixed": "class DataClass {\n  private static property = 'data'\n}",
       "description": "Move private modifier before static modifier"
-    },
-    {
-      "base": "class ConfigClass {\n  static protected calculate() {\n    return 42\n  }\n}",
-      "fixed": "class ConfigClass {\n  protected static calculate() {\n    return 42\n  }\n}",
-      "description": "Move protected modifier before static modifier"
     }
   ]
 }

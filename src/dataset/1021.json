@@ -14,11 +14,6 @@
       "base": "interface DataInterface {\n  [prop: string]\n}",
       "fixed": "interface DataInterface {\n  [prop: string]: any\n}",
       "description": "Index signatures must have a type annotation for their values"
-    },
-    {
-      "base": "interface ConfigInterface {\n  [name: string]\n}",
-      "fixed": "interface ConfigInterface {\n  [name: string]: any\n}",
-      "description": "Add missing type annotation to index signature"
     }
   ]
 }

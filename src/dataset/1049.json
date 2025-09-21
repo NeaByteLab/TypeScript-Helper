@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  set config() {\n    this._config = {}\n  }\n}",
       "fixed": "class DataClass {\n  set config(newConfig: object) {\n    this._config = newConfig\n  }\n}",
       "description": "Add parameter to set accessor with proper type"
-    },
-    {
-      "base": "class MyClass {\n  private _count: number = 0\n  set count() {\n    this._count = 0\n  }\n}",
-      "fixed": "class MyClass {\n  private _count: number = 0\n  set count(newCount: number) {\n    this._count = newCount\n  }\n}",
-      "description": "Add parameter to set accessor and use it in assignment"
     }
   ]
 }

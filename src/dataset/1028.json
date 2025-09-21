@@ -14,11 +14,6 @@
       "base": "class DataClass {\n  private private property = 'data'\n}",
       "fixed": "class DataClass {\n  private property = 'data'\n}",
       "description": "Remove duplicate private modifier from property declaration"
-    },
-    {
-      "base": "class ConfigClass {\n  protected protected calculate() {\n    return 42\n  }\n}",
-      "fixed": "class ConfigClass {\n  protected calculate() {\n    return 42\n  }\n}",
-      "description": "Remove duplicate protected modifier from method declaration"
     }
   ]
 }
