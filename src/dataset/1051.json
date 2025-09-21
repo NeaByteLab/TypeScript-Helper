@@ -1,14 +1,19 @@
 {
   "code": 1051,
   "message": "A 'set' accessor cannot have an optional parameter.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/set\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*\\(\\s*([^)]*)\\?([^)]*)\\)/",
+  "regexReplace": "set $1($2$3)",
+  "suggestion": "Remove the optional parameter modifier (?) from set accessor. Set accessors cannot have optional parameters - they must have exactly one required parameter.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "set value(value?: string) {",
+      "fixed": "set value(value: string) {",
+      "description": "Remove optional parameter modifier from set accessor"
+    },
+    {
+      "base": "set config(item?: any) {",
+      "fixed": "set config(item: any) {",
+      "description": "Remove optional parameter modifier from set accessor with type annotation"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "code": 1052,
   "message": "A 'set' accessor parameter cannot have an initializer.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/set\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*\\(\\s*([^=]+)\\s*=\\s*[^)]+\\)/",
+  "regexReplace": "set $1($2)",
+  "suggestion": "Remove the parameter initializer from set accessor. Set accessors cannot have default values - they must have exactly one parameter without initialization.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "set value(value: string = 'default') {",
+      "fixed": "set value(value: string) {",
+      "description": "Remove parameter initializer from set accessor"
+    },
+    {
+      "base": "set count(count: number = 0) {",
+      "fixed": "set count(count: number) {",
+      "description": "Remove parameter initializer from set accessor with number type"
     }
   ]
 }

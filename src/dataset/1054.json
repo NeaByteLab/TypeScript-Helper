@@ -1,14 +1,19 @@
 {
   "code": 1054,
   "message": "A 'get' accessor cannot have parameters.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/get\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*\\([^)]+\\)/",
+  "regexReplace": "get $1()",
+  "suggestion": "Remove parameters from get accessor. Get accessors cannot have parameters - they must be parameterless.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "get value(param: string): string {",
+      "fixed": "get value(): string {",
+      "description": "Remove parameters from get accessor"
+    },
+    {
+      "base": "get config(optional?: boolean): any {",
+      "fixed": "get config(): any {",
+      "description": "Remove parameters from get accessor with optional parameter"
     }
   ]
 }

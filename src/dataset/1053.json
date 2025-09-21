@@ -1,14 +1,19 @@
 {
   "code": 1053,
   "message": "A 'set' accessor cannot have rest parameter.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/set\\s+([a-zA-Z_$][a-zA-Z0-9_$.-]*)\\s*\\(\\s*\\.\\.\\.([^)]+)\\)/",
+  "regexReplace": "set $1($2)",
+  "suggestion": "Replace rest parameter with a single parameter. Set accessors cannot have rest parameters - they must have exactly one parameter.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "set value(...args: string[]) {",
+      "fixed": "set value(args: string[]) {",
+      "description": "Replace rest parameter with single parameter in set accessor"
+    },
+    {
+      "base": "set data(...items: any[]) {",
+      "fixed": "set data(items: any[]) {",
+      "description": "Replace rest parameter with single parameter in set accessor"
     }
   ]
 }

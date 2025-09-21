@@ -65,13 +65,13 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 1047 | A rest parameter cannot be optional. | ✅ | [docs/1047/README.md](docs/1047/README.md) |
 | 1048 | A rest parameter cannot have an initializer. | ✅ | [docs/1048/README.md](docs/1048/README.md) |
 | 1049 | A 'set' accessor must have exactly one parameter. | ✅ | [docs/1049/README.md](docs/1049/README.md) |
-| 1051 | A 'set' accessor cannot have an optional parameter. | ⏳ | [docs/1051/README.md](docs/1051/README.md) |
-| 1052 | A 'set' accessor parameter cannot have an initializer. | ⏳ | [docs/1052/README.md](docs/1052/README.md) |
-| 1053 | A 'set' accessor cannot have rest parameter. | ⏳ | [docs/1053/README.md](docs/1053/README.md) |
-| 1054 | A 'get' accessor cannot have parameters. | ⏳ | [docs/1054/README.md](docs/1054/README.md) |
-| 1055 | Type '{0}' is not a valid async function return type in ES5 because it does not refer to a Promise-compatible constructor value. | ⏳ | [docs/1055/README.md](docs/1055/README.md) |
-| 1056 | Accessors are only available when targeting ECMAScript 5 and higher. | ⏳ | [docs/1056/README.md](docs/1056/README.md) |
-| 1058 | The return type of an async function must either be a valid promise or must not contain a callable 'then' member. | ⏳ | [docs/1058/README.md](docs/1058/README.md) |
+| 1051 | A 'set' accessor cannot have an optional parameter. | ✅ | [docs/1051/README.md](docs/1051/README.md) |
+| 1052 | A 'set' accessor parameter cannot have an initializer. | ✅ | [docs/1052/README.md](docs/1052/README.md) |
+| 1053 | A 'set' accessor cannot have rest parameter. | ✅ | [docs/1053/README.md](docs/1053/README.md) |
+| 1054 | A 'get' accessor cannot have parameters. | ✅ | [docs/1054/README.md](docs/1054/README.md) |
+| 1055 | Type '{0}' is not a valid async function return type in ES5 because it does not refer to a Promise-compatible constructor value. | ✅ | [docs/1055/README.md](docs/1055/README.md) |
+| 1056 | Accessors are only available when targeting ECMAScript 5 and higher. | ❌ | Legacy error |
+| 1058 | The return type of an async function must either be a valid promise or must not contain a callable 'then' member. | ✅ | [docs/1058/README.md](docs/1058/README.md) |
 | 1059 | A promise must have a 'then' method. | ⏳ | [docs/1059/README.md](docs/1059/README.md) |
 | 1060 | The first parameter of the 'then' method of a promise must be a callback. | ⏳ | [docs/1060/README.md](docs/1060/README.md) |
 | 1061 | Enum member must have initializer. | ⏳ | [docs/1061/README.md](docs/1061/README.md) |
