@@ -12,7 +12,7 @@ export async function validateData(data: ErrorData[]): Promise<Record<number, Er
   const callback: string = 'Need to check and fix the data'
   const result: Record<number, ErrorResult> = {}
   for (const item of data) {
-    const filePath = join(process.cwd(), 'src', 'dataset', `${item.code}.json`)
+    const filePath = join(process.cwd(), 'dataset', `${item.code}.json`)
     const isExists = await isFileExists(filePath)
     if (isExists) {
       const fileContent = await fs.readFile(filePath, 'utf-8')

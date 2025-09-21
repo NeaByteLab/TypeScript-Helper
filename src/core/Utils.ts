@@ -10,7 +10,7 @@ import type { ErrorData } from '@interfaces/index'
  */
 export function loadAllData(): ErrorData[] {
   try {
-    const datasetDir: string = join(process.cwd(), 'src', 'dataset')
+    const datasetDir: string = join(process.cwd(), 'dataset')
     const listFiles: string[] = fs.readdirSync(datasetDir)
     const jsonFiles: string[] = listFiles.filter((file: string) => file.endsWith('.json'))
     const allData: ErrorData[] = []

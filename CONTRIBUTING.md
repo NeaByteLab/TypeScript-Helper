@@ -38,7 +38,7 @@ npm run build
 
 #### Step 1: Study Existing Patterns
 - Read `/docs/1002/README.md` for reference implementation
-- Check `/src/dataset/1002.json` for data structure
+- Check `/dataset/1002.json` for data structure
 - Review `/docs/1003/` for the new two-regex approach
 
 #### Step 2: Create Error Code Files
@@ -65,7 +65,7 @@ npx tsc ./docs/100X/index.ts --noEmit
 ```
 
 #### Step 5: Update Dataset JSON
-Edit `src/dataset/100X.json`:
+Edit `dataset/100X.json`:
 ```json
 {
   "code": 100X,
@@ -112,7 +112,7 @@ npx tsc ./docs/100X/index.ts --noEmit
 npx tsx ./docs/100X/test.ts
 
 # Build and test
-npm run build && cp -r src/dataset dist/
+npm run build
 npx tsx ./docs/100X/test.ts
 ```
 
@@ -164,11 +164,11 @@ Update `CHECKLIST.md` to mark the error as completed (✅).
 ```
 docs/
 ├── errorCode/
-│   ├── index.ts      # Code that triggers error
-│   ├── test.ts       # Test our helper
-│   └── README.md     # Documentation
-src/dataset/
-└── errorCode.json    # Error data with regex patterns
+│   ├── index.ts         # Code that triggers error
+│   ├── test.ts          # Test our helper
+│   └── README.md        # Documentation
+├── dataset/
+└── └── errorCode.json   # Error data with regex patterns
 ```
 
 ### Naming Conventions
@@ -244,7 +244,7 @@ src/dataset/
 - `/docs/1002/` - Reference implementation
 - `/docs/1003/` - New two-regex approach
 - `/src/core/index.ts` - Core parsing logic
-- `/src/dataset/` - Error data structure
+- `/dataset/` - Error data structure
 
 ---
 
