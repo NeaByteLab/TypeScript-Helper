@@ -1,14 +1,19 @@
 {
   "code": 18054,
   "message": "'await using' statements cannot be used inside a class static block.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/static\\s*\\{[^}]*await\\s+using[^}]*\\}/g",
+  "regexReplace": "static { /* await using not allowed in static blocks */ }",
+  "suggestion": "Remove 'await using' from static blocks. Static blocks cannot contain async operations. Move the resource management to a static async method or use regular try-finally blocks.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  static {\n    await using resource = new AsyncDisposableResource()\n  }\n}",
+      "fixed": "class MyClass {\n  static async initialize() {\n    await using resource = new AsyncDisposableResource()\n  }\n}",
+      "description": "Move await using to static async method"
+    },
+    {
+      "base": "class MyClass {\n  static {\n    const resource = new AsyncDisposableResource()\n    await using resource\n  }\n}",
+      "fixed": "class MyClass {\n  static {\n    const resource = new AsyncDisposableResource()\n    // Use regular try-finally or move to async method\n  }\n}",
+      "description": "Remove await using from static block"
     }
   ]
 }

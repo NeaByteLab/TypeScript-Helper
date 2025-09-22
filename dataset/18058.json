@@ -1,14 +1,19 @@
 {
   "code": 18058,
   "message": "Default imports are not allowed in a deferred import.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/import\\s+defer\\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\\s+from\\s+['\"][^'\"]+['\"]/g",
+  "regexReplace": "import * as $1 from './module'",
+  "suggestion": "Use namespace import (* as) instead of default import with deferred imports. Deferred imports only support namespace imports, not default or named imports.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "import defer MyDefault from './module'",
+      "fixed": "import * as MyModule from './module'",
+      "description": "Change default import to namespace import"
+    },
+    {
+      "base": "import defer { default as MyDefault } from './module'",
+      "fixed": "import * as MyModule from './module'",
+      "description": "Use namespace import instead of default import"
     }
   ]
 }

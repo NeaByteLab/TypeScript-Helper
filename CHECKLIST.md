@@ -19,7 +19,8 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 - ✅ **Completed** - Full documentation with regex, suggestions, and examples
 - 🔄 **In Progress** - Currently being worked on
 - ⏳ **Pending** - Not started yet
-- ❌ **Blocked** - Cannot proceed due to issues
+- 🔄 **Retry** - Too difficult to trigger, may retry later
+- ❌ **Blocked** - Cannot proceed due to technical issues
 
 ---
 
@@ -1354,22 +1355,22 @@ This checklist tracks the progress of documenting TypeScript errors. Each error 
 | 18037 | 'await' expression cannot be used inside a class static block. | ⏳ | [docs/18037/README.md](docs/18037/README.md) |
 | 18038 | 'for await' loops cannot be used inside a class static block. | ⏳ | [docs/18038/README.md](docs/18038/README.md) |
 | 18039 | Invalid use of '{0}'. It cannot be used inside a class static block. | ⏳ | [docs/18039/README.md](docs/18039/README.md) |
-| 18041 | A 'return' statement cannot be used inside a class static block. | ⏳ | [docs/18041/README.md](docs/18041/README.md) |
-| 18042 | '{0}' is a type and cannot be imported in JavaScript files. Use '{1}' in a JSDoc type annotation. | ⏳ | [docs/18042/README.md](docs/18042/README.md) |
-| 18043 | Types cannot appear in export declarations in JavaScript files. | ⏳ | [docs/18043/README.md](docs/18043/README.md) |
-| 18045 | Properties with the 'accessor' modifier are only available when targeting ECMAScript 2015 and higher. | ⏳ | [docs/18045/README.md](docs/18045/README.md) |
-| 18046 | '{0}' is of type 'unknown'. | ⏳ | [docs/18046/README.md](docs/18046/README.md) |
-| 18047 | '{0}' is possibly 'null'. | ⏳ | [docs/18047/README.md](docs/18047/README.md) |
-| 18048 | '{0}' is possibly 'undefined'. | ⏳ | [docs/18048/README.md](docs/18048/README.md) |
-| 18049 | '{0}' is possibly 'null' or 'undefined'. | ⏳ | [docs/18049/README.md](docs/18049/README.md) |
-| 18050 | The value '{0}' cannot be used here. | ⏳ | [docs/18050/README.md](docs/18050/README.md) |
-| 18051 | Compiler option '{0}' cannot be given an empty string. | ⏳ | [docs/18051/README.md](docs/18051/README.md) |
-| 18053 | Its type '{0}' is not a valid JSX element type. | ⏳ | [docs/18053/README.md](docs/18053/README.md) |
-| 18054 | 'await using' statements cannot be used inside a class static block. | ⏳ | [docs/18054/README.md](docs/18054/README.md) |
-| 18055 | '{0}' has a string type, but must have syntactically recognizable string syntax when 'isolatedModules' is enabled. | ⏳ | [docs/18055/README.md](docs/18055/README.md) |
-| 18056 | Enum member following a non-literal numeric member must have an initializer when 'isolatedModules' is enabled. | ⏳ | [docs/18056/README.md](docs/18056/README.md) |
-| 18057 | String literal import and export names are not supported when the '--module' flag is set to 'es2015' or 'es2020'. | ⏳ | [docs/18057/README.md](docs/18057/README.md) |
-| 18058 | Default imports are not allowed in a deferred import. | ⏳ | [docs/18058/README.md](docs/18058/README.md) |
-| 18059 | Named imports are not allowed in a deferred import. | ⏳ | [docs/18059/README.md](docs/18059/README.md) |
-| 18060 | Deferred imports are only supported when the '--module' flag is set to 'esnext' or 'preserve'. | ⏳ | [docs/18060/README.md](docs/18060/README.md) |
-| 18061 | '{0}' is not a valid meta-property for keyword 'import'. Did you mean 'meta' or 'defer'? | ⏳ | [docs/18061/README.md](docs/18061/README.md) |
+| 18041 | A 'return' statement cannot be used inside a class static block. | ✅ | [docs/18041/README.md](docs/18041/README.md) |
+| 18042 | '{0}' is a type and cannot be imported in JavaScript files. Use '{1}' in a JSDoc type annotation. | ✅ | [docs/18042/README.md](docs/18042/README.md) |
+| 18043 | Types cannot appear in export declarations in JavaScript files. | 🔄 | [docs/18043/README.md](docs/18043/README.md) |
+| 18045 | Properties with the 'accessor' modifier are only available when targeting ECMAScript 2015 and higher. | ✅ | [docs/18045/README.md](docs/18045/README.md) |
+| 18046 | '{0}' is of type 'unknown'. | ✅ | [docs/18046/README.md](docs/18046/README.md) |
+| 18047 | '{0}' is possibly 'null'. | ✅ | [docs/18047/README.md](docs/18047/README.md) |
+| 18048 | '{0}' is possibly 'undefined'. | ✅ | [docs/18048/README.md](docs/18048/README.md) |
+| 18049 | '{0}' is possibly 'null' or 'undefined'. | ✅ | [docs/18049/README.md](docs/18049/README.md) |
+| 18050 | The value '{0}' cannot be used here. | 🔄 | [docs/18050/README.md](docs/18050/README.md) |
+| 18051 | Compiler option '{0}' cannot be given an empty string. | 🔄 | [docs/18051/README.md](docs/18051/README.md) |
+| 18053 | Its type '{0}' is not a valid JSX element type. | 🔄 | [docs/18053/README.md](docs/18053/README.md) |
+| 18054 | 'await using' statements cannot be used inside a class static block. | ✅ | [docs/18054/README.md](docs/18054/README.md) |
+| 18055 | '{0}' has a string type, but must have syntactically recognizable string syntax when 'isolatedModules' is enabled. | 🔄 | [docs/18055/README.md](docs/18055/README.md) |
+| 18056 | Enum member following a non-literal numeric member must have an initializer when 'isolatedModules' is enabled. | 🔄 | [docs/18056/README.md](docs/18056/README.md) |
+| 18057 | String literal import and export names are not supported when the '--module' flag is set to 'es2015' or 'es2020'. | ✅ | [docs/18057/README.md](docs/18057/README.md) |
+| 18058 | Default imports are not allowed in a deferred import. | ✅ | [docs/18058/README.md](docs/18058/README.md) |
+| 18059 | Named imports are not allowed in a deferred import. | ✅ | [docs/18059/README.md](docs/18059/README.md) |
+| 18060 | Deferred imports are only supported when the '--module' flag is set to 'esnext' or 'preserve'. | ✅ | [docs/18060/README.md](docs/18060/README.md) |
+| 18061 | '{0}' is not a valid meta-property for keyword 'import'. Did you mean 'meta' or 'defer'? | 🔄 | [docs/18061/README.md](docs/18061/README.md) |

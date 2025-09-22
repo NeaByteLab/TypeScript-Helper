@@ -1,14 +1,19 @@
 {
   "code": 18041,
   "message": "A 'return' statement cannot be used inside a class static block.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/static\\s*\\{[^}]*\\breturn\\s+[^;]+;?[^}]*\\}/g",
+  "regexReplace": "static { /* Remove return statement - static blocks cannot return values */ }",
+  "suggestion": "Remove the return statement from the static block. Static blocks are for initialization only and cannot return values. Use console.log, assignments, or other side effects instead.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  static {\n    return \"This will cause TS18041\"\n  }\n}",
+      "fixed": "class MyClass {\n  static {\n    console.log(\"Initialization complete\")\n  }\n}",
+      "description": "Replace return statement with initialization code"
+    },
+    {
+      "base": "class MyClass {\n  static {\n    if (true) {\n      return 42\n    }\n  }\n}",
+      "fixed": "class MyClass {\n  static {\n    if (true) {\n      console.log(\"Condition met\")\n    }\n  }\n}",
+      "description": "Remove return from conditional block in static block"
     }
   ]
 }

@@ -1,0 +1,1 @@
+import { "myFunction" as func } from './module'

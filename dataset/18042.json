@@ -1,14 +1,19 @@
 {
   "code": 18042,
   "message": "'{0}' is a type and cannot be imported in JavaScript files. Use '{1}' in a JSDoc type annotation.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/import\\s*\\{\\s*([A-Z][a-zA-Z0-9_$]*)\\s*\\}\\s*from\\s*['\"][^'\"]+['\"]/g",
+  "regexReplace": "// @ts-ignore\n// import { $1 } from './types' // Use JSDoc instead",
+  "suggestion": "Convert TypeScript type imports to JSDoc type annotations in JavaScript files. Use @typedef or inline JSDoc comments instead of import statements for types.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "import { MyType } from './types'\n\nconst value = { name: 'test' }",
+      "fixed": "/** @typedef {Object} MyType\n * @property {string} name\n */\n\nconst value = { name: 'test' }",
+      "description": "Replace type import with JSDoc typedef"
+    },
+    {
+      "base": "import { User, Product } from './types'\n\nfunction processUser(user) { }",
+      "fixed": "/** @typedef {Object} User\n * @typedef {Object} Product\n */\n\n/** @param {User} user */\nfunction processUser(user) { }",
+      "description": "Replace multiple type imports with JSDoc typedefs"
     }
   ]
 }

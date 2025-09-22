@@ -1,14 +1,19 @@
 {
   "code": 18057,
   "message": "String literal import and export names are not supported when the '--module' flag is set to 'es2015' or 'es2020'.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/import\\s*\\{\\s*\"([^\"]+)\"\\s*as\\s*([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*\\}\\s*from\\s*['\"][^'\"]+['\"]/g",
+  "regexReplace": "import { $1 as $2 } from './module'",
+  "suggestion": "Change the module target to 'esnext' or 'preserve' to support string literal imports, or use regular identifier imports instead of string literals.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "import { \"myFunction\" as func } from './module'",
+      "fixed": "import { myFunction as func } from './module'",
+      "description": "Remove quotes from import name"
+    },
+    {
+      "base": "import { \"default\" as MyDefault } from './module'",
+      "fixed": "import MyDefault from './module'",
+      "description": "Use default import instead of string literal"
     }
   ]
 }

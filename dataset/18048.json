@@ -1,14 +1,19 @@
 {
   "code": 18048,
   "message": "'{0}' is possibly 'undefined'.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/([a-zA-Z_$][a-zA-Z0-9_$]*)\\.(length|toUpperCase|trim|\\w+)/g",
+  "regexReplace": "$1?.$2",
+  "suggestion": "Add undefined check or use optional chaining to handle the possibility of undefined values. Use nullish coalescing operator (??) or optional chaining (?.) for safe property access.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function processValue(value?: string) {\n  console.log(value.length)\n  const upper = value.toUpperCase()\n  return value.trim()\n}",
+      "fixed": "function processValue(value?: string) {\n  if (value === undefined) {\n    return\n  }\n  console.log(value.length)\n  const upper = value.toUpperCase()\n  return value.trim()\n}",
+      "description": "Add undefined check before accessing properties"
+    },
+    {
+      "base": "const result = data.trim()",
+      "fixed": "const result = data?.trim() ?? ''",
+      "description": "Use optional chaining and nullish coalescing"
     }
   ]
 }

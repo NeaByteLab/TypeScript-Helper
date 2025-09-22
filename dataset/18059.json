@@ -1,14 +1,19 @@
 {
   "code": 18059,
   "message": "Named imports are not allowed in a deferred import.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/import\\s+defer\\s*\\{\\s*([^}]+)\\s*\\}\\s*from\\s*(['\"][^'\"]+['\"])/g",
+  "regexReplace": "import * as MyModule from $2",
+  "suggestion": "Use namespace import (* as) instead of named imports with deferred imports. Deferred imports only support namespace imports, not default or named imports.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "import defer { myFunction, myVariable } from './module'",
+      "fixed": "import * as MyModule from './module'",
+      "description": "Change named imports to namespace import"
+    },
+    {
+      "base": "import defer { myFunction as func } from './module'",
+      "fixed": "import * as MyModule from './module'",
+      "description": "Change named import with alias to namespace import"
     }
   ]
 }

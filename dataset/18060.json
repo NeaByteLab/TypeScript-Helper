@@ -1,14 +1,19 @@
 {
   "code": 18060,
   "message": "Deferred imports are only supported when the '--module' flag is set to 'esnext' or 'preserve'.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/import\\s+defer\\s+.*from\\s+(['\"][^'\"]+['\"])/g",
+  "regexReplace": "import * as MyModule from $1",
+  "suggestion": "Change the module target to 'esnext' or 'preserve' in tsconfig.json to support deferred imports, or use regular imports instead of deferred imports.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "import defer * as MyModule from './module'",
+      "fixed": "import * as MyModule from './module'",
+      "description": "Change deferred import to regular import"
+    },
+    {
+      "base": "// tsconfig.json: { \"compilerOptions\": { \"module\": \"commonjs\" } }\nimport defer * as MyModule from './module'",
+      "fixed": "// tsconfig.json: { \"compilerOptions\": { \"module\": \"esnext\" } }\nimport defer * as MyModule from './module'",
+      "description": "Update module target to support deferred imports"
     }
   ]
 }

@@ -1,14 +1,19 @@
 {
   "code": 18046,
   "message": "'{0}' is of type 'unknown'.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/([a-zA-Z_$][a-zA-Z0-9_$]*)\\.(length|someMethod|\\w+)/g",
+  "regexReplace": "($1 as any).$2",
+  "suggestion": "Add type assertion or type guard to narrow the 'unknown' type. Use 'as' assertion, type guards, or proper type checking before accessing properties or methods.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "function processValue(value: unknown) {\n  console.log(value.length)\n  value.someMethod()\n  const result = value + 5\n}",
+      "fixed": "function processValue(value: unknown) {\n  if (typeof value === 'string') {\n    console.log(value.length)\n  }\n  if (typeof value === 'object' && value !== null && 'someMethod' in value) {\n    (value as any).someMethod()\n  }\n  const result = (value as number) + 5\n}",
+      "description": "Add type guards and assertions for unknown type"
+    },
+    {
+      "base": "const data: unknown = getData()\nconst length = data.length",
+      "fixed": "const data: unknown = getData()\nconst length = (data as string).length",
+      "description": "Use type assertion for unknown type"
     }
   ]
 }

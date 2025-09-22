@@ -1,14 +1,19 @@
 {
   "code": 18045,
   "message": "Properties with the 'accessor' modifier are only available when targeting ECMAScript 2015 and higher.",
-  "regexFind": "/N/A/g",
-  "regexReplace": "N/A",
-  "suggestion": "N/A",
+  "regexFind": "/accessor\\s+([a-zA-Z_$][a-zA-Z0-9_$]*)\\s*:/g",
+  "regexReplace": "$1:",
+  "suggestion": "Remove the 'accessor' modifier or update your TypeScript target to ES2015 or higher. Accessor fields are a modern JavaScript feature that requires ES2015+ support.",
   "example": [
     {
-      "base": "N/A",
-      "fixed": "N/A",
-      "description": "N/A"
+      "base": "class MyClass {\n  accessor value: string = 'test'\n}",
+      "fixed": "class MyClass {\n  value: string = 'test'\n}",
+      "description": "Remove accessor modifier for ES5 compatibility"
+    },
+    {
+      "base": "class MyClass {\n  accessor private _value: string = 'test'\n}",
+      "fixed": "class MyClass {\n  private _value: string = 'test'\n}",
+      "description": "Remove accessor modifier from private property"
     }
   ]
 }
